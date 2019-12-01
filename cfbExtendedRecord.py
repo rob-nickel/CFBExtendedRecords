@@ -105,7 +105,7 @@ def gatherERecords():
 
 # Outputs a csv file with each team, wins, losses, extended wins, extended losses, and extended percentage
 def outputAlphabetical():
-    with open('results/resultsAlphabetical.txt', mode='w') as csv_out:
+    with open('results/resultsAlphabetical.csv', mode='w') as csv_out:
         csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow(['name','logo','wins','losses','extended_wins','extended_losses','extended_percentage'])
 
@@ -136,11 +136,11 @@ def outputAlphabetical():
 
 # Takes the alphabetical list and sorts it by extended percentage, extended wins, wins
 def outputSorted():
-    with open('results/resultsAlphabetical.txt', mode='r') as csv_result:
+    with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
         sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
         sortedlist = sorted(sortedlist, key=lambda row:(row['extended_percentage'],row['extended_wins'],row['wins'], ), reverse=True)
-        with open('results/resultsSorted.txt', mode='w') as csv_out:
+        with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','name','logo','wins','losses','extended_wins','extended_losses','extended_percentage'])
             rowCount = 1
