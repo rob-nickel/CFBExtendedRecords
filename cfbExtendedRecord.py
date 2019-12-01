@@ -27,8 +27,8 @@ def removeRanking(teamName):
 
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
-    with open('data/record.txt', mode='r') as csv_in2:
-        csv_reader = csv.DictReader(csv_in2)
+    with open('data/record.txt', mode='r') as csv_record:
+        csv_reader = csv.DictReader(csv_record)
         game_count = 0
         for game in csv_reader:
             if (game["Pts"] == None or game["Pts"] == ""):
@@ -38,8 +38,8 @@ def gatherRecords():
             winnerName = removeRanking(game["Winner"])
             loserName = removeRanking(game["Loser"])
 
-            with open('data/teams.txt', mode='r') as csv_in1:
-                teamsList = csv.DictReader(csv_in1)
+            with open('data/teams.txt', mode='r') as csv_teams:
+                teamsList = csv.DictReader(csv_teams)
                 rowCount = 0
                 winFound = False
                 loseFound = False
@@ -61,8 +61,8 @@ def gatherRecords():
 
 # Cycles through each game of the season again and applies the extended wins and losses accordingly
 def gatherERecords():
-    with open('data/record.txt', mode='r') as csv_in2:
-        csv_reader = csv.DictReader(csv_in2)
+    with open('data/record.txt', mode='r') as csv_record:
+        csv_reader = csv.DictReader(csv_record)
         game_count = 0
         for game in csv_reader:
             if (game["Pts"] == None or game["Pts"] == ""):
@@ -73,8 +73,8 @@ def gatherERecords():
             winnerName = removeRanking(game["Winner"])
             loserName = removeRanking(game["Loser"])
 
-            with open('data/teams.txt', mode='r') as csv_in1:
-                teamsList = csv.DictReader(csv_in1)
+            with open('data/teams.txt', mode='r') as csv_teams:
+                teamsList = csv.DictReader(csv_teams)
                 rowCount = 0
                 winFound = False
                 loseFound = False
@@ -107,10 +107,10 @@ def gatherERecords():
 def outputAlphabetical():
     with open('results/resultsAlphabetical.csv', mode='w') as csv_out:
         csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(['name','logo','wins','losses','extended_wins','extended_losses','extended_percentage'])
+        csv_writer.writerow(['logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
 
-        with open('data/teams.txt', mode='r') as csv_in3:
-            teamsListFinal = csv.DictReader(csv_in3)
+        with open('data/teams.txt', mode='r') as csv_teams:
+            teamsListFinal = csv.DictReader(csv_teams)
             rowCount = 0
             for row in teamsListFinal:
                 if row['Name'] == 'FCS':
@@ -118,7 +118,7 @@ def outputAlphabetical():
                 percentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
                 percentage = round(percentage, 5)
                 logo = '../logos/' + row['abbreviation'] + '.png'
-                csvrow = [row["Name"], logo, my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
+                csvrow = [logo, row["Name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
                 """ To output list to terminal
                 if (len(row['Name']) <= 5 ):
                     print(f'{row["Name"]}: \t\t\t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
@@ -134,18 +134,18 @@ def outputAlphabetical():
 
     print("The output is finished\n")
 
-# Takes the alphabetical list and sorts it by extended percentage, extended wins, wins
+# Takes the alphabetical list and sorts it by extended rating, extended wins, wins
 def outputSorted():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
         sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_percentage'],row['extended_wins'],row['wins'], ), reverse=True)
+        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_rating'],row['extended_wins'],row['wins'], ), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['rank','name','logo','wins','losses','extended_wins','extended_losses','extended_percentage'])
+            csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
             rowCount = 1
             for row in sortedlist:
-                csvrow = [rowCount, row["name"], row["logo"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_percentage"]]
+                csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"]]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
