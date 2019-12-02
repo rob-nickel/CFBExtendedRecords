@@ -117,7 +117,7 @@ def outputAlphabetical():
                     break
                 percentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
                 percentage = round(percentage, 5)
-                logo = '../logos/' + row['abbreviation'] + '.png'
+                logo = 'logos/' + row['abbreviation'] + '.png'
                 csvrow = [logo, row["Name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
                 """ To output list to terminal
                 if (len(row['Name']) <= 5 ):
