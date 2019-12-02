@@ -1,14 +1,14 @@
 # CFB Extended Records
 
-This is an algorithm used to rank college football teams using only who each team has played and who won. 
+This is an algorithm used to rank college football teams using only who each team has played and who won.
 
-*   This is an attempt to remove any preseason bias and emphasize a teams' record
+*   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
-*   This doesn't make any distinction between close wins or blowouts. As Jim Mora said best "You play to win the game"
+*   This doesn't make any distinction between close wins or blowouts, as Herm Edwards said best "You play to win the game"
 *   An Extended Record is a combination of extended wins and extended losses
-*       Extended wins = # of wins of opponents they beat
-*       Extended losses = # of losses of opponents who beat them
-*       Extended rating = Extended wins / (Extended wins + Extended losses)
+    *   Extended wins = # of wins of opponents they beat
+    *   Extended losses = # of losses of opponents who beat them
+    *   Extended rating = Extended wins / (Extended wins + Extended losses)
 
 To run the program: 
 *   update `data/record.txt` from https://www.sports-reference.com/cfb/years/2019-schedule.html
