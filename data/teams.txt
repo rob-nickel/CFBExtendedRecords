@@ -124,7 +124,7 @@ index,abbreviation,Name
 122,wake-forest,Wake Forest
 123,washington,Washington
 124,washington-st,Washington State
-125,west-virginia,West Virginia,[West Virginia](#f/westvirginia)
+125,west-virginia,West Virginia
 126,western-ky,Western Kentucky
 127,western-mich,Western Michigan
 128,wisconsin,Wisconsin
