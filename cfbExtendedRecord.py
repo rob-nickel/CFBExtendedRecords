@@ -25,6 +25,17 @@ def removeRanking(teamName):
     else:
         return teamName
 
+# Prints a team's info to the terminal
+def printTeam(teamInfo):
+    if (len(str(teamInfo[1])) <= 5 ):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    elif (len(str(teamInfo[1])) <= 13):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    elif (str(teamInfo[1]) == 'Middle Tennessee State'):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: {teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    else:
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
     with open('data/record.txt', mode='r') as csv_record:
@@ -118,17 +129,11 @@ def outputAlphabetical():
                 percentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
                 percentage = round(percentage, 5)
                 logo = 'logos/' + row['abbreviation'] + '.png'
+
+                printRow = (rowCount, row["Name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage)
+                #printTeam(printRow) #Prints all teams to terminal alphabetically
+                
                 csvrow = [logo, row["Name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
-                """ To output list to terminal
-                if (len(row['Name']) <= 5 ):
-                    print(f'{row["Name"]}: \t\t\t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                elif (len(row['Name']) <= 13):
-                    print(f'{row["Name"]}: \t\t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                elif (row['Name'] == 'Middle Tennessee State'):
-                    print(f'{row["Name"]}: {my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                else:
-                    print(f'{row["Name"]}: \t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                """
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
@@ -145,6 +150,9 @@ def outputSorted():
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
             rowCount = 1
             for row in sortedlist:
+                printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"])
+                #printTeam(printRow) #Prints all teams to terminal by ranking
+                
                 csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"]]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
