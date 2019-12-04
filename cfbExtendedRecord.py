@@ -226,16 +226,16 @@ def printConferenceRecords():
     arguments = len(sys.argv)-1
     while (arguments >= position):
         if sys.argv[position] == 'printC' or sys.argv[position] == 'printAll':
-                print('aac  = ' + str(float(aac[0])/float(aac[1])) + '  |   aac = ' + str(float(aac[2])/float(aac[3])))
-                print('acc  = ' + str(float(acc[0])/float(acc[1])) + '  |   acc = ' + str(float(acc[2])/float(acc[3])))
-                print('b10  = ' + str(float(b10[0])/float(b10[1])) + '  |   b10 = ' + str(float(b10[2])/float(b10[3])))
-                print('b12  = ' + str(float(b12[0])/float(b12[1])) + '  |   b12 = ' + str(float(b12[2])/float(b12[3])))
-                print('cusa = ' + str(float(cusa[0])/float(cusa[1])) + '  |  cusa = ' + str(float(cusa[2])/float(cusa[3])))
-                print('mac  = ' + str(float(mac[0])/float(mac[1])) + '  |   mac = ' + str(float(mac[2])/float(mac[3])))
-                print('mw   = ' + str(float(mw[0])/float(mw[1])) + '  |    mw = ' + str(float(mw[2])/float(mw[3])))
-                print('p12  = ' + str(float(p12[0])/float(p12[1])) + '  |   p12 = ' + str(float(p12[2])/float(p12[3])))
-                print('sb   = ' + str(float(sb[0])/float(sb[1])) + '  |    sb = ' + str(float(sb[2])/float(sb[3])))
-                print('sec  = ' + str(float(sec[0])/float(sec[1])) + '  |   sec = ' + str(float(sec[2])/float(sec[3])) + '\n')
+                print('aac  = ' + str(conferenceRating('aac')) + '  |   aac = ' + str(conferenceERating('aac')))
+                print('acc  = ' + str(conferenceRating('acc')) + '  |   acc = ' + str(conferenceERating('acc')))
+                print('b10  = ' + str(conferenceRating('b10')) + '  |   b10 = ' + str(conferenceERating('b10')))
+                print('b12  = ' + str(conferenceRating('b12')) + '  |   b12 = ' + str(conferenceERating('b12')))
+                print('cusa = ' + str(conferenceRating('cusa')) + '  |  cusa = ' + str(conferenceERating('cusa')))
+                print('mac  = ' + str(conferenceRating('mac')) + '  |   mac = ' + str(conferenceERating('mac')))
+                print('mw   = ' + str(conferenceRating('mw')) + '  |    mw = ' + str(conferenceERating('mw')))
+                print('p12  = ' + str(conferenceRating('p12')) + '  |   p12 = ' + str(conferenceERating('p12')))
+                print('sb   = ' + str(conferenceRating('sb')) + '  |    sb = ' + str(conferenceERating('sb')))
+                print('sec  = ' + str(conferenceRating('sec')) + '  |   sec = ' + str(conferenceERating('sec')) + '\n')
         position += 1
 
 # Cycles through all games and tabs teams' current records
