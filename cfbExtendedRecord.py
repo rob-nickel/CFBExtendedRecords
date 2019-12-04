@@ -10,6 +10,7 @@ url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
 """
 
 import csv
+import sys
 import numpy as np
 
 # Wins	Losses	Extended Wins	Extended Losses
@@ -176,11 +177,24 @@ def conferenceERating(conferenceName):
     else:
         return 1
 
+# Returns true unless a command line argument 'noFCS' is included
+def includeFCS():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'noFCS':
+            print("No FCS\n")
+            return False
+    print("Yes FCS\n")
+    return True
+
+
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
     with open('data/record.txt', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
+        FCS = includeFCS()
         for game in csv_reader:
             if (game["Pts"] == None or game["Pts"] == ""):
                 print(f'\tExiting Loop...')
@@ -194,19 +208,30 @@ def gatherRecords():
                 rowCount = 0
                 winFound = False
                 loseFound = False
+                winIndex = 0
+                loseIndex = 0
                 for row in teamsList:
                     if winnerName == row["name"]:
                         my_array[rowCount][0] += 1
                         winFound = True
+                        winIndex = rowCount
                         conferenceWin(row['conference'])
                         if (winFound and loseFound):
                             break
                     elif loserName == row["name"]:
                         my_array[rowCount][1] += 1
                         loseFound = True
+                        loseIndex = rowCount
                         conferenceLoss(row['conference'])
                         if (winFound and loseFound):
                             break
+                    
+                    if (loseFound and row['name'] == 'FCS' and (not FCS)):
+                        my_array[loseIndex][1] += 1
+                        break
+                    elif (winFound and row['name'] == 'FCS' and (not FCS)):
+                        my_array[winIndex][0] -= 1
+                        break
                     rowCount += 1
 
             game_count += 1
