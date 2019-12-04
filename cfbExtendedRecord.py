@@ -6,7 +6,7 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'noFCS' 'printA' 'printS' 'printC'
+Possible command arguments: 'noFCS' 'printA' 'printS' 'printC' 'printAll'
 
 url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
 """
@@ -194,7 +194,7 @@ def printAlphabetical():
     position = 1
     arguments = len(sys.argv)-1
     while (arguments >= position):
-        if sys.argv[position] == 'printA':
+        if sys.argv[position] == 'printA' or sys.argv[position] == 'printAll':
             return True
         position += 1
     return False
@@ -204,7 +204,7 @@ def printSorted():
     position = 1
     arguments = len(sys.argv)-1
     while (arguments >= position):
-        if sys.argv[position] == 'printS':
+        if sys.argv[position] == 'printS' or sys.argv[position] == 'printAll':
             return True
         position += 1
     return False
@@ -225,7 +225,7 @@ def printConferenceRecords():
     position = 1
     arguments = len(sys.argv)-1
     while (arguments >= position):
-        if sys.argv[position] == 'printC':
+        if sys.argv[position] == 'printC' or sys.argv[position] == 'printAll':
                 print('aac  = ' + str(float(aac[0])/float(aac[1])) + '  |   aac = ' + str(float(aac[2])/float(aac[3])))
                 print('acc  = ' + str(float(acc[0])/float(acc[1])) + '  |   acc = ' + str(float(acc[2])/float(acc[3])))
                 print('b10  = ' + str(float(b10[0])/float(b10[1])) + '  |   b10 = ' + str(float(b10[2])/float(b10[3])))
