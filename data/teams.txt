@@ -1,132 +1,132 @@
-index,abbreviation,Name
-0,air-force,Air Force
-1,akron,Akron
-2,alabama,Alabama
-3,appalachian-st,Appalachian State
-4,arizona,Arizona
-5,arizona-st,Arizona State
-6,arkansas,Arkansas
-7,arkansas-st,Arkansas State
-8,army,Army
-9,auburn,Auburn
-10,ball-st,Ball State
-11,baylor,Baylor
-12,boise-st,Boise State
-13,boston-college,Boston College
-14,bowling-green,Bowling Green State
-15,buffalo,Buffalo
-16,byu,Brigham Young
-17,california,California
-18,central-mich,Central Michigan
-19,charlotte,Charlotte
-20,cincinnati,Cincinnati
-21,clemson,Clemson
-22,coastal-caro,Coastal Carolina
-23,colorado,Colorado
-24,colorado-st,Colorado State
-25,duke,Duke
-26,east-carolina,East Carolina
-27,eastern-mich,Eastern Michigan
-28,florida,Florida
-29,fla-atlantic,Florida Atlantic
-30,fiu,Florida International
-31,florida-st,Florida State
-32,fresno-st,Fresno State
-33,georgia,Georgia
-34,ga-southern,Georgia Southern
-35,georgia-st,Georgia State
-36,georgia-tech,Georgia Tech
-37,hawaii,Hawaii
-38,houston,Houston
-39,illinois,Illinois
-40,indiana,Indiana
-41,iowa,Iowa
-42,iowa-st,Iowa State
-43,kansas,Kansas
-44,kansas-st,Kansas State
-45,kent-st,Kent State
-46,kentucky,Kentucky
-47,louisiana-tech,Louisiana Tech
-48,la-lafayette,Louisiana
-49,la-monroe,Louisiana-Monroe
-50,liberty,Liberty
-51,louisville,Louisville
-52,lsu,Louisiana State
-53,marshall,Marshall
-54,maryland,Maryland
-55,massachusetts,Massachusetts
-56,memphis,Memphis
-57,miami-fl,Miami (FL)
-58,miami-oh,Miami (OH)
-59,michigan,Michigan
-60,michigan-st,Michigan State
-61,middle-tenn,Middle Tennessee State
-62,minnesota,Minnesota
-63,mississippi-st,Mississippi State
-64,missouri,Missouri
-65,navy,Navy
-66,nebraska,Nebraska
-67,nevada,Nevada
-68,new-mexico,New Mexico
-69,new-mexico-st,New Mexico State
-70,north-carolina,North Carolina
-71,north-carolina-st,North Carolina State
-72,north-texas,North Texas
-73,northern-ill,Northern Illinois
-74,northwestern,Northwestern
-75,notre-dame,Notre Dame
-76,ohio,Ohio
-77,ohio-st,Ohio State
-78,oklahoma,Oklahoma
-79,oklahoma-st,Oklahoma State
-80,old-dominion,Old Dominion
-81,ole-miss,Mississippi
-82,oregon,Oregon
-83,oregon-st,Oregon State
-84,penn-st,Penn State
-85,pittsburgh,Pittsburgh
-86,purdue,Purdue
-87,rice,Rice
-88,rutgers,Rutgers
-89,san-diego-st,San Diego State
-90,san-jose-st,San Jose State
-91,smu,Southern Methodist
-92,south-ala,South Alabama
-93,south-carolina,South Carolina
-94,south-fla,South Florida
-95,southern-miss,Southern Mississippi
-96,stanford,Stanford
-97,syracuse,Syracuse
-98,tcu,Texas Christian
-99,temple,Temple
-100,tennessee,Tennessee
-101,texas,Texas
-102,texas-am,Texas A&M
-103,texas-st,Texas State
-104,texas-tech,Texas Tech
-105,toledo,Toledo
-106,troy,Troy
-107,tulane,Tulane
-108,tulsa,Tulsa
-109,uab,Alabama-Birmingham
-110,uconn,Connecticut
-111,ucf,Central Florida
-112,ucla,UCLA
-113,unlv,Nevada-Las Vegas
-114,southern-california,Southern California
-115,utah,Utah
-116,utah-st,Utah State
-117,utep,Texas-El Paso
-118,utsa,Texas-San Antonio
-119,vanderbilt,Vanderbilt
-120,virginia,Virginia
-121,virginia-tech,Virginia Tech
-122,wake-forest,Wake Forest
-123,washington,Washington
-124,washington-st,Washington State
-125,west-virginia,West Virginia
-126,western-ky,Western Kentucky
-127,western-mich,Western Michigan
-128,wisconsin,Wisconsin
-129,wyoming,Wyoming
-130,fcs,FCS
+index,abbreviation,name,conference
+0,air-force,Air Force,mw
+1,akron,Akron,mac
+2,alabama,Alabama,sec
+3,appalachian-st,Appalachian State,sb
+4,arizona,Arizona,p12
+5,arizona-st,Arizona State,p12
+6,arkansas,Arkansas,sec
+7,arkansas-st,Arkansas State,sb
+8,army,Army,ind
+9,auburn,Auburn,sec
+10,ball-st,Ball State,mac
+11,baylor,Baylor,b12
+12,boise-st,Boise State,mw
+13,boston-college,Boston College,acc
+14,bowling-green,Bowling Green State,mac
+15,buffalo,Buffalo,mac
+16,byu,Brigham Young,ind
+17,california,California,p12
+18,central-mich,Central Michigan,mac
+19,charlotte,Charlotte,cusa
+20,cincinnati,Cincinnati,aac
+21,clemson,Clemson,acc
+22,coastal-caro,Coastal Carolina,sb
+23,colorado,Colorado,p12
+24,colorado-st,Colorado State,mw
+25,duke,Duke,acc
+26,east-carolina,East Carolina,aac
+27,eastern-mich,Eastern Michigan,mac
+28,florida,Florida,sec
+29,fla-atlantic,Florida Atlantic,cusa
+30,fiu,Florida International,cusa
+31,florida-st,Florida State,aac
+32,fresno-st,Fresno State,mw
+33,georgia,Georgia,sec
+34,ga-southern,Georgia Southern,sb
+35,georgia-st,Georgia State,sb
+36,georgia-tech,Georgia Tech,acc
+37,hawaii,Hawaii,mw
+38,houston,Houston,aac
+39,illinois,Illinois,b10
+40,indiana,Indiana,b10
+41,iowa,Iowa,b10
+42,iowa-st,Iowa State,b12
+43,kansas,Kansas,b12
+44,kansas-st,Kansas State,b12
+45,kent-st,Kent State,mac
+46,kentucky,Kentucky,sec
+47,louisiana-tech,Louisiana Tech,cusa
+48,la-lafayette,Louisiana,sb
+49,la-monroe,Louisiana-Monroe,sb
+50,liberty,Liberty,ind
+51,louisville,Louisville,acc
+52,lsu,Louisiana State,sec
+53,marshall,Marshall,cusa
+54,maryland,Maryland,b10
+55,massachusetts,Massachusetts,ind
+56,memphis,Memphis,aac
+57,miami-fl,Miami (FL),acc
+58,miami-oh,Miami (OH),mac
+59,michigan,Michigan,b10
+60,michigan-st,Michigan State,b10
+61,middle-tenn,Middle Tennessee State,cusa
+62,minnesota,Minnesota,b10
+63,mississippi-st,Mississippi State,sec
+64,missouri,Missouri,sec
+65,navy,Navy,aac
+66,nebraska,Nebraska,b10
+67,nevada,Nevada,mw
+68,new-mexico,New Mexico,mw
+69,new-mexico-st,New Mexico State,ind
+70,north-carolina,North Carolina,acc
+71,north-carolina-st,North Carolina State,acc
+72,north-texas,North Texas,cusa
+73,northern-ill,Northern Illinois,mac
+74,northwestern,Northwestern,b10
+75,notre-dame,Notre Dame,ind
+76,ohio,Ohio,mac
+77,ohio-st,Ohio State,b10
+78,oklahoma,Oklahoma,b12
+79,oklahoma-st,Oklahoma State,b12
+80,old-dominion,Old Dominion,cusa
+81,ole-miss,Mississippi,sec
+82,oregon,Oregon,p12
+83,oregon-st,Oregon State,p12
+84,penn-st,Penn State,b10
+85,pittsburgh,Pittsburgh,acc
+86,purdue,Purdue,b10
+87,rice,Rice,cusa
+88,rutgers,Rutgers,b10
+89,san-diego-st,San Diego State,mw
+90,san-jose-st,San Jose State,mw
+91,smu,Southern Methodist,aac
+92,south-ala,South Alabama,sb
+93,south-carolina,South Carolina,sec
+94,south-fla,South Florida,aac
+95,southern-miss,Southern Mississippi,cusa
+96,stanford,Stanford,p12
+97,syracuse,Syracuse,acc
+98,tcu,Texas Christian,b12
+99,temple,Temple,aac
+100,tennessee,Tennessee,sec
+101,texas,Texas,b12
+102,texas-am,Texas A&M,sec
+103,texas-st,Texas State,sb
+104,texas-tech,Texas Tech,b12
+105,toledo,Toledo,mac
+106,troy,Troy,sb
+107,tulane,Tulane,aac
+108,tulsa,Tulsa,aac
+109,uab,Alabama-Birmingham,cusa
+110,uconn,Connecticut,aac
+111,ucf,Central Florida,aac
+112,ucla,UCLA,p12
+113,unlv,Nevada-Las Vegas,mw
+114,southern-california,Southern California,p12
+115,utah,Utah,p12
+116,utah-st,Utah State,mw
+117,utep,Texas-El Paso,cusa
+118,utsa,Texas-San Antonio,cusa
+119,vanderbilt,Vanderbilt,sec
+120,virginia,Virginia,acc
+121,virginia-tech,Virginia Tech,acc
+122,wake-forest,Wake Forest,acc
+123,washington,Washington,p12
+124,washington-st,Washington State,p12
+125,west-virginia,West Virginia,b12
+126,western-ky,Western Kentucky,cusa
+127,western-mich,Western Michigan,mac
+128,wisconsin,Wisconsin,b10
+129,wyoming,Wyoming,mw
+130,fcs,FCS,fcs
