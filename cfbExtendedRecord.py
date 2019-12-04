@@ -6,6 +6,8 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
+Possible command arguments: 'noFCS' 'printA' 'printS' 'printC'
+
 url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
 """
 
@@ -183,11 +185,58 @@ def includeFCS():
     arguments = len(sys.argv)-1
     while (arguments >= position):
         if sys.argv[position] == 'noFCS':
-            print("No FCS\n")
             return False
-    print("Yes FCS\n")
+        position += 1
     return True
 
+# Returns false unless the commandline argument printA is included
+def printAlphabetical():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printA':
+            return True
+        position += 1
+    return False
+
+# Returns false unless the commandline argument printS is included
+def printSorted():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printS':
+            return True
+        position += 1
+    return False
+
+# Prints a team's info to the terminal
+def printTeam(teamInfo):
+    if (len(str(teamInfo[1])) <= 5 ):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    elif (len(str(teamInfo[1])) <= 13):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    elif (str(teamInfo[1]) == 'Middle Tennessee State'):
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: {teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    else:
+        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+
+# Prints each conference's rating to the terminal
+def printConferenceRecords():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printC':
+                print('aac  = ' + str(float(aac[0])/float(aac[1])) + '  |   aac = ' + str(float(aac[2])/float(aac[3])))
+                print('acc  = ' + str(float(acc[0])/float(acc[1])) + '  |   acc = ' + str(float(acc[2])/float(acc[3])))
+                print('b10  = ' + str(float(b10[0])/float(b10[1])) + '  |   b10 = ' + str(float(b10[2])/float(b10[3])))
+                print('b12  = ' + str(float(b12[0])/float(b12[1])) + '  |   b12 = ' + str(float(b12[2])/float(b12[3])))
+                print('cusa = ' + str(float(cusa[0])/float(cusa[1])) + '  |  cusa = ' + str(float(cusa[2])/float(cusa[3])))
+                print('mac  = ' + str(float(mac[0])/float(mac[1])) + '  |   mac = ' + str(float(mac[2])/float(mac[3])))
+                print('mw   = ' + str(float(mw[0])/float(mw[1])) + '  |    mw = ' + str(float(mw[2])/float(mw[3])))
+                print('p12  = ' + str(float(p12[0])/float(p12[1])) + '  |   p12 = ' + str(float(p12[2])/float(p12[3])))
+                print('sb   = ' + str(float(sb[0])/float(sb[1])) + '  |    sb = ' + str(float(sb[2])/float(sb[3])))
+                print('sec  = ' + str(float(sec[0])/float(sec[1])) + '  |   sec = ' + str(float(sec[2])/float(sec[3])) + '\n')
+        position += 1
 
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
@@ -296,23 +345,17 @@ def outputAlphabetical():
         with open('data/teams.txt', mode='r') as csv_teams:
             teamsListFinal = csv.DictReader(csv_teams)
             rowCount = 0
+            toPrint = printAlphabetical()
             for row in teamsListFinal:
                 if row['name'] == 'FCS':
                     break
                 percentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
                 percentage = round(percentage, 5)
                 logo = 'logos/' + row['abbreviation'] + '.png'
+                if toPrint:
+                    printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage)
+                    printTeam(printRow) #Prints all teams to terminal alphabetically
                 csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
-                """ To output list to terminal
-                if (len(row['name']) <= 5 ):
-                    print(f'{row["name"]}: \t\t\t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                elif (len(row['name']) <= 13):
-                    print(f'{row["name"]}: \t\t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                elif (row['name'] == 'Middle Tennessee State'):
-                    print(f'{row["name"]}: {my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                else:
-                    print(f'{row["name"]}: \t{my_array[rowCount][0]}-{my_array[rowCount][1]}  {my_array[rowCount][2]}-{my_array[rowCount][3]}  {percentage}')
-                """
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
@@ -328,24 +371,16 @@ def outputSorted():
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
             rowCount = 1
+            toPrint = printSorted()
             for row in sortedlist:
+                if toPrint:
+                    printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"])
+                    printTeam(printRow) #Prints all teams to terminal by ranking
                 csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"]]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
     print("The sorted output is finished\n")
-
-def printConferenceRecords():
-    print('aac  = ' + str(float(aac[0])/float(aac[1])) + '  |   aac = ' + str(float(aac[2])/float(aac[3])))
-    print('acc  = ' + str(float(acc[0])/float(acc[1])) + '  |   acc = ' + str(float(acc[2])/float(acc[3])))
-    print('b10  = ' + str(float(b10[0])/float(b10[1])) + '  |   b10 = ' + str(float(b10[2])/float(b10[3])))
-    print('b12  = ' + str(float(b12[0])/float(b12[1])) + '  |   b12 = ' + str(float(b12[2])/float(b12[3])))
-    print('cusa = ' + str(float(cusa[0])/float(cusa[1])) + '  |  cusa = ' + str(float(cusa[2])/float(cusa[3])))
-    print('mac  = ' + str(float(mac[0])/float(mac[1])) + '  |   mac = ' + str(float(mac[2])/float(mac[3])))
-    print('mw   = ' + str(float(mw[0])/float(mw[1])) + '  |    mw = ' + str(float(mw[2])/float(mw[3])))
-    print('p12  = ' + str(float(p12[0])/float(p12[1])) + '  |   p12 = ' + str(float(p12[2])/float(p12[3])))
-    print('sb   = ' + str(float(sb[0])/float(sb[1])) + '  |    sb = ' + str(float(sb[2])/float(sb[3])))
-    print('sec  = ' + str(float(sec[0])/float(sec[1])) + '  |   sec = ' + str(float(sec[2])/float(sec[3])) + '\n')
 
 def main():
     gatherRecords()
