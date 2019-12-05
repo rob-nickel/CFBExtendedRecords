@@ -6,7 +6,7 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'noFCS' 'printA' 'printS' 'printC' 'printAll'
+Possible command arguments: 'rating' 'noFCS' 'printA' 'printS' 'printC' 'printAll'
 
 url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
 """
@@ -27,6 +27,18 @@ mw = np.zeros([4], dtype=int)
 p12 = np.zeros([4], dtype=int)
 sb = np.zeros([4], dtype=int)
 sec = np.zeros([4], dtype=int)
+
+# Toggles the wantRating variable if the 'rating' argument is included
+def toIncludeRating():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'rating':
+            return True
+        position += 1
+    return False
+
+wantRating = toIncludeRating()
 
 # Removes rankings from front of team names
 def removeRanking(teamName):
@@ -211,14 +223,24 @@ def printSorted():
 
 # Prints a team's info to the terminal
 def printTeam(teamInfo):
-    if (len(str(teamInfo[1])) <= 5 ):
-        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
-    elif (len(str(teamInfo[1])) <= 13):
-        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
-    elif (str(teamInfo[1]) == 'Middle Tennessee State'):
-        print(f'{teamInfo[0]}\t{teamInfo[1]}: {teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+    if wantRating:
+        if (len(str(teamInfo[1])) <= 5 ):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]} {teamInfo[7]}')
+        elif (len(str(teamInfo[1])) <= 13):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]} {teamInfo[7]}')
+        elif (str(teamInfo[1]) == 'Middle Tennessee State'):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: {teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]} {teamInfo[7]}')
+        else:
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]} {teamInfo[7]}')
     else:
-        print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+        if (len(str(teamInfo[1])) <= 5 ):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+        elif (len(str(teamInfo[1])) <= 13):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t\t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+        elif (str(teamInfo[1]) == 'Middle Tennessee State'):
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: {teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
+        else:
+            print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
 
 # Prints each conference's rating to the terminal
 def printConferenceRecords():
@@ -340,7 +362,10 @@ def gatherERecords():
 def outputAlphabetical():
     with open('results/resultsAlphabetical.csv', mode='w') as csv_out:
         csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(['logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
+        if wantRating:
+            csv_writer.writerow(['logo','name','wins','losses','extended_wins','extended_losses','extended_record','extended_rating'])
+        else:
+            csv_writer.writerow(['logo','name','wins','losses','extended_wins','extended_losses','extended_record'])
 
         with open('data/teams.txt', mode='r') as csv_teams:
             teamsListFinal = csv.DictReader(csv_teams)
@@ -349,13 +374,26 @@ def outputAlphabetical():
             for row in teamsListFinal:
                 if row['name'] == 'FCS':
                     break
-                percentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
-                percentage = round(percentage, 5)
+                eWinPercentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
+                eWinPercentage = round(eWinPercentage, 5)
+                winPercentage =float(my_array[rowCount][0]) /float((my_array[rowCount][0] + my_array[rowCount][1]))
+                winPercentage = round(winPercentage, 5)
+                rating = (eWinPercentage * 9 + winPercentage * 9 + conferenceRating(row['conference']) + conferenceERating(row['conference'])) / 20
+                rating = round(rating, 5)
+                
                 logo = 'logos/' + row['abbreviation'] + '.png'
+
                 if toPrint:
-                    printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage)
-                    printTeam(printRow) #Prints all teams to terminal alphabetically
-                csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], percentage]
+                    if wantRating:
+                        printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating)
+                        printTeam(printRow) #Prints all teams to terminal alphabetically
+                    else:
+                        printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage)
+                        printTeam(printRow) #Prints all teams to terminal alphabetically
+                if wantRating:
+                    csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating]
+                else:
+                    csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
@@ -366,23 +404,36 @@ def outputSorted():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
         sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_rating'],row['extended_wins'],row['wins'], ), reverse=True)
+        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_record'],row['extended_wins'],row['wins'], ), reverse=True)
+        if wantRating:
+            sortedlist = sorted(sortedlist, key=lambda row:(row['extended_rating']), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_rating'])
+            if wantRating:
+                csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record','extended_rating'])
+            else:
+                csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record'])
             rowCount = 1
             toPrint = printSorted()
             for row in sortedlist:
                 if toPrint:
-                    printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"])
-                    printTeam(printRow) #Prints all teams to terminal by ranking
-                csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_rating"]]
+                    if wantRating:
+                        printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"], row["extended_rating"])
+                        printTeam(printRow) #Prints all teams to terminal by ranking
+                    else:
+                        printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"])
+                        printTeam(printRow)
+                if wantRating:
+                    csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"], row['extended_rating']]
+                else:
+                    csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"]]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
     print("The sorted output is finished\n")
 
 def main():
+    wantRating = toIncludeRating()
     gatherRecords()
     gatherERecords()
     outputAlphabetical()
