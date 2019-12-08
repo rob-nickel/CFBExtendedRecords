@@ -6,7 +6,7 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'rating' 'noFCS' 'printA' 'printS' 'printC' 'printAll'
+Possible command arguments: 'rating' 'noFCS' 'printA' 'printS' 'printC' 'printR' 'printAll'
 
 url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
 """
@@ -242,6 +242,27 @@ def printTeam(teamInfo):
         else:
             print(f'{teamInfo[0]}\t{teamInfo[1]}: \t{teamInfo[2]}-{teamInfo[3]}  {teamInfo[4]}-{teamInfo[5]}  {teamInfo[6]}')
 
+# Returns false unless the commandline argument printR is included
+def toPrintReadme():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printR' or sys.argv[position] == 'printAll':
+            return True
+        position += 1
+    return False
+
+# prints to terminal the top 25 in a way to copy paste into the README
+def printReadmeRankings():
+    with open('results/resultsSorted.csv', mode='r') as csv_result:
+        sortedlist = csv.DictReader(csv_result)
+        print("\n| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |")
+        print("| --- | ---| --- | --- | --- | --- |")
+        for row in sortedlist:
+            if row['rank'] == '26':
+                break
+            else: print(f"| {row['rank']} | ![{row['name']}]({row['logo']}) | {row['name']} | {row['wins']}-{row['losses']} | {row['extended_wins']}-{row['extended_losses']} | {row['extended_record']} |")
+
 # Prints each conference's rating to the terminal
 def printConferenceRecords():
     position = 1
@@ -267,12 +288,12 @@ def gatherRecords():
         game_count = 0
         FCS = includeFCS()
         for game in csv_reader:
-            if (game["Pts"] == None or game["Pts"] == ""):
+            if (game['Pts'] == None or game['Pts'] == ''):
                 print(f'\tExiting Loop...')
                 break
             
-            winnerName = removeRanking(game["Winner"])
-            loserName = removeRanking(game["Loser"])
+            winnerName = removeRanking(game['Winner'])
+            loserName = removeRanking(game['Loser'])
 
             with open('data/teams.txt', mode='r') as csv_teams:
                 teamsList = csv.DictReader(csv_teams)
@@ -282,14 +303,14 @@ def gatherRecords():
                 winIndex = 0
                 loseIndex = 0
                 for row in teamsList:
-                    if winnerName == row["name"]:
+                    if winnerName == row['name']:
                         my_array[rowCount][0] += 1
                         winFound = True
                         winIndex = rowCount
                         conferenceWin(row['conference'])
                         if (winFound and loseFound):
                             break
-                    elif loserName == row["name"]:
+                    elif loserName == row['name']:
                         my_array[rowCount][1] += 1
                         loseFound = True
                         loseIndex = rowCount
@@ -314,13 +335,13 @@ def gatherERecords():
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
         for game in csv_reader:
-            if (game["Pts"] == None or game["Pts"] == ""):
+            if (game['Pts'] == None or game['Pts'] == ''):
                 print(f'\tExiting Loop...')
                 break
 
             # Removes rankings from front of team names
-            winnerName = removeRanking(game["Winner"])
-            loserName = removeRanking(game["Loser"])
+            winnerName = removeRanking(game['Winner'])
+            loserName = removeRanking(game['Loser'])
 
             with open('data/teams.txt', mode='r') as csv_teams:
                 teamsList = csv.DictReader(csv_teams)
@@ -332,12 +353,12 @@ def gatherERecords():
                 winConf = ''
                 loseConf = ''
                 for row in teamsList:
-                    #print(f'trying {row["name"]} with {winnerName} and {loserName}')
-                    if winnerName == row["name"]:
+                    #print(f'trying {row['name']} with {winnerName} and {loserName}')
+                    if winnerName == row['name']:
                         winIndex = rowCount
                         winFound = True
                         winConf = row['conference']
-                    elif loserName == row["name"]:
+                    elif loserName == row['name']:
                         loseIndex = rowCount
                         loseFound = True
                         loseConf = row['conference']
@@ -349,10 +370,10 @@ def gatherERecords():
                         conferenceELoss(loseConf, my_array[winIndex][1])
                         break
                     # if they lost to an FCS team, add the losses=total games played
-                    elif (loseFound and row["name"] == "FCS"):
+                    elif (loseFound and row['name'] == 'FCS'):
                         my_array[loseIndex][3] += (my_array[loseIndex][0] + my_array[loseIndex][1])
                         break
-                    elif (winFound and row["name"] == "FCS"):
+                    elif (winFound and row['name'] == 'FCS'):
                         break
                     rowCount += 1
             game_count += 1
@@ -385,15 +406,15 @@ def outputAlphabetical():
 
                 if toPrint:
                     if wantRating:
-                        printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating)
+                        printRow = ((rowCount + 1), row['name'], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating)
                         printTeam(printRow) #Prints all teams to terminal alphabetically
                     else:
-                        printRow = ((rowCount + 1), row["name"], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage)
+                        printRow = ((rowCount + 1), row['name'], (my_array[rowCount][0]), my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage)
                         printTeam(printRow) #Prints all teams to terminal alphabetically
                 if wantRating:
-                    csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating]
+                    csvrow = [logo, row['name'], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage, rating]
                 else:
-                    csvrow = [logo, row["name"], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage]
+                    csvrow = [logo, row['name'], my_array[rowCount][0], my_array[rowCount][1], my_array[rowCount][2], my_array[rowCount][3], eWinPercentage]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
@@ -418,17 +439,24 @@ def outputSorted():
             for row in sortedlist:
                 if toPrint:
                     if wantRating:
-                        printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"], row["extended_rating"])
+                        printRow = (rowCount, row['name'], row['wins'], row['losses'], row['extended_wins'], row['extended_losses'], row['extended_record'], row['extended_rating'])
                         printTeam(printRow) #Prints all teams to terminal by ranking
                     else:
-                        printRow = (rowCount, row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"])
+                        printRow = (rowCount, row['name'], row['wins'], row['losses'], row['extended_wins'], row['extended_losses'], row['extended_record'])
                         printTeam(printRow)
                 if wantRating:
-                    csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"], row['extended_rating']]
+                    csvrow = [rowCount, row['logo'], row['name'], row['wins'], row['losses'], row['extended_wins'], row['extended_losses'], row['extended_record'], row['extended_rating']]
                 else:
-                    csvrow = [rowCount, row["logo"], row["name"], row["wins"], row["losses"], row["extended_wins"], row["extended_losses"], row["extended_record"]]
+                    csvrow = [rowCount, row['logo'], row['name'], row['wins'], row['losses'], row['extended_wins'], row['extended_losses'], row['extended_record']]
                 csv_writer.writerow(csvrow)
                 rowCount += 1
+        
+    if toPrintReadme():
+        printReadmeRankings()
+        
+                
+
+
 
     print("The sorted output is finished\n")
 
