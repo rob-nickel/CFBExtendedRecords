@@ -6,17 +6,19 @@ This is an algorithm used to rank college football teams using only who each tea
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
 *   This doesn't make any distinction between close wins or blowouts, as Herm Edwards said best "You play to win the game"
 *   An Extended Record is a combination of extended wins and extended losses
-    *   Extended wins = # of wins of opponents they beat
-    *   Extended losses = # of losses of opponents who beat them
-    *   Extended rating = Extended wins / (Extended wins + Extended losses)
+    *   Extended Wins = # of wins of opponents they beat
+    *   Extended Losses = # of losses of opponents who beat them
+    *   Extended Win Rate = Extended Wins / (Extended Wins + Extended Losses)
 
 To run the program: 
 *   update `data/record.txt` from https://www.sports-reference.com/cfb/years/2019-schedule.html
 *   then execute `python3 cfbExtendedRecord.py`
+    *   Command line argument `noFCS` removes FCS games from all records
+    *   Command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
 
 ## Current Rankings
 
-After the 2019 regular season:
+After the 2019 conference championships:
 
 [Full Rankings](results/resultsSorted.csv)
 
