@@ -836,13 +836,15 @@ Rk,Wk,Date,Time,Day,Winner,Pts,,Loser,Pts,Notes
 835,15,Nov 30 2019,4:00 PM,Sat,Utah State,38,@,New Mexico,25,
 836,15,Nov 30 2019,2:00 PM,Sat,Western Kentucky,31,,Middle Tennessee State,26,
 837,15,Nov 30 2019,3:30 PM,Sat,(13) Wisconsin,38,@,(9) Minnesota,17,
-838,16,Dec 7 2019,1:30 PM,Sat,Alabama-Birmingham,,@,Florida Atlantic,,
-839,16,Dec 7 2019,12:00 PM,Sat,(11) Baylor,,@,(7) Oklahoma,,
-840,16,Dec 7 2019,12:00 PM,Sat,Central Michigan,,@,Miami (OH),,Ford Field - Detroit Michigan
-841,16,Dec 7 2019,3:30 PM,Sat,(18) Cincinnati,,@,(17) Memphis,,
-842,16,Dec 7 2019,4:00 PM,Sat,(4) Georgia,,@,(1) Louisiana State,,Mercedes-Benz Stadium - Atlanta Georgia
-843,16,Dec 7 2019,4:00 PM,Sat,Hawaii,,@,(20) Boise State,,
-844,16,Dec 7 2019,12:00 PM,Sat,Louisiana,,@,(22) Appalachian State,,
-845,16,Dec 7 2019,8:00 PM,Sat,(2) Ohio State,,@,(13) Wisconsin,,
-846,16,Dec 7 2019,7:30 PM,Sat,Virginia,,@,(3) Clemson,,
-847,17,Dec 14 2019,3:00 PM,Sat,Army,,@,(24) Navy,,
+838,16,Dec 6 2019,8:00 PM,Fri,(13) Oregon,37,,(5) Utah,15,Levi's Stadium - Santa Clara California
+839,16,Dec 7 2019,12:00 PM,Sat,(20) Appalachian State,45,,Louisiana,38,
+840,16,Dec 7 2019,4:00 PM,Sat,(19) Boise State,31,,Hawaii,10,
+841,16,Dec 7 2019,7:30 PM,Sat,(3) Clemson,62,,(22) Virginia,17,
+842,16,Dec 7 2019,1:30 PM,Sat,Florida Atlantic,49,,Alabama-Birmingham,6,
+843,16,Dec 7 2019,4:00 PM,Sat,(1) Louisiana State,37,,(4) Georgia,10,Mercedes-Benz Stadium - Atlanta Georgia
+844,16,Dec 7 2019,3:30 PM,Sat,(16) Memphis,29,,(21) Cincinnati,24,
+845,16,Dec 7 2019,12:00 PM,Sat,Miami (OH),26,,Central Michigan,21,Ford Field - Detroit Michigan
+846,16,Dec 7 2019,8:00 PM,Sat,(2) Ohio State,34,@,(10) Wisconsin,21,
+847,16,Dec 7 2019,12:00 PM,Sat,(6) Oklahoma,30,,(8) Baylor,23,
+848,17,Dec 14 2019,3:00 PM,Sat,Army,,@,(23) Navy,,
+849,18,Dec 20 2019,2:00 PM,Fri,Buffalo,,@,Charlotte,,(Thomas A. Robinson Stadium - Nassau )
