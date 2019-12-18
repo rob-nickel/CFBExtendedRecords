@@ -6,16 +6,16 @@ rank,logo,name,wins,losses,extended_wins,extended_losses,extended_record
 5,logos/cincinnati.png,Cincinnati,10,3,55,2,0.96491
 6,logos/baylor.png,Baylor,11,2,54,2,0.96429
 7,logos/florida.png,Florida,10,2,48,2,0.96
-8,logos/oklahoma.png,Oklahoma,12,1,69,4,0.94521
-9,logos/memphis.png,Memphis,12,1,68,4,0.94444
-10,logos/smu.png,Southern Methodist,10,2,49,3,0.94231
-11,logos/air-force.png,Air Force,10,2,48,3,0.94118
-12,logos/navy.png,Navy,9,2,44,3,0.93617
+8,logos/memphis.png,Memphis,12,1,69,4,0.94521
+9,logos/oklahoma.png,Oklahoma,12,1,69,4,0.94521
+10,logos/navy.png,Navy,10,2,49,3,0.94231
+11,logos/smu.png,Southern Methodist,10,2,49,3,0.94231
+12,logos/air-force.png,Air Force,10,2,48,3,0.94118
 13,logos/alabama.png,Alabama,10,2,44,3,0.93617
 14,logos/boise-st.png,Boise State,12,1,71,5,0.93421
 15,logos/auburn.png,Auburn,9,3,52,4,0.92857
 16,logos/appalachian-st.png,Appalachian State,12,1,64,5,0.92754
-17,logos/notre-dame.png,Notre Dame,10,2,61,5,0.92424
+17,logos/notre-dame.png,Notre Dame,10,2,62,5,0.92537
 18,logos/wisconsin.png,Wisconsin,10,3,64,6,0.91429
 19,logos/michigan.png,Michigan,9,3,53,5,0.91379
 20,logos/utah.png,Utah,11,2,57,6,0.90476
@@ -108,18 +108,18 @@ rank,logo,name,wins,losses,extended_wins,extended_losses,extended_record
 107,logos/georgia-tech.png,Georgia Tech,3,9,14,44,0.24138
 108,logos/northwestern.png,Northwestern,3,9,11,41,0.21154
 109,logos/colorado-st.png,Colorado State,4,8,10,39,0.20408
-110,logos/army.png,Army,5,7,8,32,0.2
-111,logos/ole-miss.png,Mississippi,4,8,7,28,0.2
-112,logos/vanderbilt.png,Vanderbilt,3,9,11,46,0.19298
-113,logos/kansas.png,Kansas,3,9,10,42,0.19231
+110,logos/ole-miss.png,Mississippi,4,8,7,28,0.2
+111,logos/vanderbilt.png,Vanderbilt,3,9,11,46,0.19298
+112,logos/kansas.png,Kansas,3,9,10,42,0.19231
+113,logos/army.png,Army,5,8,8,34,0.19048
 114,logos/north-texas.png,North Texas,4,8,9,41,0.18
-115,logos/rice.png,Rice,3,9,9,42,0.17647
-116,logos/texas-st.png,Texas State,3,9,9,42,0.17647
+115,logos/texas-st.png,Texas State,3,9,9,42,0.17647
+116,logos/rice.png,Rice,3,9,9,43,0.17308
 117,logos/rutgers.png,Rutgers,2,10,8,41,0.16327
 118,logos/maryland.png,Maryland,3,9,7,36,0.16279
 119,logos/bowling-green.png,Bowling Green State,3,9,6,41,0.12766
 120,logos/south-ala.png,South Alabama,2,10,7,49,0.125
-121,logos/utsa.png,Texas-San Antonio,4,8,5,37,0.11905
+121,logos/utsa.png,Texas-San Antonio,4,8,5,38,0.11628
 122,logos/arkansas.png,Arkansas,2,10,4,46,0.08
 123,logos/east-carolina.png,East Carolina,4,8,3,38,0.07317
 124,logos/new-mexico.png,New Mexico,2,10,2,45,0.04255
@@ -127,5 +127,5 @@ rank,logo,name,wins,losses,extended_wins,extended_losses,extended_record
 126,logos/new-mexico-st.png,New Mexico State,2,10,1,57,0.01724
 127,logos/old-dominion.png,Old Dominion,1,11,0,58,0.0
 128,logos/utep.png,Texas-El Paso,1,11,0,71,0.0
-129,logos/massachusetts.png,Massachusetts,1,11,0,79,0.0
+129,logos/massachusetts.png,Massachusetts,1,11,0,80,0.0
 130,logos/akron.png,Akron,0,12,0,77,0.0

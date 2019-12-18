@@ -31,16 +31,16 @@ After the 2019 conference championships:
 | 5 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 10-3 | 55-2 | 0.96491 |
 | 6 | ![Baylor](logos/baylor.png) | Baylor | 11-2 | 54-2 | 0.96429 |
 | 7 | ![Florida](logos/florida.png) | Florida | 10-2 | 48-2 | 0.96 |
-| 8 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 12-1 | 69-4 | 0.94521 |
-| 9 | ![Memphis](logos/memphis.png) | Memphis | 12-1 | 68-4 | 0.94444 |
-| 10 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 10-2 | 49-3 | 0.94231 |
-| 11 | ![Air Force](logos/air-force.png) | Air Force | 10-2 | 48-3 | 0.94118 |
-| 12 | ![Navy](logos/navy.png) | Navy | 9-2 | 44-3 | 0.93617 |
+| 8 | ![Memphis](logos/memphis.png) | Memphis | 12-1 | 69-4 | 0.94521 |
+| 9 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 12-1 | 69-4 | 0.94521 |
+| 10 | ![Navy](logos/navy.png) | Navy | 10-2 | 49-3 | 0.94231 |
+| 11 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 10-2 | 49-3 | 0.94231 |
+| 12 | ![Air Force](logos/air-force.png) | Air Force | 10-2 | 48-3 | 0.94118 |
 | 13 | ![Alabama](logos/alabama.png) | Alabama | 10-2 | 44-3 | 0.93617 |
 | 14 | ![Boise State](logos/boise-st.png) | Boise State | 12-1 | 71-5 | 0.93421 |
 | 15 | ![Auburn](logos/auburn.png) | Auburn | 9-3 | 52-4 | 0.92857 |
 | 16 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 12-1 | 64-5 | 0.92754 |
-| 17 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-2 | 61-5 | 0.92424 |
+| 17 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-2 | 62-5 | 0.92537 |
 | 18 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 10-3 | 64-6 | 0.91429 |
 | 19 | ![Michigan](logos/michigan.png) | Michigan | 9-3 | 53-5 | 0.91379 |
 | 20 | ![Utah](logos/utah.png) | Utah | 11-2 | 57-6 | 0.90476 |
