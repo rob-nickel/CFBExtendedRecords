@@ -18,34 +18,34 @@ To run the program:
 
 ## Current Rankings
 
-After the 2019 conference championships:
+Halfway through the 2019 Bowl Season:
 
 [Full Rankings](results/resultsSorted.csv)
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | ---| --- | --- | --- | --- |
-| 1 | ![Ohio State](logos/ohio-st.png) | Ohio State | 13-0 | 94-0 | 1.0 |
-| 2 | ![Louisiana State](logos/lsu.png) | Louisiana State | 13-0 | 83-0 | 1.0 |
-| 3 | ![Clemson](logos/clemson.png) | Clemson | 13-0 | 72-0 | 1.0 |
-| 4 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 55-2 | 0.96491 |
-| 5 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 10-3 | 55-2 | 0.96491 |
-| 6 | ![Baylor](logos/baylor.png) | Baylor | 11-2 | 54-2 | 0.96429 |
-| 7 | ![Florida](logos/florida.png) | Florida | 10-2 | 48-2 | 0.96 |
-| 8 | ![Memphis](logos/memphis.png) | Memphis | 12-1 | 69-4 | 0.94521 |
-| 9 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 12-1 | 69-4 | 0.94521 |
-| 10 | ![Navy](logos/navy.png) | Navy | 10-2 | 49-3 | 0.94231 |
-| 11 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 10-2 | 49-3 | 0.94231 |
-| 12 | ![Air Force](logos/air-force.png) | Air Force | 10-2 | 48-3 | 0.94118 |
-| 13 | ![Alabama](logos/alabama.png) | Alabama | 10-2 | 44-3 | 0.93617 |
-| 14 | ![Boise State](logos/boise-st.png) | Boise State | 12-1 | 71-5 | 0.93421 |
-| 15 | ![Auburn](logos/auburn.png) | Auburn | 9-3 | 52-4 | 0.92857 |
-| 16 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 12-1 | 64-5 | 0.92754 |
-| 17 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-2 | 62-5 | 0.92537 |
-| 18 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 10-3 | 64-6 | 0.91429 |
-| 19 | ![Michigan](logos/michigan.png) | Michigan | 9-3 | 53-5 | 0.91379 |
-| 20 | ![Utah](logos/utah.png) | Utah | 11-2 | 57-6 | 0.90476 |
-| 21 | ![Georgia](logos/georgia.png) | Georgia | 11-2 | 69-8 | 0.8961 |
-| 22 | ![Oregon](logos/oregon.png) | Oregon | 11-2 | 64-8 | 0.88889 |
-| 23 | ![Minnesota](logos/minnesota.png) | Minnesota | 10-2 | 44-6 | 0.88 |
-| 24 | ![Florida Atlantic](logos/fla-atlantic.png) | Florida Atlantic | 10-3 | 51-7 | 0.87931 |
-| 25 | ![Iowa](logos/iowa.png) | Iowa | 9-3 | 49-8 | 0.85965 |
+| 1 | ![Ohio State](logos/ohio-st.png) | Ohio State | 13-1 | 97-0 | 1.0 |
+| 2 | ![Louisiana State](logos/lsu.png) | Louisiana State | 14-0 | 96-0 | 1.0 |
+| 3 | ![Clemson](logos/clemson.png) | Clemson | 14-0 | 87-0 | 1.0 |
+| 4 | ![Florida](logos/florida.png) | Florida | 10-2 | 48-2 | 0.96 |
+| 5 | ![Penn State](logos/penn-st.png) | Penn State | 11-2 | 71-3 | 0.95946 |
+| 6 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 12-2 | 69-4 | 0.94521 |
+| 7 | ![Alabama](logos/alabama.png) | Alabama | 10-2 | 45-3 | 0.9375 |
+| 8 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 11-2 | 69-5 | 0.93243 |
+| 9 | ![Air Force](logos/air-force.png) | Air Force | 11-2 | 55-4 | 0.9322 |
+| 10 | ![Auburn](logos/auburn.png) | Auburn | 9-3 | 54-4 | 0.93103 |
+| 11 | ![Baylor](logos/baylor.png) | Baylor | 11-2 | 54-4 | 0.93103 |
+| 12 | ![Navy](logos/navy.png) | Navy | 10-2 | 50-4 | 0.92593 |
+| 13 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 13-1 | 74-6 | 0.925 |
+| 14 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 10-3 | 56-5 | 0.91803 |
+| 15 | ![Memphis](logos/memphis.png) | Memphis | 12-2 | 69-7 | 0.90789 |
+| 16 | ![Michigan](logos/michigan.png) | Michigan | 9-3 | 56-6 | 0.90323 |
+| 17 | ![Georgia](logos/georgia.png) | Georgia | 11-2 | 72-8 | 0.9 |
+| 18 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 10-3 | 67-8 | 0.89333 |
+| 19 | ![Utah](logos/utah.png) | Utah | 11-2 | 58-7 | 0.89231 |
+| 20 | ![Oregon](logos/oregon.png) | Oregon | 11-2 | 65-8 | 0.89041 |
+| 21 | ![Minnesota](logos/minnesota.png) | Minnesota | 10-2 | 45-6 | 0.88235 |
+| 22 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 10-3 | 50-7 | 0.87719 |
+| 23 | ![Iowa](logos/iowa.png) | Iowa | 10-3 | 57-8 | 0.87692 |
+| 24 | ![Florida Atlantic](logos/fla-atlantic.png) | Florida Atlantic | 11-3 | 61-9 | 0.87143 |
+| 25 | ![Boise State](logos/boise-st.png) | Boise State | 12-2 | 74-11 | 0.87059 |
