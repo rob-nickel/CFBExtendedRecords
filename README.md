@@ -23,7 +23,7 @@ After the 2019 Season:
 [Full Rankings](results/resultsSorted.csv)
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
-| --- | ---| --- | --- | --- | --- |
+| --- | :---: | --- | --- | --- | --- |
 | 1 | ![Louisiana State](logos/lsu.png) | Louisiana State | 15-0 | 114-0 | 1.0 |
 | 2 | ![Clemson](logos/clemson.png) | Clemson | 14-1 | 88-0 | 1.0 |
 | 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 13-1 | 98-1 | 0.9899 |
@@ -53,7 +53,7 @@ After the 2019 Season:
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
-| --- | ---| --- | --- | --- | --- | --- |
+| --- | :---: | --- | --- | --- | --- | --- |
 | 1 | ![Louisiana State](logos/lsu.png) | Louisiana State | 14-0 | 100-0 | 1.0 | 1.06128 |
 | 2 | ![Ohio State](logos/ohio-st.png) | Ohio State | 13-1 | 93-1 | 0.98936 | 1.0093 |
 | 3 | ![Clemson](logos/clemson.png) | Clemson | 13-1 | 77-0 | 1.0 | 0.98063 |

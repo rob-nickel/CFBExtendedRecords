@@ -257,7 +257,7 @@ def printReadmeRankings():
     with open('results/resultsSorted.csv', mode='r') as csv_result:
         sortedlist = csv.DictReader(csv_result)
         print("\n| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |")
-        print("| --- | ---| --- | --- | --- | --- |")
+        print("| --- | :---: | --- | --- | --- | --- |")
         for row in sortedlist:
             if row['rank'] == '26':
                 break
@@ -268,7 +268,7 @@ def printReadmeRatings():
     with open('results/resultsSorted.csv', mode='r') as csv_result:
         sortedlist = csv.DictReader(csv_result)
         print("\n| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |")
-        print("| --- | ---| --- | --- | --- | --- | --- |")
+        print("| --- | :---: | --- | --- | --- | --- | --- |")
         for row in sortedlist:
             if row['rank'] == '26':
                 break
