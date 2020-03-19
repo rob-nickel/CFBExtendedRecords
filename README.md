@@ -11,10 +11,10 @@ This is an algorithm used to rank college football teams using only who each tea
     *   Extended Win Rate = Extended Wins / (Extended Wins + Extended Losses)
 
 To run the program: 
-*   update `data/record.txt` from https://www.sports-reference.com/cfb/years/2019-schedule.html
-*   then execute `python3 cfbExtendedRecord.py`
-    *   Command line argument `noFCS` removes FCS games from all records
-    *   Command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
+*   run `cfbExtendedRecord.py`
+    *   Adding command line argument `noFCS` removes FCS games from all records
+    *   Adding command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
+*   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2019-schedule.html
 
 ## Current Rankings
 
