@@ -295,7 +295,7 @@ def printConferenceRecords():
 
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
-    with open('data/record.txt', mode='r') as csv_record:
+    with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
         FCS = includeFCS()
@@ -343,7 +343,7 @@ def gatherRecords():
 
 # Cycles through each game of the season again and applies the extended wins and losses accordingly
 def gatherERecords():
-    with open('data/record.txt', mode='r') as csv_record:
+    with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
         for game in csv_reader:
