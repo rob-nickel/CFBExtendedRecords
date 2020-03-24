@@ -301,6 +301,7 @@ def gatherRecords():
         FCS = includeFCS()
         for game in csv_reader:
             if (game['Pts'] == None or game['Pts'] == ''):
+
                 print(f'\tExiting Loop...')
                 break
             
@@ -504,8 +505,53 @@ def outputSortedRating():
 
     print("\nThe sorted output is finished\n")
 
+# Uses the sorted results to predict winners next week.
+def predictNextWeek():
+    with open('data/record.csv', mode='r') as csv_record:
+        csv_reader = csv.DictReader(csv_record)
+        game_count = 0
+        week = -1
+        print("\nPredictions for next week:")
+        for game in csv_reader:
+            if (game['Pts'] == None or game['Pts'] == ''):
+                if week == -1:
+                    week = game['Wk']
+                    print(f"Week {week}:")
+                if game['Wk'] == week:
+                    name1 = removeRanking(game['Winner'])
+                    name2 = removeRanking(game['Loser'])
+                    winnerName = ''
+                    loserName = ''
+                    with open('results/resultsSorted.csv', mode='r') as csv_sorted:
+                        sortedTeams = csv.DictReader(csv_sorted)
+                        oneFound = False
+                        for row in sortedTeams:
+                            if name1 == row['name'] and (not oneFound):
+                                oneFound = True
+                                winnerName = name1
+                            elif name2 == row['name'] and (not oneFound):
+                                oneFound = True
+                                winnerName = name2
+                            elif name1 == row['name'] and oneFound:
+                                loserName = name1
+                                break
+                            elif name2 == row['name'] and oneFound:
+                                loserName = name2
+                                break
+                        if loserName == '':
+                            loserName = 'an FCS team'
+
+                    if (len(str(winnerName)) <= 6 ):
+                        print(f"\t{winnerName} \t\t\tto beat\t{loserName}.")
+                    elif (len(str(winnerName)) <= 13):
+                        print(f"\t{winnerName} \t\tto beat\t{loserName}.")
+                    elif (str(winnerName) == 'Middle Tennessee State'):
+                        print(f"\t{winnerName} to beat\t{loserName}.")
+                    else:
+                        print(f"\t{winnerName} \tto beat\t{loserName}.")
+    print()
+
 def main():
-        
     wantRating = toIncludeRating()
     gatherRecords()
     gatherERecords()
@@ -516,6 +562,6 @@ def main():
         outputAlphabetical()
         outputSorted()
     printConferenceRecords()
-
+    predictNextWeek()
 
 main()
