@@ -98,24 +98,44 @@ def conferenceLoss(conferenceName):
 #Returns the total winning percentage of the conference
 def conferenceRating(conferenceName):
     if conferenceName == 'aac':
+        if float(aac[1]==0):
+            return 1
         return (float(aac[0])/float(aac[1]))
     elif conferenceName == 'acc':
+        if float(acc[1]==0):
+            return 1
         return (float(acc[0])/float(acc[1]))
     elif conferenceName == 'b10':
+        if float(b10[1]==0):
+            return 1
         return (float(b10[0])/float(b10[1]))
     elif conferenceName == 'b12':
+        if float(b12[1]==0):
+            return 1
         return (float(b12[0])/float(b12[1]))
     elif conferenceName == 'cusa':
+        if float(cusa[1]==0):
+            return 1
         return (float(cusa[0])/float(cusa[1]))
     elif conferenceName == 'mac':
+        if float(mac[1]==0):
+            return 1
         return (float(mac[0])/float(mac[1]))
     elif conferenceName == 'mw':
+        if float(mw[1]==0):
+            return 1
         return (float(mw[0])/float(mw[1]))
     elif conferenceName == 'p12':
+        if float(p12[1]==0):
+            return 1
         return (float(p12[0])/float(p12[1]))
     elif conferenceName == 'sb':
+        if float(sb[1]==0):
+            return 1
         return (float(sb[0])/float(sb[1]))
     elif conferenceName == 'sec':
+        if float(sec[1]==0):
+            return 1
         return (float(sec[0])/float(sec[1]))
     else:
         return 1
@@ -169,24 +189,44 @@ def conferenceELoss(conferenceName, ELoss):
 #Returns the total winning percentage of the conference
 def conferenceERating(conferenceName):
     if conferenceName == 'aac':
+        if float(aac[3]==0):
+            return 1
         return (float(aac[2])/float(aac[3]))
     elif conferenceName == 'acc':
+        if float(acc[3]==0):
+            return 1
         return (float(acc[2])/float(acc[3]))
     elif conferenceName == 'b10':
+        if float(b10[3]==0):
+            return 1
         return (float(b10[2])/float(b10[3]))
     elif conferenceName == 'b12':
+        if float(b12[3]==0):
+            return 1
         return (float(b12[2])/float(b12[3]))
     elif conferenceName == 'cusa':
+        if float(cusa[3]==0):
+            return 1
         return (float(cusa[2])/float(cusa[3]))
     elif conferenceName == 'mac':
+        if float(mac[3]==0):
+            return 1
         return (float(mac[2])/float(mac[3]))
     elif conferenceName == 'mw':
+        if float(mw[3]==0):
+            return 1
         return (float(mw[2])/float(mw[3]))
     elif conferenceName == 'p12':
+        if float(p12[3]==0):
+            return 1
         return (float(p12[2])/float(p12[3]))
     elif conferenceName == 'sb':
+        if float(sb[3]==0):
+            return 1
         return (float(sb[2])/float(sb[3]))
     elif conferenceName == 'sec':
+        if float(sec[3]==0):
+            return 1
         return (float(sec[2])/float(sec[3]))
     else:
         return 1
@@ -405,10 +445,18 @@ def outputAlphabetical():
             for row in teamsListFinal:
                 if row['name'] == 'FCS':
                     break
-                eWinPercentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
-                eWinPercentage = round(eWinPercentage, 5)
-                winPercentage =float(my_array[rowCount][0]) /float((my_array[rowCount][0] + my_array[rowCount][1]))
-                winPercentage = round(winPercentage, 5)
+                denominator = float(my_array[rowCount][2] + my_array[rowCount][3])
+                if denominator == 0:
+                    eWinPercentage = 0
+                else:
+                    eWinPercentage = float(my_array[rowCount][2]) / denominator
+                    eWinPercentage = round(eWinPercentage, 5)
+                denominator = float(my_array[rowCount][0] + my_array[rowCount][1])
+                if denominator == 0:
+                    winPercentage = 0
+                else:
+                    winPercentage = float(my_array[rowCount][0]) / denominator
+                    winPercentage = round(winPercentage, 5)
                 
                 logo = 'logos/' + row['abbreviation'] + '.png'
 
@@ -458,10 +506,18 @@ def outputAlphabeticalRating():
             for row in teamsListFinal:
                 if row['name'] == 'FCS':
                     break
-                eWinPercentage = float(my_array[rowCount][2]) /float((my_array[rowCount][2] + my_array[rowCount][3]))
-                eWinPercentage = round(eWinPercentage, 5)
-                winPercentage =float(my_array[rowCount][0]) /float((my_array[rowCount][0] + my_array[rowCount][1]))
-                winPercentage = round(winPercentage, 5)
+                denominator = float(my_array[rowCount][2] + my_array[rowCount][3])
+                if denominator == 0:
+                    eWinPercentage = 0
+                else:
+                    eWinPercentage = float(my_array[rowCount][2]) / denominator
+                    eWinPercentage = round(eWinPercentage, 5)
+                denominator = float(my_array[rowCount][0] + my_array[rowCount][1])
+                if denominator == 0:
+                    winPercentage = 0
+                else:
+                    winPercentage = float(my_array[rowCount][0]) / denominator
+                    winPercentage = round(winPercentage, 5)
                 rating = (eWinPercentage * 9 + winPercentage * 9 + conferenceRating(row['conference']) + conferenceERating(row['conference'])) / 20
                 rating = round(rating, 5)
                 

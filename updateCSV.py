@@ -7,7 +7,7 @@ pd.set_option('display.max_columns', 15)
 pd.set_option('display.width', 2000)
 
 # Load data
-url = "https://www.sports-reference.com/cfb/years/2019-schedule.html"
+url = "https://www.sports-reference.com/cfb/years/2020-schedule.html"
 data = pd.read_html(url,header=0,index_col=0)
 
 

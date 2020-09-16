@@ -18,9 +18,68 @@ To run the program:
 
 ## Current Rankings
 
-After the 2019 Season:
-
 [Full Rankings](results/resultsSorted.csv)
+
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
+| --- | :---: | --- | --- | --- | --- |
+| 1 | ![Memphis](logos/memphis.png) | Memphis | 1-0 | 1-0 | 1.0 |
+| 2 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 1-0 | 1-0 | 1.0 |
+| 3 | ![Texas](logos/texas.png) | Texas | 1-0 | 1-0 | 1.0 |
+| 4 | ![Tulane](logos/tulane.png) | Tulane | 1-0 | 1-0 | 1.0 |
+| 5 | ![Kansas State](logos/kansas-st.png) | Kansas State | 0-1 | 0-1 | 0.0 |
+| 6 | ![Southern Mississippi](logos/southern-miss.png) | Southern Mississippi | 0-1 | 0-1 | 0.0 |
+| 7 | ![Army](logos/army.png) | Army | 2-0 | 0-0 | 0 |
+| 8 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 1-0 | 0-0 | 0 |
+| 9 | ![Brigham Young](logos/byu.png) | Brigham Young | 1-0 | 0-0 | 0 |
+| 10 | ![Clemson](logos/clemson.png) | Clemson | 1-0 | 0-0 | 0 |
+| 11 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 1-0 | 0-0 | 0 |
+| 12 | ![Georgia Southern](logos/ga-southern.png) | Georgia Southern | 1-0 | 0-0 | 0 |
+| 13 | ![Georgia Tech](logos/georgia-tech.png) | Georgia Tech | 1-0 | 0-0 | 0 |
+| 14 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 1-0 | 0-0 | 0 |
+| 15 | ![Louisville](logos/louisville.png) | Louisville | 1-0 | 0-0 | 0 |
+| 16 | ![Marshall](logos/marshall.png) | Marshall | 1-0 | 0-0 | 0 |
+| 17 | ![North Carolina](logos/north-carolina.png) | North Carolina | 1-0 | 0-0 | 0 |
+| 18 | ![North Texas](logos/north-texas.png) | North Texas | 1-0 | 0-0 | 0 |
+| 19 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 1-0 | 0-0 | 0 |
+| 20 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 1-0 | 0-0 | 0 |
+| 21 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 1-0 | 0-0 | 0 |
+| 22 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 1-0 | 0-0 | 0 |
+| 23 | ![South Florida](logos/south-fla.png) | South Florida | 1-0 | 0-0 | 0 |
+| 24 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 1-0 | 0-0 | 0 |
+| 25 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 0-0 | 0 |
+
+## With Ratings
+
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
+| --- | :---: | --- | --- | --- | --- | --- |
+| 1 | ![Memphis](logos/memphis.png) | Memphis | 1-0 | 1-0 | 1.0 | 1.05 |
+| 2 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 1-0 | 1-0 | 1.0 | 1.05 |
+| 3 | ![Tulane](logos/tulane.png) | Tulane | 1-0 | 1-0 | 1.0 | 1.05 |
+| 4 | ![Texas](logos/texas.png) | Texas | 1-0 | 1-0 | 1.0 | 1.01667 |
+| 5 | ![Clemson](logos/clemson.png) | Clemson | 1-0 | 0-0 | 0 | 0.6 |
+| 6 | ![Georgia Tech](logos/georgia-tech.png) | Georgia Tech | 1-0 | 0-0 | 0 | 0.6 |
+| 7 | ![Louisville](logos/louisville.png) | Louisville | 1-0 | 0-0 | 0 | 0.6 |
+| 8 | ![North Carolina](logos/north-carolina.png) | North Carolina | 1-0 | 0-0 | 0 | 0.6 |
+| 9 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 1-0 | 0-0 | 0 | 0.6 |
+| 10 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 1-0 | 0-0 | 0 | 0.6 |
+| 11 | ![South Florida](logos/south-fla.png) | South Florida | 1-0 | 0-0 | 0 | 0.6 |
+| 12 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 1-0 | 0-0 | 0 | 0.56667 |
+| 13 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 1-0 | 0-0 | 0 | 0.56667 |
+| 14 | ![West Virginia](logos/west-virginia.png) | West Virginia | 1-0 | 0-0 | 0 | 0.56667 |
+| 15 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 1-0 | 0-0 | 0 | 0.56 |
+| 16 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 1-0 | 0-0 | 0 | 0.56 |
+| 17 | ![Georgia Southern](logos/ga-southern.png) | Georgia Southern | 1-0 | 0-0 | 0 | 0.56 |
+| 18 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 1-0 | 0-0 | 0 | 0.56 |
+| 19 | ![Army](logos/army.png) | Army | 2-0 | 0-0 | 0 | 0.55 |
+| 20 | ![Brigham Young](logos/byu.png) | Brigham Young | 1-0 | 0-0 | 0 | 0.55 |
+| 21 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 1-0 | 0-0 | 0 | 0.55 |
+| 22 | ![Marshall](logos/marshall.png) | Marshall | 1-0 | 0-0 | 0 | 0.49167 |
+| 23 | ![North Texas](logos/north-texas.png) | North Texas | 1-0 | 0-0 | 0 | 0.49167 |
+| 24 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 0-0 | 0 | 0.49167 |
+| 25 | ![Arkansas State](logos/arkansas-st.png) | Arkansas State | 1-1 | 0-0 | 0 | 0.335 |
+
+
+## After the 2019 Season:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
