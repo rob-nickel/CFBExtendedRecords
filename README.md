@@ -14,7 +14,9 @@ To run the program:
 *   run `cfbExtendedRecord.py`
     *   Adding command line argument `noFCS` removes FCS games from all records
     *   Adding command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
+    *   Adding command line argument `week##` runs the program through that week
 *   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2019-schedule.html
+    *   Add `2019` to use that year's data
 
 ## Current Rankings
 

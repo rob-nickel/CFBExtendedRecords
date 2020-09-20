@@ -1,13 +1,24 @@
 import pandas as pd
 import csv
+import sys
 import os
 
 pd.set_option('display.max_rows', 1000)
 pd.set_option('display.max_columns', 15)
 pd.set_option('display.width', 2000)
 
-# Load data
+position = 1
+arguments = len(sys.argv)-1
+
+# Choose Year
 url = "https://www.sports-reference.com/cfb/years/2020-schedule.html"
+while (arguments >= position):
+    if sys.argv[position] == '2019':
+        url = "https://www.sports-reference.com/cfb/years/2019-schedule.html"
+        break
+    position += 1
+
+# Load data
 data = pd.read_html(url,header=0,index_col=0)
 
 

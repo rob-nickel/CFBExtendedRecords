@@ -241,6 +241,22 @@ def includeFCS():
         position += 1
     return True
 
+# Returns the week number specified
+def getWeek():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position][ 0:4 ] == 'week':
+            if len(sys.argv[position]) == 5:
+                week = int(sys.argv[position][ 4 ])
+            elif len(sys.argv[position]) == 6:
+                week = int(sys.argv[position][ 4:6 ])
+            else:
+                week = 99
+            return week
+        position += 1
+    return 99
+
 # Returns false unless the commandline argument printA is included
 def printAlphabetical():
     position = 1
@@ -338,9 +354,10 @@ def gatherRecords():
     with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
+        toWeek = getWeek()
         FCS = includeFCS()
         for game in csv_reader:
-            if (game['Pts'] == None or game['Pts'] == ''):
+            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
 
                 print(f'\tExiting Loop...')
                 break
@@ -387,8 +404,9 @@ def gatherERecords():
     with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
+        toWeek = getWeek()
         for game in csv_reader:
-            if (game['Pts'] == None or game['Pts'] == ''):
+            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
                 print(f'\tExiting Loop...')
                 break
 
