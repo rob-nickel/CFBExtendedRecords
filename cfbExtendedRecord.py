@@ -328,7 +328,36 @@ def printReadmeRatings():
         for row in sortedlist:
             if row['rank'] == '26':
                 break
-            else: print(f"| {row['rank']} | ![{row['name']}]({row['logo']}) | {row['name']} | {row['wins']}-{row['losses']} | {row['extended_wins']}-{row['extended_losses']} | {row['extended_record']} | {row['extended_rating']} |")
+            else: print(f"{row['rank']} | ![{row['name']}]({row['logo']}) | {row['name']} | {row['wins']}-{row['losses']} | {row['extended_wins']}-{row['extended_losses']} | {row['extended_record']} | {row['extended_rating']} |")
+
+def toPrintReact():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printReact' or sys.argv[position] == 'printAll':
+            return True
+        position += 1
+    return False
+
+def printReactRankings():
+    with open('results/resultsSorted.csv', mode='r') as csv_result:
+        sortedlist = csv.DictReader(csv_result)
+        for row in sortedlist:
+            if row['rank'] == '26':
+                break
+            elif row['rank'] == '25':
+                print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}'}}")
+            else: print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}'}},")
+
+def printReactRatings():
+    with open('results/resultsSorted.csv', mode='r') as csv_result:
+        sortedlist = csv.DictReader(csv_result)
+        for row in sortedlist:
+            if row['rank'] == '26':
+                break
+            elif row['rank'] == '25':
+                print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}', rating: '{row['extended_rating']}'}}")
+            else: print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}', rating: '{row['extended_rating']}'}},")
 
 
 # Prints each conference's rating to the terminal
@@ -508,6 +537,8 @@ def outputSorted():
         
     if toPrintReadme():
         printReadmeRankings()
+    if toPrintReact():
+        printReactRankings()
         
     print("\nThe sorted output is finished\n")
 
@@ -576,6 +607,8 @@ def outputSortedRating():
         
     if toPrintReadme():
         printReadmeRatings()
+    if toPrintReact():
+        printReactRatings()
 
     print("\nThe sorted output is finished\n")
 
