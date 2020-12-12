@@ -24,61 +24,61 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Indiana](logos/indiana.png) | Indiana | 5-1 | 9-0 | 1.0 |
-| 2 | ![Ohio State](logos/ohio-st.png) | Ohio State | 4-0 | 9-0 | 1.0 |
-| 3 | ![Boise State](logos/boise-st.png) | Boise State | 4-1 | 7-0 | 1.0 |
-| 4 | ![Colorado](logos/colorado.png) | Colorado | 3-0 | 6-0 | 1.0 |
-| 5 | ![Buffalo](logos/buffalo.png) | Buffalo | 4-0 | 5-0 | 1.0 |
-| 6 | ![San Jose State](logos/san-jose-st.png) | San Jose State | 4-0 | 5-0 | 1.0 |
-| 7 | ![Western Michigan](logos/western-mich.png) | Western Michigan | 4-0 | 5-0 | 1.0 |
-| 8 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 9-0 | 36-0 | 1.0 |
-| 9 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 9-0 | 35-0 | 1.0 |
-| 10 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 8-0 | 33-0 | 1.0 |
-| 11 | ![Alabama](logos/alabama.png) | Alabama | 8-0 | 32-0 | 1.0 |
-| 12 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-0 | 31-0 | 1.0 |
-| 13 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 8-1 | 31-0 | 1.0 |
-| 14 | ![Clemson](logos/clemson.png) | Clemson | 8-1 | 30-0 | 1.0 |
-| 15 | ![Miami (OH)](logos/miami-oh.png) | Miami (OH) | 2-1 | 3-0 | 1.0 |
-| 16 | ![Marshall](logos/marshall.png) | Marshall | 7-0 | 23-0 | 1.0 |
-| 17 | ![Washington](logos/washington.png) | Washington | 3-0 | 2-0 | 1.0 |
-| 18 | ![Central Michigan](logos/central-mich.png) | Central Michigan | 3-1 | 2-0 | 1.0 |
-| 19 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 6-1 | 17-0 | 1.0 |
-| 20 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 7-2 | 16-0 | 1.0 |
-| 21 | ![Florida Atlantic](logos/fla-atlantic.png) | Florida Atlantic | 5-1 | 13-0 | 1.0 |
-| 22 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 7-1 | 29-1 | 0.96667 |
-| 23 | ![Florida](logos/florida.png) | Florida | 7-1 | 22-1 | 0.95652 |
-| 24 | ![Georgia](logos/georgia.png) | Georgia | 6-2 | 17-1 | 0.94444 |
-| 25 | ![Tulsa](logos/tulsa.png) | Tulsa | 5-1 | 22-2 | 0.91667 |
+| 1 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 10-0 | 47-0 | 1.0 |
+| 2 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 9-1 | 41-0 | 1.0 |
+| 3 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-0 | 39-0 | 1.0 |
+| 4 | ![Alabama](logos/alabama.png) | Alabama | 9-0 | 38-0 | 1.0 |
+| 5 | ![Clemson](logos/clemson.png) | Clemson | 9-1 | 37-0 | 1.0 |
+| 6 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-1 | 34-0 | 1.0 |
+| 7 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 8-0 | 33-0 | 1.0 |
+| 8 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 7-1 | 23-0 | 1.0 |
+| 9 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-0 | 14-0 | 1.0 |
+| 10 | ![Indiana](logos/indiana.png) | Indiana | 6-1 | 12-0 | 1.0 |
+| 11 | ![San Jose State](logos/san-jose-st.png) | San Jose State | 5-0 | 11-0 | 1.0 |
+| 12 | ![Colorado](logos/colorado.png) | Colorado | 4-0 | 9-0 | 1.0 |
+| 13 | ![Buffalo](logos/buffalo.png) | Buffalo | 4-0 | 5-0 | 1.0 |
+| 14 | ![Miami (OH)](logos/miami-oh.png) | Miami (OH) | 2-1 | 5-0 | 1.0 |
+| 15 | ![Southern California](logos/southern-california.png) | Southern California | 4-0 | 2-0 | 1.0 |
+| 16 | ![Kent State](logos/kent-st.png) | Kent State | 3-1 | 2-0 | 1.0 |
+| 17 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 8-1 | 34-1 | 0.97143 |
+| 18 | ![Florida](logos/florida.png) | Florida | 8-1 | 26-1 | 0.96296 |
+| 19 | ![Georgia](logos/georgia.png) | Georgia | 6-2 | 18-1 | 0.94737 |
+| 20 | ![Marshall](logos/marshall.png) | Marshall | 7-1 | 25-2 | 0.92593 |
+| 21 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 7-3 | 18-2 | 0.9 |
+| 22 | ![Tulsa](logos/tulsa.png) | Tulsa | 6-1 | 26-3 | 0.89655 |
+| 23 | ![Iowa State](logos/iowa-st.png) | Iowa State | 8-2 | 33-4 | 0.89189 |
+| 24 | ![Boise State](logos/boise-st.png) | Boise State | 4-1 | 8-1 | 0.88889 |
+| 25 | ![Ball State](logos/ball-st.png) | Ball State | 4-1 | 7-1 | 0.875 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-1 | ![Colorado](logos/colorado.png) | Colorado | 3-0 | 6-0 | 1.0 | 1.01366 |
-2 | ![Washington](logos/washington.png) | Washington | 3-0 | 2-0 | 1.0 | 1.01366 |
-3 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 8-0 | 33-0 | 1.0 | 1.0135 |
-4 | ![Ohio State](logos/ohio-st.png) | Ohio State | 4-0 | 9-0 | 1.0 | 1.0 |
-5 | ![Buffalo](logos/buffalo.png) | Buffalo | 4-0 | 5-0 | 1.0 | 1.0 |
-6 | ![Western Michigan](logos/western-mich.png) | Western Michigan | 4-0 | 5-0 | 1.0 | 1.0 |
-7 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 9-0 | 36-0 | 1.0 | 1.0 |
-8 | ![Alabama](logos/alabama.png) | Alabama | 8-0 | 32-0 | 1.0 | 1.0 |
-9 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-0 | 31-0 | 1.0 | 1.0 |
-10 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 9-0 | 35-0 | 1.0 | 0.99892 |
-11 | ![San Jose State](logos/san-jose-st.png) | San Jose State | 4-0 | 5-0 | 1.0 | 0.99589 |
-12 | ![Marshall](logos/marshall.png) | Marshall | 7-0 | 23-0 | 1.0 | 0.98357 |
-13 | ![Clemson](logos/clemson.png) | Clemson | 8-1 | 30-0 | 1.0 | 0.96142 |
-14 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 8-1 | 31-0 | 1.0 | 0.94892 |
-15 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 7-1 | 29-1 | 0.96667 | 0.94017 |
-16 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 6-1 | 17-0 | 1.0 | 0.93571 |
-17 | ![Indiana](logos/indiana.png) | Indiana | 5-1 | 9-0 | 1.0 | 0.925 |
-18 | ![Florida](logos/florida.png) | Florida | 7-1 | 22-1 | 0.95652 | 0.92418 |
-19 | ![Florida Atlantic](logos/fla-atlantic.png) | Florida Atlantic | 5-1 | 13-0 | 1.0 | 0.90856 |
-20 | ![Boise State](logos/boise-st.png) | Boise State | 4-1 | 7-0 | 1.0 | 0.90589 |
-21 | ![Tulsa](logos/tulsa.png) | Tulsa | 5-1 | 22-2 | 0.91667 | 0.901 |
-22 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 7-2 | 16-0 | 1.0 | 0.89892 |
-23 | ![Central Michigan](logos/central-mich.png) | Central Michigan | 3-1 | 2-0 | 1.0 | 0.8875 |
-24 | ![Georgia](logos/georgia.png) | Georgia | 6-2 | 17-1 | 0.94444 | 0.8625 |
-25 | ![Liberty](logos/liberty.png) | Liberty | 9-1 | 11-3 | 0.78571 | 0.85857 |
+1 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 8-0 | 33-0 | 1.0 | 1.01131 |
+2 | ![Colorado](logos/colorado.png) | Colorado | 4-0 | 9-0 | 1.0 | 1.00842 |
+3 | ![Southern California](logos/southern-california.png) | Southern California | 4-0 | 2-0 | 1.0 | 1.00842 |
+4 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 10-0 | 47-0 | 1.0 | 1.00529 |
+5 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-0 | 39-0 | 1.0 | 1.0 |
+6 | ![Alabama](logos/alabama.png) | Alabama | 9-0 | 38-0 | 1.0 | 1.0 |
+7 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-0 | 14-0 | 1.0 | 1.0 |
+8 | ![Buffalo](logos/buffalo.png) | Buffalo | 4-0 | 5-0 | 1.0 | 1.0 |
+9 | ![San Jose State](logos/san-jose-st.png) | San Jose State | 5-0 | 11-0 | 1.0 | 0.9954 |
+10 | ![Clemson](logos/clemson.png) | Clemson | 9-1 | 37-0 | 1.0 | 0.96458 |
+11 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 9-1 | 41-0 | 1.0 | 0.96029 |
+12 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-1 | 34-0 | 1.0 | 0.955 |
+13 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 8-1 | 34-1 | 0.97143 | 0.94672 |
+14 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 7-1 | 23-0 | 1.0 | 0.94375 |
+15 | ![Indiana](logos/indiana.png) | Indiana | 6-1 | 12-0 | 1.0 | 0.93571 |
+16 | ![Florida](logos/florida.png) | Florida | 8-1 | 26-1 | 0.96296 | 0.93333 |
+17 | ![Tulsa](logos/tulsa.png) | Tulsa | 6-1 | 26-3 | 0.89655 | 0.90047 |
+18 | ![Marshall](logos/marshall.png) | Marshall | 7-1 | 25-2 | 0.92593 | 0.89244 |
+19 | ![Kent State](logos/kent-st.png) | Kent State | 3-1 | 2-0 | 1.0 | 0.8875 |
+20 | ![Liberty](logos/liberty.png) | Liberty | 9-1 | 13-3 | 0.8125 | 0.87063 |
+21 | ![Iowa State](logos/iowa-st.png) | Iowa State | 8-2 | 33-4 | 0.89189 | 0.86582 |
+22 | ![Georgia](logos/georgia.png) | Georgia | 6-2 | 18-1 | 0.94737 | 0.86382 |
+23 | ![Boise State](logos/boise-st.png) | Boise State | 4-1 | 8-1 | 0.88889 | 0.8554 |
+24 | ![Ball State](logos/ball-st.png) | Ball State | 4-1 | 7-1 | 0.875 | 0.85375 |
+25 | ![Miami (OH)](logos/miami-oh.png) | Miami (OH) | 2-1 | 5-0 | 1.0 | 0.85 |
 
 
 ## After the 2019 Season:
