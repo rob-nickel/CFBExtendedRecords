@@ -328,7 +328,7 @@ def printReadmeRatings():
         for row in sortedlist:
             if row['rank'] == '26':
                 break
-            else: print(f"{row['rank']} | ![{row['name']}]({row['logo']}) | {row['name']} | {row['wins']}-{row['losses']} | {row['extended_wins']}-{row['extended_losses']} | {row['extended_record']} | {row['extended_rating']} |")
+            else: print(f"| {row['rank']} | ![{row['name']}]({row['logo']}) | {row['name']} | {row['wins']}-{row['losses']} | {row['extended_wins']}-{row['extended_losses']} | {row['extended_record']} | {row['extended_rating']} |")
 
 def toPrintReact():
     position = 1

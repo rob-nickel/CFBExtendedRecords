@@ -11,10 +11,13 @@ position = 1
 arguments = len(sys.argv)-1
 
 # Choose Year
-url = "https://www.sports-reference.com/cfb/years/2020-schedule.html"
+url = "https://www.sports-reference.com/cfb/years/2021-schedule.html"
 while (arguments >= position):
     if sys.argv[position] == '2019':
         url = "https://www.sports-reference.com/cfb/years/2019-schedule.html"
+        break
+    if sys.argv[position] == '2020':
+        url = "https://www.sports-reference.com/cfb/years/2020-schedule.html"
         break
     position += 1
 
