@@ -24,61 +24,61 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![UCLA](logos/ucla.png) | UCLA | 2-0 | 1-0 | 1.0 |
-| 2 | ![Oregon](logos/oregon.png) | Oregon | 1-0 | 1-0 | 1.0 |
-| 3 | ![Southern California](logos/southern-california.png) | Southern California | 1-0 | 1-0 | 1.0 |
-| 4 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 1-0 | 1.0 |
-| 5 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 |
-| 6 | ![Nebraska](logos/nebraska.png) | Nebraska | 1-1 | 0-1 | 0.0 |
-| 7 | ![Colorado State](logos/colorado-st.png) | Colorado State | 0-1 | 0-1 | 0.0 |
-| 8 | ![Tulsa](logos/tulsa.png) | Tulsa | 0-1 | 0-1 | 0.0 |
-| 9 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 0-1 | 0-1 | 0.0 |
-| 10 | ![Vanderbilt](logos/vanderbilt.png) | Vanderbilt | 0-1 | 0-1 | 0.0 |
-| 11 | ![Washington](logos/washington.png) | Washington | 0-1 | 0-1 | 0.0 |
-| 12 | ![Connecticut](logos/uconn.png) | Connecticut | 0-2 | 0-3 | 0.0 |
-| 13 | ![Texas-El Paso](logos/utep.png) | Texas-El Paso | 2-0 | 0-0 | 0 |
-| 14 | ![Air Force](logos/air-force.png) | Air Force | 1-0 | 0-0 | 0 |
-| 15 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 0-0 | 0 |
-| 16 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 1-0 | 0-0 | 0 |
-| 17 | ![Arizona State](logos/arizona-st.png) | Arizona State | 1-0 | 0-0 | 0 |
-| 18 | ![Arkansas](logos/arkansas.png) | Arkansas | 1-0 | 0-0 | 0 |
-| 19 | ![Arkansas State](logos/arkansas-st.png) | Arkansas State | 1-0 | 0-0 | 0 |
-| 20 | ![Army](logos/army.png) | Army | 1-0 | 0-0 | 0 |
-| 21 | ![Auburn](logos/auburn.png) | Auburn | 1-0 | 0-0 | 0 |
-| 22 | ![Ball State](logos/ball-st.png) | Ball State | 1-0 | 0-0 | 0 |
-| 23 | ![Baylor](logos/baylor.png) | Baylor | 1-0 | 0-0 | 0 |
-| 24 | ![Boston College](logos/boston-college.png) | Boston College | 1-0 | 0-0 | 0 |
-| 25 | ![Buffalo](logos/buffalo.png) | Buffalo | 1-0 | 0-0 | 0 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 3-0 | 6-0 | 1.0 |
+| 2 | ![Oregon](logos/oregon.png) | Oregon | 3-0 | 5-0 | 1.0 |
+| 3 | ![Iowa](logos/iowa.png) | Iowa | 3-0 | 4-0 | 1.0 |
+| 4 | ![Kansas State](logos/kansas-st.png) | Kansas State | 3-0 | 4-0 | 1.0 |
+| 5 | ![Michigan](logos/michigan.png) | Michigan | 3-0 | 4-0 | 1.0 |
+| 6 | ![Penn State](logos/penn-st.png) | Penn State | 3-0 | 4-0 | 1.0 |
+| 7 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 3-0 | 4-0 | 1.0 |
+| 8 | ![Alabama](logos/alabama.png) | Alabama | 3-0 | 3-0 | 1.0 |
+| 9 | ![Arkansas](logos/arkansas.png) | Arkansas | 3-0 | 3-0 | 1.0 |
+| 10 | ![Brigham Young](logos/byu.png) | Brigham Young | 3-0 | 3-0 | 1.0 |
+| 11 | ![Kentucky](logos/kentucky.png) | Kentucky | 3-0 | 3-0 | 1.0 |
+| 12 | ![Liberty](logos/liberty.png) | Liberty | 3-0 | 3-0 | 1.0 |
+| 13 | ![Maryland](logos/maryland.png) | Maryland | 3-0 | 3-0 | 1.0 |
+| 14 | ![Memphis](logos/memphis.png) | Memphis | 3-0 | 3-0 | 1.0 |
+| 15 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 3-0 | 3-0 | 1.0 |
+| 16 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 3-0 | 3-0 | 1.0 |
+| 17 | ![Mississippi](logos/ole-miss.png) | Mississippi | 3-0 | 3-0 | 1.0 |
+| 18 | ![Rutgers](logos/rutgers.png) | Rutgers | 3-0 | 3-0 | 1.0 |
+| 19 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 3-0 | 3-0 | 1.0 |
+| 20 | ![Utah State](logos/utah-st.png) | Utah State | 3-0 | 3-0 | 1.0 |
+| 21 | ![Florida](logos/florida.png) | Florida | 2-1 | 3-0 | 1.0 |
+| 22 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 2-1 | 3-0 | 1.0 |
+| 23 | ![Stanford](logos/stanford.png) | Stanford | 2-1 | 3-0 | 1.0 |
+| 24 | ![Army](logos/army.png) | Army | 3-0 | 2-0 | 1.0 |
+| 25 | ![Baylor](logos/baylor.png) | Baylor | 3-0 | 2-0 | 1.0 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 1-0 | 1.0 | 1.05 |
-| 2 | ![UCLA](logos/ucla.png) | UCLA | 2-0 | 1-0 | 1.0 | 1.00833 |
-| 3 | ![Oregon](logos/oregon.png) | Oregon | 1-0 | 1-0 | 1.0 | 1.00833 |
-| 4 | ![Southern California](logos/southern-california.png) | Southern California | 1-0 | 1-0 | 1.0 | 1.00833 |
-| 5 | ![Baylor](logos/baylor.png) | Baylor | 1-0 | 0-0 | 0 | 0.95 |
-| 6 | ![Iowa State](logos/iowa-st.png) | Iowa State | 1-0 | 0-0 | 0 | 0.95 |
-| 7 | ![Kansas](logos/kansas.png) | Kansas | 1-0 | 0-0 | 0 | 0.95 |
-| 8 | ![Kansas State](logos/kansas-st.png) | Kansas State | 1-0 | 0-0 | 0 | 0.95 |
-| 9 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 1-0 | 0-0 | 0 | 0.95 |
-| 10 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 1-0 | 0-0 | 0 | 0.95 |
-| 11 | ![Texas Christian](logos/tcu.png) | Texas Christian | 1-0 | 0-0 | 0 | 0.95 |
-| 12 | ![Texas](logos/texas.png) | Texas | 1-0 | 0-0 | 0 | 0.95 |
-| 13 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 1-0 | 0-0 | 0 | 0.95 |
-| 14 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 | 0.80833 |
-| 15 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 0-0 | 0 | 0.68333 |
-| 16 | ![Arkansas](logos/arkansas.png) | Arkansas | 1-0 | 0-0 | 0 | 0.68333 |
-| 17 | ![Auburn](logos/auburn.png) | Auburn | 1-0 | 0-0 | 0 | 0.68333 |
-| 18 | ![Florida](logos/florida.png) | Florida | 1-0 | 0-0 | 0 | 0.68333 |
-| 19 | ![Georgia](logos/georgia.png) | Georgia | 1-0 | 0-0 | 0 | 0.68333 |
-| 20 | ![Kentucky](logos/kentucky.png) | Kentucky | 1-0 | 0-0 | 0 | 0.68333 |
-| 21 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 1-0 | 0-0 | 0 | 0.68333 |
-| 22 | ![Missouri](logos/missouri.png) | Missouri | 1-0 | 0-0 | 0 | 0.68333 |
-| 23 | ![South Carolina](logos/south-carolina.png) | South Carolina | 1-0 | 0-0 | 0 | 0.68333 |
-| 24 | ![Tennessee](logos/tennessee.png) | Tennessee | 1-0 | 0-0 | 0 | 0.68333 |
-| 25 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 1-0 | 0-0 | 0 | 0.68333 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 3-0 | 6-0 | 1.0 | 1.65 |
+| 2 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 3-0 | 4-0 | 1.0 | 1.65 |
+| 3 | ![Alabama](logos/alabama.png) | Alabama | 3-0 | 3-0 | 1.0 | 1.65 |
+| 4 | ![Arkansas](logos/arkansas.png) | Arkansas | 3-0 | 3-0 | 1.0 | 1.65 |
+| 5 | ![Kentucky](logos/kentucky.png) | Kentucky | 3-0 | 3-0 | 1.0 | 1.65 |
+| 6 | ![Mississippi](logos/ole-miss.png) | Mississippi | 3-0 | 3-0 | 1.0 | 1.65 |
+| 7 | ![Florida](logos/florida.png) | Florida | 2-1 | 3-0 | 1.0 | 1.5 |
+| 8 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 2-1 | 3-0 | 1.0 | 1.5 |
+| 9 | ![Auburn](logos/auburn.png) | Auburn | 2-1 | 1-0 | 1.0 | 1.5 |
+| 10 | ![Missouri](logos/missouri.png) | Missouri | 2-1 | 1-0 | 1.0 | 1.5 |
+| 11 | ![South Carolina](logos/south-carolina.png) | South Carolina | 2-1 | 1-0 | 1.0 | 1.5 |
+| 12 | ![Louisiana State](logos/lsu.png) | Louisiana State | 2-1 | 1-1 | 0.5 | 1.275 |
+| 13 | ![Tennessee](logos/tennessee.png) | Tennessee | 2-1 | 1-1 | 0.5 | 1.275 |
+| 14 | ![Iowa](logos/iowa.png) | Iowa | 3-0 | 4-0 | 1.0 | 1.27372 |
+| 15 | ![Michigan](logos/michigan.png) | Michigan | 3-0 | 4-0 | 1.0 | 1.27372 |
+| 16 | ![Penn State](logos/penn-st.png) | Penn State | 3-0 | 4-0 | 1.0 | 1.27372 |
+| 17 | ![Maryland](logos/maryland.png) | Maryland | 3-0 | 3-0 | 1.0 | 1.27372 |
+| 18 | ![Rutgers](logos/rutgers.png) | Rutgers | 3-0 | 3-0 | 1.0 | 1.27372 |
+| 19 | ![Michigan State](logos/michigan-st.png) | Michigan State | 3-0 | 2-0 | 1.0 | 1.27372 |
+| 20 | ![Kansas State](logos/kansas-st.png) | Kansas State | 3-0 | 4-0 | 1.0 | 1.19 |
+| 21 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 3-0 | 3-0 | 1.0 | 1.19 |
+| 22 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 3-0 | 3-0 | 1.0 | 1.19 |
+| 23 | ![Baylor](logos/baylor.png) | Baylor | 3-0 | 2-0 | 1.0 | 1.19 |
+| 24 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 3-0 | 1-0 | 1.0 | 1.19 |
+| 25 | ![Texas Christian](logos/tcu.png) | Texas Christian | 2-0 | 1-0 | 1.0 | 1.19 |
 
 ## After the 2020 Season:
 
