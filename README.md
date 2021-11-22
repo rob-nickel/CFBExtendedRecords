@@ -24,62 +24,62 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 9-0 | 45-0 | 1.0 |
-| 2 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 8-1 | 34-0 | 1.0 |
-| 3 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 9-0 | 30-0 | 1.0 |
-| 4 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 9-0 | 29-0 | 1.0 |
-| 5 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 9-0 | 28-0 | 1.0 |
-| 6 | ![Michigan](logos/michigan.png) | Michigan | 8-1 | 33-1 | 0.97059 |
-| 7 | ![Ohio State](logos/ohio-st.png) | Ohio State | 8-1 | 31-1 | 0.96875 |
-| 8 | ![Alabama](logos/alabama.png) | Alabama | 8-1 | 31-2 | 0.93939 |
-| 9 | ![Michigan State](logos/michigan-st.png) | Michigan State | 8-1 | 30-3 | 0.90909 |
-| 10 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 8-1 | 30-3 | 0.90909 |
-| 11 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 8-1 | 18-2 | 0.9 |
-| 12 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 8-1 | 26-3 | 0.89655 |
-| 13 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 8-1 | 29-4 | 0.87879 |
-| 14 | ![Mississippi](logos/ole-miss.png) | Mississippi | 7-2 | 27-4 | 0.87097 |
-| 15 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 6-3 | 32-5 | 0.86486 |
-| 16 | ![Houston](logos/houston.png) | Houston | 8-1 | 23-4 | 0.85185 |
-| 17 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 7-2 | 28-5 | 0.84848 |
-| 18 | ![Brigham Young](logos/byu.png) | Brigham Young | 8-2 | 33-6 | 0.84615 |
-| 19 | ![Oregon](logos/oregon.png) | Oregon | 8-1 | 31-6 | 0.83784 |
-| 20 | ![Iowa](logos/iowa.png) | Iowa | 7-2 | 30-6 | 0.83333 |
-| 21 | ![Clemson](logos/clemson.png) | Clemson | 6-3 | 20-4 | 0.83333 |
-| 22 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-3 | 20-4 | 0.83333 |
-| 23 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 7-2 | 34-7 | 0.82927 |
-| 24 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 8-1 | 24-5 | 0.82759 |
-| 25 | ![Auburn](logos/auburn.png) | Auburn | 6-3 | 23-5 | 0.82143 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 11-0 | 61-0 | 1.0 |
+| 2 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-1 | 52-0 | 1.0 |
+| 3 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 11-0 | 47-0 | 1.0 |
+| 4 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-0 | 45-0 | 1.0 |
+| 5 | ![Ohio State](logos/ohio-st.png) | Ohio State | 10-1 | 52-2 | 0.96296 |
+| 6 | ![Michigan](logos/michigan.png) | Michigan | 10-1 | 51-2 | 0.96226 |
+| 7 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 10-1 | 40-2 | 0.95238 |
+| 8 | ![Alabama](logos/alabama.png) | Alabama | 10-1 | 48-3 | 0.94118 |
+| 9 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 10-1 | 40-3 | 0.93023 |
+| 10 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 10-1 | 50-5 | 0.90909 |
+| 11 | ![Michigan State](logos/michigan-st.png) | Michigan State | 9-2 | 41-5 | 0.8913 |
+| 12 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 9-2 | 45-6 | 0.88235 |
+| 13 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 8-3 | 45-6 | 0.88235 |
+| 14 | ![Houston](logos/houston.png) | Houston | 10-1 | 37-5 | 0.88095 |
+| 15 | ![Mississippi](logos/ole-miss.png) | Mississippi | 9-2 | 43-6 | 0.87755 |
+| 16 | ![Clemson](logos/clemson.png) | Clemson | 8-3 | 35-5 | 0.875 |
+| 17 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-2 | 41-6 | 0.87234 |
+| 18 | ![Baylor](logos/baylor.png) | Baylor | 9-2 | 46-7 | 0.86792 |
+| 19 | ![Iowa](logos/iowa.png) | Iowa | 9-2 | 43-7 | 0.86 |
+| 20 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 10-1 | 43-7 | 0.86 |
+| 21 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 9-2 | 45-8 | 0.84906 |
+| 22 | ![Utah](logos/utah.png) | Utah | 8-3 | 37-7 | 0.84091 |
+| 23 | ![Air Force](logos/air-force.png) | Air Force | 8-3 | 33-7 | 0.825 |
+| 24 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 8-3 | 41-10 | 0.80392 |
+| 25 | ![Oregon](logos/oregon.png) | Oregon | 9-2 | 44-11 | 0.8 |
 
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 9-0 | 45-0 | 1.0 | 1.10109 |
-| 2 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 9-0 | 28-0 | 1.0 | 1.07889 |
-| 3 | ![Alabama](logos/alabama.png) | Alabama | 8-1 | 31-2 | 0.93939 | 1.02382 |
-| 4 | ![Michigan](logos/michigan.png) | Michigan | 8-1 | 33-1 | 0.97059 | 1.0232 |
-| 5 | ![Ohio State](logos/ohio-st.png) | Ohio State | 8-1 | 31-1 | 0.96875 | 1.02237 |
-| 6 | ![Michigan State](logos/michigan-st.png) | Michigan State | 8-1 | 30-3 | 0.90909 | 0.99553 |
-| 7 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 8-1 | 30-3 | 0.90909 | 0.98798 |
-| 8 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 9-0 | 29-0 | 1.0 | 0.98721 |
-| 9 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 9-0 | 30-0 | 1.0 | 0.97136 |
-| 10 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 8-1 | 34-0 | 1.0 | 0.95 |
-| 11 | ![Mississippi](logos/ole-miss.png) | Mississippi | 7-2 | 27-4 | 0.87097 | 0.94303 |
-| 12 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 8-1 | 29-4 | 0.87879 | 0.93952 |
-| 13 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 8-1 | 26-3 | 0.89655 | 0.92906 |
-| 14 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 7-2 | 34-7 | 0.82927 | 0.92426 |
-| 15 | ![Iowa](logos/iowa.png) | Iowa | 7-2 | 30-6 | 0.83333 | 0.91144 |
-| 16 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 8-1 | 18-2 | 0.9 | 0.90675 |
-| 17 | ![Baylor](logos/baylor.png) | Baylor | 7-2 | 26-6 | 0.8125 | 0.89451 |
-| 18 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 6-3 | 32-5 | 0.86486 | 0.87562 |
-| 19 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 8-1 | 24-5 | 0.82759 | 0.87417 |
-| 20 | ![Oregon](logos/oregon.png) | Oregon | 8-1 | 31-6 | 0.83784 | 0.87328 |
-| 21 | ![Auburn](logos/auburn.png) | Auburn | 6-3 | 23-5 | 0.82143 | 0.87074 |
-| 22 | ![Houston](logos/houston.png) | Houston | 8-1 | 23-4 | 0.85185 | 0.87054 |
-| 23 | ![Arkansas](logos/arkansas.png) | Arkansas | 6-3 | 21-5 | 0.80769 | 0.86455 |
-| 24 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-3 | 20-4 | 0.83333 | 0.85389 |
-| 25 | ![Purdue](logos/purdue.png) | Purdue | 6-3 | 28-7 | 0.8 | 0.84644 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 11-0 | 61-0 | 1.0 | 1.10124 |
+| 2 | ![Alabama](logos/alabama.png) | Alabama | 10-1 | 48-3 | 0.94118 | 1.03386 |
+| 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 10-1 | 52-2 | 0.96296 | 1.01188 |
+| 4 | ![Michigan](logos/michigan.png) | Michigan | 10-1 | 51-2 | 0.96226 | 1.01157 |
+| 5 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 10-1 | 40-2 | 0.95238 | 0.9948 |
+| 6 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 11-0 | 47-0 | 1.0 | 0.99316 |
+| 7 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-0 | 45-0 | 1.0 | 0.97584 |
+| 8 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 10-1 | 50-5 | 0.90909 | 0.97532 |
+| 9 | ![Mississippi](logos/ole-miss.png) | Mississippi | 9-2 | 43-6 | 0.87755 | 0.96432 |
+| 10 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-1 | 52-0 | 1.0 | 0.95909 |
+| 11 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 10-1 | 40-3 | 0.93023 | 0.94851 |
+| 12 | ![Michigan State](logos/michigan-st.png) | Michigan State | 9-2 | 41-5 | 0.8913 | 0.93873 |
+| 13 | ![Iowa](logos/iowa.png) | Iowa | 9-2 | 43-7 | 0.86 | 0.92464 |
+| 14 | ![Baylor](logos/baylor.png) | Baylor | 9-2 | 46-7 | 0.86792 | 0.91589 |
+| 15 | ![Houston](logos/houston.png) | Houston | 10-1 | 37-5 | 0.88095 | 0.89868 |
+| 16 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 8-3 | 45-6 | 0.88235 | 0.89379 |
+| 17 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 10-1 | 43-7 | 0.86 | 0.89192 |
+| 18 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 8-3 | 41-10 | 0.80392 | 0.89027 |
+| 19 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 9-2 | 45-8 | 0.84906 | 0.88212 |
+| 20 | ![Kentucky](logos/kentucky.png) | Kentucky | 8-3 | 29-9 | 0.76316 | 0.87193 |
+| 21 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 9-2 | 45-6 | 0.88235 | 0.86106 |
+| 22 | ![Brigham Young](logos/byu.png) | Brigham Young | 9-2 | 41-6 | 0.87234 | 0.86073 |
+| 23 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 9-2 | 38-10 | 0.79167 | 0.85629 |
+| 24 | ![Clemson](logos/clemson.png) | Clemson | 8-3 | 35-5 | 0.875 | 0.85288 |
+| 25 | ![Arkansas](logos/arkansas.png) | Arkansas | 7-4 | 30-8 | 0.78947 | 0.84286 |
 
 ## After the 2020 Season:
 
