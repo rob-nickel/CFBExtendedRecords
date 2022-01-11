@@ -53,7 +53,7 @@ To run the program:
 
 ## With Ratings
 
-| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
 | 1 | ![Georgia](logos/georgia.png) | Georgia | 13-1 | 87-1 | 0.98864 | 1.0433 |
 | 2 | ![Alabama](logos/alabama.png) | Alabama | 13-1 | 89-4 | 0.95699 | 1.02906 |
