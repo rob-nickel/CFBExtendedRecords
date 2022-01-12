@@ -1,7 +1,8 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-                        *28-10 on Bowl predictions for 2021*
+                        
+*28-10 on Bowl predictions for 2021*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
