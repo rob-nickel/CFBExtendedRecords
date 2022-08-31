@@ -16,6 +16,9 @@ To run the program:
     *   Adding command line argument `noFCS` removes FCS games from all records
     *   Adding command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
     *   Adding command line argument `week##` runs the program through that week
+    *   Adding command line argument `printAll` to output all of the data
+        *   `printC` to print the conference extended results
+        *   `printP` to show the predictions for the next week
 *   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2022-schedule.html
     *   Add `2019`, `2020`, `2021` to use that year's data
 

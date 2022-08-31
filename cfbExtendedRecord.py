@@ -525,8 +525,8 @@ def outputAlphabetical():
 def outputSorted():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
-        sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_record'],row['extended_wins'],row['wins'], ), reverse=True)
+        sortedlist = sorted(csv_reader, key=lambda row:(float(row['extended_losses']),float(row['losses'])))
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_record']),float(row['extended_wins']),float(row['wins']), ), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record'])
@@ -591,9 +591,9 @@ def outputAlphabeticalRating():
 def outputSortedRating():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
-        sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_record'],row['extended_wins'],row['wins'], ), reverse=True)
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_rating']), reverse=True)
+        sortedlist = sorted(csv_reader, key=lambda row:(float(row['extended_losses']),float(row['losses'])))
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_record']),float(row['extended_wins']),float(row['wins']), ), reverse=True)
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_rating'])), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record','extended_rating'])
@@ -618,7 +618,18 @@ def outputSortedRating():
     print("\nThe sorted output is finished\n")
 
 # Uses the sorted results to predict winners next week.
+def toPrintPredict():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printP' or sys.argv[position] == 'printAll':
+            return True
+        position += 1
+    return False
+
 def predictNextWeek():
+    if not toPrintPredict():
+        return
     with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
