@@ -6,7 +6,7 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'rating' 'noFCS' 'printA' 'printS' 'printC' 'printR' 'printAll'
+Possible command arguments: 'rating' 'noFCS' 'printA' 'printP' 'printS' 'printC' 'printR' 'printAll'
 
 url = 'https://www.sports-reference.com/cfb/years/2022-schedule.html'
 """
