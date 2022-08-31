@@ -1,6 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
+*27-10 on Bowl predictions for 2021*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -15,70 +16,48 @@ To run the program:
     *   Adding command line argument `noFCS` removes FCS games from all records
     *   Adding command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
     *   Adding command line argument `week##` runs the program through that week
-*   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2021-schedule.html
-    *   Add `2019` to use that year's data
+*   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2022-schedule.html
+    *   Add `2019`, `2020`, `2021` to use that year's data
 
 ## Current Rankings
 
 [Full Rankings](results/resultsSorted.csv)
 
-| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
-| --- | :---: | --- | --- | --- | --- |
-| 1 | ![UCLA](logos/ucla.png) | UCLA | 2-0 | 1-0 | 1.0 |
-| 2 | ![Oregon](logos/oregon.png) | Oregon | 1-0 | 1-0 | 1.0 |
-| 3 | ![Southern California](logos/southern-california.png) | Southern California | 1-0 | 1-0 | 1.0 |
-| 4 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 1-0 | 1.0 |
-| 5 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 |
-| 6 | ![Nebraska](logos/nebraska.png) | Nebraska | 1-1 | 0-1 | 0.0 |
-| 7 | ![Colorado State](logos/colorado-st.png) | Colorado State | 0-1 | 0-1 | 0.0 |
-| 8 | ![Tulsa](logos/tulsa.png) | Tulsa | 0-1 | 0-1 | 0.0 |
-| 9 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 0-1 | 0-1 | 0.0 |
-| 10 | ![Vanderbilt](logos/vanderbilt.png) | Vanderbilt | 0-1 | 0-1 | 0.0 |
-| 11 | ![Washington](logos/washington.png) | Washington | 0-1 | 0-1 | 0.0 |
-| 12 | ![Connecticut](logos/uconn.png) | Connecticut | 0-2 | 0-3 | 0.0 |
-| 13 | ![Texas-El Paso](logos/utep.png) | Texas-El Paso | 2-0 | 0-0 | 0 |
-| 14 | ![Air Force](logos/air-force.png) | Air Force | 1-0 | 0-0 | 0 |
-| 15 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 0-0 | 0 |
-| 16 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 1-0 | 0-0 | 0 |
-| 17 | ![Arizona State](logos/arizona-st.png) | Arizona State | 1-0 | 0-0 | 0 |
-| 18 | ![Arkansas](logos/arkansas.png) | Arkansas | 1-0 | 0-0 | 0 |
-| 19 | ![Arkansas State](logos/arkansas-st.png) | Arkansas State | 1-0 | 0-0 | 0 |
-| 20 | ![Army](logos/army.png) | Army | 1-0 | 0-0 | 0 |
-| 21 | ![Auburn](logos/auburn.png) | Auburn | 1-0 | 0-0 | 0 |
-| 22 | ![Ball State](logos/ball-st.png) | Ball State | 1-0 | 0-0 | 0 |
-| 23 | ![Baylor](logos/baylor.png) | Baylor | 1-0 | 0-0 | 0 |
-| 24 | ![Boston College](logos/boston-college.png) | Boston College | 1-0 | 0-0 | 0 |
-| 25 | ![Buffalo](logos/buffalo.png) | Buffalo | 1-0 | 0-0 | 0 |
+//To add after week 1
 
 ## With Ratings
 
+//To add after week 1
+
+## After the 2020 Season:
+
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 1-0 | 1-0 | 1.0 | 1.05 |
-| 2 | ![UCLA](logos/ucla.png) | UCLA | 2-0 | 1-0 | 1.0 | 1.00833 |
-| 3 | ![Oregon](logos/oregon.png) | Oregon | 1-0 | 1-0 | 1.0 | 1.00833 |
-| 4 | ![Southern California](logos/southern-california.png) | Southern California | 1-0 | 1-0 | 1.0 | 1.00833 |
-| 5 | ![Baylor](logos/baylor.png) | Baylor | 1-0 | 0-0 | 0 | 0.95 |
-| 6 | ![Iowa State](logos/iowa-st.png) | Iowa State | 1-0 | 0-0 | 0 | 0.95 |
-| 7 | ![Kansas](logos/kansas.png) | Kansas | 1-0 | 0-0 | 0 | 0.95 |
-| 8 | ![Kansas State](logos/kansas-st.png) | Kansas State | 1-0 | 0-0 | 0 | 0.95 |
-| 9 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 1-0 | 0-0 | 0 | 0.95 |
-| 10 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 1-0 | 0-0 | 0 | 0.95 |
-| 11 | ![Texas Christian](logos/tcu.png) | Texas Christian | 1-0 | 0-0 | 0 | 0.95 |
-| 12 | ![Texas](logos/texas.png) | Texas | 1-0 | 0-0 | 0 | 0.95 |
-| 13 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 1-0 | 0-0 | 0 | 0.95 |
-| 14 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 | 0.80833 |
-| 15 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 0-0 | 0 | 0.68333 |
-| 16 | ![Arkansas](logos/arkansas.png) | Arkansas | 1-0 | 0-0 | 0 | 0.68333 |
-| 17 | ![Auburn](logos/auburn.png) | Auburn | 1-0 | 0-0 | 0 | 0.68333 |
-| 18 | ![Florida](logos/florida.png) | Florida | 1-0 | 0-0 | 0 | 0.68333 |
-| 19 | ![Georgia](logos/georgia.png) | Georgia | 1-0 | 0-0 | 0 | 0.68333 |
-| 20 | ![Kentucky](logos/kentucky.png) | Kentucky | 1-0 | 0-0 | 0 | 0.68333 |
-| 21 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 1-0 | 0-0 | 0 | 0.68333 |
-| 22 | ![Missouri](logos/missouri.png) | Missouri | 1-0 | 0-0 | 0 | 0.68333 |
-| 23 | ![South Carolina](logos/south-carolina.png) | South Carolina | 1-0 | 0-0 | 0 | 0.68333 |
-| 24 | ![Tennessee](logos/tennessee.png) | Tennessee | 1-0 | 0-0 | 0 | 0.68333 |
-| 25 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 1-0 | 0-0 | 0 | 0.68333 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 14-1 | 100-2 | 0.98039 | 1.04057 |
+| 2 | ![Alabama](logos/alabama.png) | Alabama | 13-2 | 90-5 | 0.94737 | 0.99571 |
+| 3 | ![Michigan](logos/michigan.png) | Michigan | 12-2 | 78-3 | 0.96296 | 0.97941 |
+| 4 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 11-2 | 55-4 | 0.9322 | 0.96035 |
+| 5 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 72-6 | 0.92308 | 0.95651 |
+| 6 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 12-2 | 81-8 | 0.91011 | 0.95536 |
+| 7 | ![Michigan State](logos/michigan-st.png) | Michigan State | 11-2 | 66-6 | 0.91667 | 0.95363 |
+| 8 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 13-1 | 74-2 | 0.97368 | 0.95185 |
+| 9 | ![Baylor](logos/baylor.png) | Baylor | 12-2 | 82-9 | 0.9011 | 0.9513 |
+| 10 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 13-1 | 69-7 | 0.90789 | 0.92636 |
+| 11 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 12-2 | 66-6 | 0.91667 | 0.92591 |
+| 12 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 11-2 | 62-3 | 0.95385 | 0.91 |
+| 13 | ![Mississippi](logos/ole-miss.png) | Mississippi | 10-3 | 55-11 | 0.83333 | 0.90055 |
+| 14 | ![Kentucky](logos/kentucky.png) | Kentucky | 10-3 | 49-13 | 0.79032 | 0.88119 |
+| 15 | ![Houston](logos/houston.png) | Houston | 12-2 | 50-7 | 0.87719 | 0.87629 |
+| 16 | ![Clemson](logos/clemson.png) | Clemson | 10-3 | 51-7 | 0.87931 | 0.86181 |
+| 17 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 12-2 | 64-9 | 0.87671 | 0.85788 |
+| 18 | ![Air Force](logos/air-force.png) | Air Force | 10-3 | 45-9 | 0.83333 | 0.84885 |
+| 19 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 11-3 | 58-12 | 0.82857 | 0.84639 |
+| 20 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 11-2 | 39-9 | 0.8125 | 0.84635 |
+| 21 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 11-3 | 60-13 | 0.82192 | 0.8434 |
+| 22 | ![Iowa](logos/iowa.png) | Iowa | 10-4 | 53-13 | 0.80303 | 0.84316 |
+| 23 | ![Utah State](logos/utah-st.png) | Utah State | 11-3 | 57-14 | 0.80282 | 0.84254 |
+| 24 | ![Arkansas](logos/arkansas.png) | Arkansas | 9-4 | 46-13 | 0.77966 | 0.84178 |
+| 25 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 9-4 | 59-14 | 0.80822 | 0.8356 |
 
 ## After the 2020 Season:
 
