@@ -36,7 +36,7 @@ with open('data/testRecord.csv', 'w') as output:
         item.to_csv(output)
 with open('data/testRecord.csv', 'r') as inp, open('data/record.csv', 'w') as output:
     writer = csv.writer(output)
-    writer.writerow(['Rk','Wk','Winner','Pts','','Loser','Pts'])
+    writer.writerow(['Rk','Wk','Winner','WPts','','Loser','LPts'])
     for row in csv.reader(inp):
         if row[0] != 'Rk':
             writer.writerow([row[0], row[1], row[5], row[6], row[7], row[8], row[9]])

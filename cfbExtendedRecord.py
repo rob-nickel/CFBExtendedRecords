@@ -391,7 +391,7 @@ def gatherRecords():
         toWeek = getWeek()
         FCS = includeFCS()
         for game in csv_reader:
-            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
+            if (((game['WPts'] == None or game['WPts'] == '') or int(game['Wk']) > toWeek) or game['WPts'] == '0'):
 
                 print(f'\tExiting Loop...')
                 break
@@ -440,7 +440,7 @@ def gatherERecords():
         game_count = 0
         toWeek = getWeek()
         for game in csv_reader:
-            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
+            if (((game['WPts'] == None or game['WPts'] == '') or int(game['Wk']) > toWeek) or game['WPts'] == '0'):
                 print(f'\tExiting Loop...')
                 break
 
@@ -636,8 +636,8 @@ def predictNextWeek():
         week = str(getWeek()+1) #next week's predictions
         print("\nPredictions for the next week:")
         for game in csv_reader:
-            if (game['Pts'] == None or game['Pts'] == ''):
-                if week == 100:
+            if ((game['WPts'] == None or game['WPts'] == '') or game['WPts'] == '0'):
+                if week == str(100):
                     week = game['Wk']
                     print(f"Week {week}:")
             if game['Wk'] == week:
@@ -666,10 +666,10 @@ def predictNextWeek():
 
                 if (len(str(winnerName)) <= 6 ):
                     print(f"\t{winnerName} \t\t\tto beat\t{loserName}.")
-                elif (len(str(winnerName)) <= 13):
+                elif (len(str(winnerName)) <= 14):
                     print(f"\t{winnerName} \t\tto beat\t{loserName}.")
                 elif (str(winnerName) == 'Middle Tennessee State'):
-                    print(f"\t{winnerName} to beat\t{loserName}.")
+                    print(f"\t{winnerName}  to beat\t{loserName}.")
                 else:
                     print(f"\t{winnerName} \tto beat\t{loserName}.")
     print()
