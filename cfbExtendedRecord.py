@@ -6,9 +6,9 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'rating' 'noFCS' 'printA' 'printS' 'printC' 'printR' 'printAll'
+Possible command arguments: 'rating' 'noFCS' 'printA' 'printP' 'printS' 'printC' 'printR' 'printAll'
 
-url = 'https://www.sports-reference.com/cfb/years/2019-schedule.html'
+url = 'https://www.sports-reference.com/cfb/years/2022-schedule.html'
 """
 
 import csv
@@ -361,22 +361,27 @@ def printReactRatings():
 
 
 # Prints each conference's rating to the terminal
-def printConferenceRecords():
+def toPrintConference():
     position = 1
     arguments = len(sys.argv)-1
     while (arguments >= position):
         if sys.argv[position] == 'printC' or sys.argv[position] == 'printAll':
-                print('aac  = ' + str(conferenceRating('aac')) + '  |   aac = ' + str(conferenceERating('aac')))
-                print('acc  = ' + str(conferenceRating('acc')) + '  |   acc = ' + str(conferenceERating('acc')))
-                print('b10  = ' + str(conferenceRating('b10')) + '  |   b10 = ' + str(conferenceERating('b10')))
-                print('b12  = ' + str(conferenceRating('b12')) + '  |   b12 = ' + str(conferenceERating('b12')))
-                print('cusa = ' + str(conferenceRating('cusa')) + '  |  cusa = ' + str(conferenceERating('cusa')))
-                print('mac  = ' + str(conferenceRating('mac')) + '  |   mac = ' + str(conferenceERating('mac')))
-                print('mw   = ' + str(conferenceRating('mw')) + '  |    mw = ' + str(conferenceERating('mw')))
-                print('p12  = ' + str(conferenceRating('p12')) + '  |   p12 = ' + str(conferenceERating('p12')))
-                print('sb   = ' + str(conferenceRating('sb')) + '  |    sb = ' + str(conferenceERating('sb')))
-                print('sec  = ' + str(conferenceRating('sec')) + '  |   sec = ' + str(conferenceERating('sec')) + '\n')
+            return True
         position += 1
+    return False
+
+def printConferenceRecords():
+    if toPrintConference():
+        print('aac  = ' + str(conferenceRating('aac')) + '  |   aac = ' + str(conferenceERating('aac')))
+        print('acc  = ' + str(conferenceRating('acc')) + '  |   acc = ' + str(conferenceERating('acc')))
+        print('b10  = ' + str(conferenceRating('b10')) + '  |   b10 = ' + str(conferenceERating('b10')))
+        print('b12  = ' + str(conferenceRating('b12')) + '  |   b12 = ' + str(conferenceERating('b12')))
+        print('cusa = ' + str(conferenceRating('cusa')) + '  |  cusa = ' + str(conferenceERating('cusa')))
+        print('mac  = ' + str(conferenceRating('mac')) + '  |   mac = ' + str(conferenceERating('mac')))
+        print('mw   = ' + str(conferenceRating('mw')) + '  |    mw = ' + str(conferenceERating('mw')))
+        print('p12  = ' + str(conferenceRating('p12')) + '  |   p12 = ' + str(conferenceERating('p12')))
+        print('sb   = ' + str(conferenceRating('sb')) + '  |    sb = ' + str(conferenceERating('sb')))
+        print('sec  = ' + str(conferenceRating('sec')) + '  |   sec = ' + str(conferenceERating('sec')) + '\n')
 
 # Cycles through all games and tabs teams' current records
 def gatherRecords():
@@ -386,7 +391,7 @@ def gatherRecords():
         toWeek = getWeek()
         FCS = includeFCS()
         for game in csv_reader:
-            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
+            if (((game['WPts'] == None or game['WPts'] == '') or int(game['Wk']) > toWeek) or game['WPts'] == '0'):
 
                 print(f'\tExiting Loop...')
                 break
@@ -435,7 +440,7 @@ def gatherERecords():
         game_count = 0
         toWeek = getWeek()
         for game in csv_reader:
-            if ((game['Pts'] == None or game['Pts'] == '') or int(game['Wk']) > toWeek):
+            if (((game['WPts'] == None or game['WPts'] == '') or int(game['Wk']) > toWeek) or game['WPts'] == '0'):
                 print(f'\tExiting Loop...')
                 break
 
@@ -520,8 +525,8 @@ def outputAlphabetical():
 def outputSorted():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
-        sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_record'],row['extended_wins'],row['wins'], ), reverse=True)
+        sortedlist = sorted(csv_reader, key=lambda row:(float(row['extended_losses']),float(row['losses'])))
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_record']),float(row['extended_wins']),float(row['wins']), ), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record'])
@@ -586,9 +591,9 @@ def outputAlphabeticalRating():
 def outputSortedRating():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
         csv_reader = csv.DictReader(csv_result)
-        sortedlist = sorted(csv_reader, key=lambda row:(row['extended_losses'],row['losses']))
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_record'],row['extended_wins'],row['wins'], ), reverse=True)
-        sortedlist = sorted(sortedlist, key=lambda row:(row['extended_rating']), reverse=True)
+        sortedlist = sorted(csv_reader, key=lambda row:(float(row['extended_losses']),float(row['losses'])))
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_record']),float(row['extended_wins']),float(row['wins']), ), reverse=True)
+        sortedlist = sorted(sortedlist, key=lambda row:(float(row['extended_rating'])), reverse=True)
         with open('results/resultsSorted.csv', mode='w') as csv_out:
             csv_writer = csv.writer(csv_out, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['rank','logo','name','wins','losses','extended_wins','extended_losses','extended_record','extended_rating'])
@@ -613,56 +618,66 @@ def outputSortedRating():
     print("\nThe sorted output is finished\n")
 
 # Uses the sorted results to predict winners next week.
+def toPrintPredict():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position] == 'printP' or sys.argv[position] == 'printAll':
+            return True
+        position += 1
+    return False
+
 def predictNextWeek():
+    if not toPrintPredict():
+        return
     with open('data/record.csv', mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
         game_count = 0
-        week = -1
-        print("\nPredictions for next week:")
+        week = str(getWeek()+1) #next week's predictions
+        print("\nPredictions for the next week:")
         for game in csv_reader:
-            if (game['Pts'] == None or game['Pts'] == ''):
-                if week == -1:
+            if ((game['WPts'] == None or game['WPts'] == '') or game['WPts'] == '0'):
+                if week == str(100):
                     week = game['Wk']
                     print(f"Week {week}:")
-                if game['Wk'] == week:
-                    name1 = removeRanking(game['Winner'])
-                    name2 = removeRanking(game['Loser'])
-                    winnerName = ''
-                    loserName = ''
-                    with open('results/resultsSorted.csv', mode='r') as csv_sorted:
-                        sortedTeams = csv.DictReader(csv_sorted)
-                        oneFound = False
-                        for row in sortedTeams:
-                            if name1 == row['name'] and (not oneFound):
-                                oneFound = True
-                                winnerName = name1
-                            elif name2 == row['name'] and (not oneFound):
-                                oneFound = True
-                                winnerName = name2
-                            elif name1 == row['name'] and oneFound:
-                                loserName = name1
-                                break
-                            elif name2 == row['name'] and oneFound:
-                                loserName = name2
-                                break
-                        if loserName == '':
-                            loserName = 'an FCS team'
+            if game['Wk'] == week:
+                name1 = removeRanking(game['Winner'])
+                name2 = removeRanking(game['Loser'])
+                winnerName = ''
+                loserName = ''
+                with open('results/resultsSorted.csv', mode='r') as csv_sorted:
+                    sortedTeams = csv.DictReader(csv_sorted)
+                    oneFound = False
+                    for row in sortedTeams:
+                        if name1 == row['name'] and (not oneFound):
+                            oneFound = True
+                            winnerName = name1
+                        elif name2 == row['name'] and (not oneFound):
+                            oneFound = True
+                            winnerName = name2
+                        elif name1 == row['name'] and oneFound:
+                            loserName = name1
+                            break
+                        elif name2 == row['name'] and oneFound:
+                            loserName = name2
+                            break
+                    if loserName == '':
+                        loserName = 'an FCS team'
 
-                    if (len(str(winnerName)) <= 6 ):
-                        print(f"\t{winnerName} \t\t\tto beat\t{loserName}.")
-                    elif (len(str(winnerName)) <= 13):
-                        print(f"\t{winnerName} \t\tto beat\t{loserName}.")
-                    elif (str(winnerName) == 'Middle Tennessee State'):
-                        print(f"\t{winnerName} to beat\t{loserName}.")
-                    else:
-                        print(f"\t{winnerName} \tto beat\t{loserName}.")
+                if (len(str(winnerName)) <= 6 ):
+                    print(f"\t{winnerName} \t\t\tto beat\t{loserName}.")
+                elif (len(str(winnerName)) <= 14):
+                    print(f"\t{winnerName} \t\tto beat\t{loserName}.")
+                elif (str(winnerName) == 'Middle Tennessee State'):
+                    print(f"\t{winnerName}  to beat\t{loserName}.")
+                else:
+                    print(f"\t{winnerName} \tto beat\t{loserName}.")
     print()
 
 def main():
-    wantRating = toIncludeRating()
     gatherRecords()
     gatherERecords()
-    if wantRating:
+    if toIncludeRating():
         outputAlphabeticalRating()
         outputSortedRating()
     else:
