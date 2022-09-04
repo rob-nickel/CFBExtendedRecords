@@ -1,8 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-                        
-*28-10 on Bowl predictions for 2021*
+*27-10 on Bowl predictions for 2021*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -17,8 +16,11 @@ To run the program:
     *   Adding command line argument `noFCS` removes FCS games from all records
     *   Adding command line argument `rating` adds a rating to each team using their record, extended record, conference's record and conference's extended record
     *   Adding command line argument `week##` runs the program through that week
-*   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2021-schedule.html
-    *   Add `2019` or `2020` to use that year's data
+    *   Adding command line argument `printAll` to output all of the data
+        *   `printC` to print the conference extended results
+        *   `printP` to show the predictions for the next week
+*   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2022-schedule.html
+    *   Add `2019`, `2020`, `2021` to use that year's data
 
 ## Current Rankings
 
@@ -26,33 +28,46 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 14-1 | 100-2 | 0.98039 |
-| 2 | ![Cincinnati](logos/cincinnati.png) | Cincinnati | 13-1 | 74-2 | 0.97368 |
-| 3 | ![Michigan](logos/michigan.png) | Michigan | 12-2 | 78-3 | 0.96296 |
-| 4 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 11-2 | 62-3 | 0.95385 |
-| 5 | ![Alabama](logos/alabama.png) | Alabama | 13-2 | 90-5 | 0.94737 |
-| 6 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 11-2 | 55-4 | 0.9322 |
-| 7 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 72-6 | 0.92308 |
-| 8 | ![San Diego State](logos/san-diego-st.png) | San Diego State | 12-2 | 66-6 | 0.91667 |
-| 9 | ![Michigan State](logos/michigan-st.png) | Michigan State | 11-2 | 66-6 | 0.91667 |
-| 10 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 12-2 | 81-8 | 0.91011 |
-| 11 | ![Louisiana](logos/la-lafayette.png) | Louisiana | 13-1 | 69-7 | 0.90789 |
-| 12 | ![Baylor](logos/baylor.png) | Baylor | 12-2 | 82-9 | 0.9011 |
-| 13 | ![Clemson](logos/clemson.png) | Clemson | 10-3 | 51-7 | 0.87931 |
-| 14 | ![Houston](logos/houston.png) | Houston | 12-2 | 50-7 | 0.87719 |
-| 15 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 12-2 | 64-9 | 0.87671 |
-| 16 | ![Mississippi](logos/ole-miss.png) | Mississippi | 10-3 | 55-11 | 0.83333 |
-| 17 | ![Air Force](logos/air-force.png) | Air Force | 10-3 | 45-9 | 0.83333 |
-| 18 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 11-3 | 58-12 | 0.82857 |
-| 19 | ![Brigham Young](logos/byu.png) | Brigham Young | 10-3 | 52-11 | 0.8254 |
-| 20 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 11-3 | 60-13 | 0.82192 |
-| 21 | ![Appalachian State](logos/appalachian-st.png) | Appalachian State | 10-4 | 52-12 | 0.8125 |
-| 22 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 11-2 | 39-9 | 0.8125 |
-| 23 | ![Utah](logos/utah.png) | Utah | 10-4 | 55-13 | 0.80882 |
-| 24 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 9-4 | 59-14 | 0.80822 |
-| 25 | ![Purdue](logos/purdue.png) | Purdue | 9-4 | 49-12 | 0.80328 |
+| 1 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 1-0 | 1.0 |
+| 2 | ![Indiana](logos/indiana.png) | Indiana | 1-0 | 1-0 | 1.0 |
+| 3 | ![Northwestern](logos/northwestern.png) | Northwestern | 1-0 | 1-0 | 1.0 |
+| 4 | ![Ohio](logos/ohio.png) | Ohio | 1-0 | 1-0 | 1.0 |
+| 5 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 1-0 | 1-0 | 1.0 |
+| 6 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 |
+| 7 | ![Utah State](logos/utah-st.png) | Utah State | 1-1 | 1-0 | 1.0 |
+| 8 | | Everyone Else | | | 0.0 |
 
 ## With Ratings
+
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
+| --- | :---: | --- | --- | --- | --- | --- |
+| 1 | ![Indiana](logos/indiana.png) | Indiana | 1-0 | 1-0 | 1.0 | 1.16667 |
+| 2 | ![Northwestern](logos/northwestern.png) | Northwestern | 1-0 | 1-0 | 1.0 | 1.16667 |
+| 3 | ![Alabama](logos/alabama.png) | Alabama | 1-0 | 1-0 | 1.0 | 1.0 |
+| 4 | ![Ohio](logos/ohio.png) | Ohio | 1-0 | 1-0 | 1.0 | 0.99167 |
+| 5 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 1-0 | 1-0 | 1.0 | 0.9625 |
+| 6 | ![Baylor](logos/baylor.png) | Baylor | 1-0 | 0-0 | 0 | 0.95 |
+| 7 | ![Iowa State](logos/iowa-st.png) | Iowa State | 1-0 | 0-0 | 0 | 0.95 |
+| 8 | ![Kansas](logos/kansas.png) | Kansas | 1-0 | 0-0 | 0 | 0.95 |
+| 9 | ![Kansas State](logos/kansas-st.png) | Kansas State | 1-0 | 0-0 | 0 | 0.95 |
+| 10 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 1-0 | 0-0 | 0 | 0.95 |
+| 11 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 1-0 | 0-0 | 0 | 0.95 |
+| 12 | ![Texas Christian](logos/tcu.png) | Texas Christian | 1-0 | 0-0 | 0 | 0.95 |
+| 13 | ![Texas](logos/texas.png) | Texas | 1-0 | 0-0 | 0 | 0.95 |
+| 14 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 1-0 | 0-0 | 0 | 0.95 |
+| 15 | ![Illinois](logos/illinois.png) | Illinois | 1-1 | 1-0 | 1.0 | 0.94167 |
+| 16 | ![Utah State](logos/utah-st.png) | Utah State | 1-1 | 1-0 | 1.0 | 0.8 |
+| 17 | ![Iowa](logos/iowa.png) | Iowa | 1-0 | 0-0 | 0 | 0.71667 |
+| 18 | ![Maryland](logos/maryland.png) | Maryland | 1-0 | 0-0 | 0 | 0.71667 |
+| 19 | ![Michigan](logos/michigan.png) | Michigan | 1-0 | 0-0 | 0 | 0.71667 |
+| 20 | ![Michigan State](logos/michigan-st.png) | Michigan State | 1-0 | 0-0 | 0 | 0.71667 |
+| 21 | ![Minnesota](logos/minnesota.png) | Minnesota | 1-0 | 0-0 | 0 | 0.71667 |
+| 22 | ![Ohio State](logos/ohio-st.png) | Ohio State | 1-0 | 0-0 | 0 | 0.71667 |
+| 23 | ![Penn State](logos/penn-st.png) | Penn State | 1-0 | 0-0 | 0 | 0.71667 |
+| 24 | ![Rutgers](logos/rutgers.png) | Rutgers | 1-0 | 0-0 | 0 | 0.71667 |
+| 25 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 1-0 | 0-0 | 0 | 0.71667 |
+
+## After the 2020 Season:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
