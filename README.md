@@ -26,13 +26,74 @@ To run the program:
 
 [Full Rankings](results/resultsSorted.csv)
 
-//To add after week 1
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
+| --- | :---: | --- | --- | --- | --- |
+| 1 | ![Ohio State](logos/ohio-st.png) | Ohio State | 8-0 | 34-0 | 1.0 |
+| 2 | ![Tennessee](logos/tennessee.png) | Tennessee | 8-0 | 31-0 | 1.0 |
+| 3 | ![Clemson](logos/clemson.png) | Clemson | 8-0 | 30-0 | 1.0 |
+| 4 | ![Michigan](logos/michigan.png) | Michigan | 8-0 | 30-0 | 1.0 |
+| 5 | ![Texas Christian](logos/tcu.png) | Texas Christian | 8-0 | 30-0 | 1.0 |
+| 6 | ![Georgia](logos/georgia.png) | Georgia | 8-0 | 29-0 | 1.0 |
+| 7 | ![Alabama](logos/alabama.png) | Alabama | 7-1 | 26-0 | 1.0 |
+| 8 | ![Oregon](logos/oregon.png) | Oregon | 7-1 | 24-0 | 1.0 |
+| 9 | ![Penn State](logos/penn-st.png) | Penn State | 6-2 | 21-0 | 1.0 |
+| 10 | ![UCLA](logos/ucla.png) | UCLA | 7-1 | 26-1 | 0.96296 |
+| 11 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-2 | 22-1 | 0.95652 |
+| 12 | ![Southern California](logos/southern-california.png) | Southern California | 7-1 | 27-2 | 0.93103 |
+| 13 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-1 | 26-2 | 0.92857 |
+| 14 | ![North Carolina State](logos/north-carolina-st.png) | North Carolina State | 6-2 | 21-2 | 0.91304 |
+| 15 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 6-2 | 19-2 | 0.90476 |
+| 16 | ![Liberty](logos/liberty.png) | Liberty | 7-1 | 18-2 | 0.9 |
+| 17 | ![North Carolina](logos/north-carolina.png) | North Carolina | 7-1 | 23-3 | 0.88462 |
+| 18 | ![Tulane](logos/tulane.png) | Tulane | 7-1 | 23-3 | 0.88462 |
+| 19 | ![Syracuse](logos/syracuse.png) | Syracuse | 6-2 | 23-3 | 0.88462 |
+| 20 | ![Louisiana State](logos/lsu.png) | Louisiana State | 6-2 | 22-3 | 0.88 |
+| 21 | ![Wake Forest](logos/wake-forest.png) | Wake Forest | 6-2 | 20-3 | 0.86957 |
+| 22 | ![Maryland](logos/maryland.png) | Maryland | 6-2 | 18-3 | 0.85714 |
+| 23 | ![Oregon State](logos/oregon-st.png) | Oregon State | 6-2 | 18-3 | 0.85714 |
+| 24 | ![Troy](logos/troy.png) | Troy | 6-2 | 23-4 | 0.85185 |
+| 25 | ![Illinois](logos/illinois.png) | Illinois | 7-1 | 25-5 | 0.83333 |
 
 ## With Ratings
 
-//To add after week 1
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
+| --- | :---: | --- | --- | --- | --- | --- |
+| 1 | ![Tennessee](logos/tennessee.png) | Tennessee | 8-0 | 31-0 | 1.0 | 1.15839 |
+| 2 | ![Georgia](logos/georgia.png) | Georgia | 8-0 | 29-0 | 1.0 | 1.15839 |
+| 3 | ![Texas Christian](logos/tcu.png) | Texas Christian | 8-0 | 30-0 | 1.0 | 1.10333 |
+| 4 | ![Alabama](logos/alabama.png) | Alabama | 7-1 | 26-0 | 1.0 | 1.10214 |
+| 5 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-1 | 26-2 | 0.92857 | 1.07624 |
+| 6 | ![Ohio State](logos/ohio-st.png) | Ohio State | 8-0 | 34-0 | 1.0 | 1.07258 |
+| 7 | ![Michigan](logos/michigan.png) | Michigan | 8-0 | 30-0 | 1.0 | 1.07258 |
+| 8 | ![Clemson](logos/clemson.png) | Clemson | 8-0 | 30-0 | 1.0 | 1.05017 |
+| 9 | ![Oregon](logos/oregon.png) | Oregon | 7-1 | 24-0 | 1.0 | 1.00777 |
+| 10 | ![Louisiana State](logos/lsu.png) | Louisiana State | 6-2 | 22-3 | 0.88 | 0.99189 |
+| 11 | ![UCLA](logos/ucla.png) | UCLA | 7-1 | 26-1 | 0.96296 | 0.9911 |
+| 12 | ![Southern California](logos/southern-california.png) | Southern California | 7-1 | 27-2 | 0.93103 | 0.97674 |
+| 13 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-2 | 22-1 | 0.95652 | 0.97127 |
+| 14 | ![Penn State](logos/penn-st.png) | Penn State | 6-2 | 21-0 | 1.0 | 0.96008 |
+| 15 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 6-2 | 19-2 | 0.90476 | 0.94798 |
+| 16 | ![North Carolina](logos/north-carolina.png) | North Carolina | 7-1 | 23-3 | 0.88462 | 0.942 |
+| 17 | ![Illinois](logos/illinois.png) | Illinois | 7-1 | 25-5 | 0.83333 | 0.94132 |
+| 18 | ![Tulane](logos/tulane.png) | Tulane | 7-1 | 23-3 | 0.88462 | 0.90592 |
+| 19 | ![Liberty](logos/liberty.png) | Liberty | 7-1 | 18-2 | 0.9 | 0.89875 |
+| 20 | ![North Carolina State](logos/north-carolina-st.png) | North Carolina State | 6-2 | 21-2 | 0.91304 | 0.89854 |
+| 21 | ![Maryland](logos/maryland.png) | Maryland | 6-2 | 18-3 | 0.85714 | 0.89579 |
+| 22 | ![Kentucky](logos/kentucky.png) | Kentucky | 5-3 | 15-4 | 0.78947 | 0.8949 |
+| 23 | ![Oregon State](logos/oregon-st.png) | Oregon State | 6-2 | 18-3 | 0.85714 | 0.88723 |
+| 24 | ![Syracuse](logos/syracuse.png) | Syracuse | 6-2 | 23-3 | 0.88462 | 0.88575 |
+| 25 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 5-3 | 19-6 | 0.76 | 0.88164 |
 
-## After the 2020 Season:
+## Predictions:
+
+| Year | Wins | Losses | Win Rate |
+| --- | --- | --- | --- |
+| 2019 | 628 | 144 | 81.3% |
+| 2020 | 441 | 90 | 83.1% |
+| 2021 | 610 | 156 | 79.6% |
+| 2022 | 387 | 80 | 82.9% |
+
+## After the 2021 Season:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |

@@ -13,7 +13,7 @@ index,abbreviation,name,conference
 11,baylor,Baylor,b12
 12,boise-st,Boise State,mw
 13,boston-college,Boston College,acc
-14,bowling-green,Bowling Green State,mac
+14,bowling-green,Bowling Green,mac
 15,buffalo,Buffalo,mac
 16,byu,Brigham Young,ind
 17,california,California,p12
