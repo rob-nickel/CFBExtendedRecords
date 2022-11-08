@@ -63,8 +63,30 @@ def printWeeks():
     print("Week:\tWins:\tLosses:\tWin Rate:")
     print("-----------------------------------------")
     for i in range(0,rows):
-        winRate = week_array[i][1] / (week_array[i][1] + week_array[i][2])
-        print(f"{week_array[i][0]}\t{week_array[i][1]}\t{week_array[i][2]}\t{winRate}")
+        if week_array[i][0] == 18:
+            wins = week_array[i][1] + week_array[i+1][1] + week_array[i+2][1]
+            losses = week_array[i][2] + week_array[i+1][2] + week_array[i+2][2]
+            winRate = wins / (wins + losses)
+        elif week_array[i][0] == 19 or week_array[i][0] == 20:
+            continue
+        else:
+            wins = week_array[i][1]
+            losses = week_array[i][2]
+            winRate = wins / (wins + losses)
+        winRatePercent = "{:.1%}".format(winRate)
+        if week_array[i][0] == 16:
+            phrase = "Conference Championships"
+        elif week_array[i][0] == 17:
+            phrase = "Army v Navy"
+        elif week_array[i][0] == 18:
+            phrase = "Bowls"
+        elif week_array[i][0] == 21:
+            phrase = "NY6"
+        elif week_array[i][0] == 22:
+            phrase = "National Championship"
+        else:
+            phrase = ""
+        print(f"{week_array[i][0]}\t{wins}\t{losses}\t{winRatePercent}\t{phrase}")
     print()
 
 def printYears():
@@ -72,8 +94,15 @@ def printYears():
     print("Year:\tWins:\tLosses:\tWin Rate:")
     print("-----------------------------------------")
     for i in range(0,rows):
-        winRate = year_array[i][1] / (year_array[i][1] + year_array[i][2])
-        print(f"{year_array[i][0]}\t{year_array[i][1]}\t{year_array[i][2]}\t{winRate}")
+        wins = year_array[i][1]
+        losses = year_array[i][2]
+        winRate = wins / (wins + losses)
+        winRatePercent = "{:.1%}".format(winRate)
+        if year_array[i][0] == 2020:
+            phrase = "Covid"
+        else:
+            phrase = ""
+        print(f"{year_array[i][0]}\t{wins}\t{losses}\t{winRatePercent}\t{phrase}")
     print()
 
 def printTotals():
@@ -85,7 +114,8 @@ def printTotals():
         wins += year_array[i][1]
         losses += year_array[i][2]
     winRate = wins / (wins + losses)
-    print(f"Correct: {wins}\tIncorrect: {losses}\tWin Rate: {winRate}")
+    winRatePercent = "{:.1%}".format(winRate)
+    print(f"Correct: {wins}\tIncorrect: {losses}\tWin Rate: {winRatePercent}")
     print()
 
 def printSortedWeeks():
