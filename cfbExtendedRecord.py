@@ -58,6 +58,22 @@ p12 = np.zeros([4], dtype=int)
 sb = np.zeros([4], dtype=int)
 sec = np.zeros([4], dtype=int)
 
+def resetArrays(maxTeams):
+    for i in range(0,int(maxTeams),1):
+        for j in range(0,3,1):
+            my_array[i][j]=0
+    for i in range(0,3,1):
+        aac[i] = 0
+        acc[i] = 0
+        b10[i] = 0
+        b12[i] = 0
+        cusa[i] = 0
+        mac[i] = 0
+        mw[i] = 0
+        p12[i] = 0
+        sb[i] = 0
+        sec[i] = 0
+
 # Toggles the wantRating variable if the 'rating' argument is included
 def toIncludeRating():
     position = 1
@@ -437,6 +453,8 @@ def gatherRecords(predictionAnalysisWeek):
             if specGame == 1:
                 break
             
+            if int(game['Wk']) == toWeek:
+                break
             winnerName = removeRanking(game['Winner'])
             loserName = removeRanking(game['Loser'])
 
@@ -488,7 +506,8 @@ def gatherERecords(predictionAnalysisWeek):
                 continue
             if specGame == 1:
                 break
-
+            if int(game['Wk']) == toWeek:
+                break
             # Removes rankings from front of team names
             winnerName = removeRanking(game['Winner'])
             loserName = removeRanking(game['Loser'])
@@ -761,6 +780,7 @@ def analyzePredictions():
     results_array[1][0] = 0
     results_array[1][1] = 0
     for week in range(2, totalWeeks+1):
+        resetArrays(numTeams())
         gatherRecords(week)
         gatherERecords(week)
         outputAlphabeticalRating()
@@ -780,10 +800,12 @@ def analyzePredictions():
                                 results_array[week][0] += 1
                             else:
                                 results_array[week][1] += 1
-        print(f"Week {str(week)}: Wins {results_array[week][0]}  Losses {results_array[week][1]}  Win Rate {results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
+        #print(f"Week {str(week)}: Wins {results_array[week][0]}  Losses {results_array[week][1]}  Win Rate {results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
+        print(f"2022,{str(week)},{results_array[week][0]},{results_array[week][1]},{results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
     print()
 
 def main():
+
     if toPrintAnalyze():
         analyzePredictions()
     else:
