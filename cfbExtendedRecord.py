@@ -432,6 +432,10 @@ def printConferenceRecords():
 def specialGameResult(game):
     if ((game['Winner'] == 'San Jose State') and (game['Loser'] == 'New Mexico State') and (game['WPts'] == '0')): #canceled game in 2022
         return 2
+    if ((game['WPts'] == '0') and ((game['Loser'] == 'Virginia') or game['Winner'] == 'Virginia')):
+        return 2
+    if ((game['WPts'] == '0') and (game['Loser'] == 'Buffalo')):
+        return 2
     if ((game['WPts'] == None or game['WPts'] == '') or game['WPts'] == '0'):
         return 1
     return 0
