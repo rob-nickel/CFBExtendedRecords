@@ -1,7 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-*65.3% successful predictions*
+*65.4% successful predictions*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -88,10 +88,10 @@ To run the program:
 
 | Year | Wins | Losses | Win Rate |
 | --- | --- | --- | --- |
-| 2019 | 509 | 263 | 65.9% |
-| 2020 | 344 | 185 | 65.0% |
-| 2021 | 506 | 260 | 66.1% |
-| 2022 | 457 | 258 | 63.9% |
+| 2019 | 514 | 258 | 66.6% |
+| 2020 | 350 | 179 | 66.2% |
+| 2021 | 500 | 266 | 65.3% |
+| 2022 | 464 | 263 | 63.8% |
 
 ## After the 2021 Season:
 

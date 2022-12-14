@@ -45,6 +45,21 @@ def recordFileName():
         position += 1
     return 'data/record2022.csv'
 
+def getYear():
+    position = 1
+    arguments = len(sys.argv)-1
+    while (arguments >= position):
+        if sys.argv[position].lower() == '2019':
+            return '2019'
+        if sys.argv[position].lower() == '2020':
+            return '2020'
+        if sys.argv[position].lower() == '2021':
+            return '2021'
+        if sys.argv[position].lower() == '2022':
+            return '2022'
+        position += 1
+    return '2022'
+
 # Wins	Losses	Extended Wins	Extended Losses
 my_array = np.zeros([numTeams(),4], dtype=int)
 aac = np.zeros([4], dtype=int)
@@ -60,7 +75,7 @@ sec = np.zeros([4], dtype=int)
 
 def resetArrays(maxTeams):
     for i in range(0,int(maxTeams),1):
-        for j in range(0,3,1):
+        for j in range(0,4,1):
             my_array[i][j]=0
     for i in range(0,3,1):
         aac[i] = 0
@@ -404,7 +419,6 @@ def printReactRatings():
             elif row['rank'] == '25':
                 print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}', rating: '{row['extended_rating']}'}}")
             else: print(f"{{rank: {row['rank']}, name: '{row['name']}', record: '{row['wins']}-{row['losses']}', extendedRecord: '{row['extended_wins']}-{row['extended_losses']}', extendedWinRate: '{row['extended_record']}', rating: '{row['extended_rating']}'}},")
-
 
 # Prints each conference's rating to the terminal
 def toPrintConference():
@@ -768,6 +782,7 @@ def toPrintAnalyze():
 def analyzePredictions():
     if not toPrintAnalyze():
         return
+    year=getYear()
     totalWeeks = 0
     with open(recordFileName(), mode='r') as csv_record:
         csv_reader = csv.DictReader(csv_record)
@@ -805,11 +820,10 @@ def analyzePredictions():
                             else:
                                 results_array[week][1] += 1
         #print(f"Week {str(week)}: Wins {results_array[week][0]}  Losses {results_array[week][1]}  Win Rate {results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
-        print(f"2022,{str(week)},{results_array[week][0]},{results_array[week][1]},{results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
+        print(f"{str(year)},{str(week)},{results_array[week][0]},{results_array[week][1]},{results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
     print()
 
 def main():
-
     if toPrintAnalyze():
         analyzePredictions()
     else:
