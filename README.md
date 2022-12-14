@@ -40,9 +40,9 @@ To run the program:
 | 10 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-3 | 59-7 | 0.89394 |
 | 11 | ![Clemson](logos/clemson.png) | Clemson | 11-2 | 63-8 | 0.88732 |
 | 12 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-2 | 39-5 | 0.88636 |
-| 13 | ![Oregon State](logos/oregon-st.png) | Oregon State | 9-3 | 45-7 | 0.86538 |
-| 14 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 57-9 | 0.86364 |
-| 15 | ![Troy](logos/troy.png) | Troy | 11-2 | 63-10 | 0.86301 |
+| 13 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 58-9 | 0.86567 |
+| 14 | ![Oregon State](logos/oregon-st.png) | Oregon State | 9-3 | 45-7 | 0.86538 |
+| 15 | ![Troy](logos/troy.png) | Troy | 11-2 | 64-10 | 0.86486 |
 | 16 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 62-10 | 0.86111 |
 | 17 | ![Utah](logos/utah.png) | Utah | 10-3 | 57-12 | 0.82609 |
 | 18 | ![Florida State](logos/florida-st.png) | Florida State | 9-3 | 48-11 | 0.81356 |
@@ -51,7 +51,7 @@ To run the program:
 | 21 | ![Washington](logos/washington.png) | Washington | 10-2 | 48-12 | 0.8 |
 | 22 | ![UCLA](logos/ucla.png) | UCLA | 9-3 | 47-12 | 0.79661 |
 | 23 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 41-11 | 0.78846 |
-| 24 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 9-3 | 45-14 | 0.76271 |
+| 24 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 9-3 | 46-14 | 0.76667 |
 | 25 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 8-4 | 50-16 | 0.75758 |
 
 ## With Ratings
@@ -67,22 +67,22 @@ To run the program:
 | 7 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 55-1 | 0.98214 | 0.96155 |
 | 8 | ![Southern California](logos/southern-california.png) | Southern California | 11-2 | 63-6 | 0.91304 | 0.93432 |
 | 9 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-3 | 59-7 | 0.89394 | 0.9089 |
-| 10 | ![Clemson](logos/clemson.png) | Clemson | 11-2 | 63-8 | 0.88732 | 0.90225 |
-| 11 | ![Oregon](logos/oregon.png) | Oregon | 9-3 | 46-5 | 0.90196 | 0.88606 |
-| 12 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-2 | 39-5 | 0.88636 | 0.88602 |
-| 13 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 62-10 | 0.86111 | 0.8831 |
+| 10 | ![Clemson](logos/clemson.png) | Clemson | 11-2 | 63-8 | 0.88732 | 0.90241 |
+| 11 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-2 | 39-5 | 0.88636 | 0.88654 |
+| 12 | ![Oregon](logos/oregon.png) | Oregon | 9-3 | 46-5 | 0.90196 | 0.88606 |
+| 13 | ![Troy](logos/troy.png) | Troy | 11-2 | 64-10 | 0.86486 | 0.88263 |
 | 14 | ![Louisiana State](logos/lsu.png) | Louisiana State | 9-4 | 51-12 | 0.80952 | 0.88138 |
-| 15 | ![Troy](logos/troy.png) | Troy | 11-2 | 63-10 | 0.86301 | 0.88128 |
+| 15 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 62-10 | 0.86111 | 0.88063 |
 | 16 | ![Washington](logos/washington.png) | Washington | 10-2 | 48-12 | 0.8 | 0.87768 |
 | 17 | ![Oregon State](logos/oregon-st.png) | Oregon State | 9-3 | 45-7 | 0.86538 | 0.8696 |
 | 18 | ![Utah](logos/utah.png) | Utah | 10-3 | 57-12 | 0.82609 | 0.86057 |
 | 19 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 41-11 | 0.78846 | 0.86037 |
-| 20 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 57-9 | 0.86364 | 0.85207 |
+| 20 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 58-9 | 0.86567 | 0.85309 |
 | 21 | ![UCLA](logos/ucla.png) | UCLA | 9-3 | 47-12 | 0.79661 | 0.83865 |
 | 22 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-4 | 43-16 | 0.72881 | 0.83353 |
 | 23 | ![South Carolina](logos/south-carolina.png) | South Carolina | 8-4 | 45-18 | 0.71429 | 0.82699 |
 | 24 | ![Texas](logos/texas.png) | Texas | 8-4 | 52-13 | 0.8 | 0.82047 |
-| 25 | ![Florida State](logos/florida-st.png) | Florida State | 9-3 | 48-11 | 0.81356 | 0.81843 |
+| 25 | ![Florida State](logos/florida-st.png) | Florida State | 9-3 | 48-11 | 0.81356 | 0.81596 |
 
 ## Predictions:
 
