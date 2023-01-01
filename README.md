@@ -1,7 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-*65.4% successful predictions*
+*65.3% successful predictions*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -28,61 +28,61 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 13-0 | 83-0 | 1.0 |
-| 2 | ![Michigan](logos/michigan.png) | Michigan | 13-0 | 80-0 | 1.0 |
-| 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-1 | 63-0 | 1.0 |
-| 4 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 55-1 | 0.98214 |
-| 5 | ![Texas Christian](logos/tcu.png) | Texas Christian | 12-1 | 67-3 | 0.95714 |
-| 6 | ![Tennessee](logos/tennessee.png) | Tennessee | 10-2 | 58-4 | 0.93548 |
-| 7 | ![Southern California](logos/southern-california.png) | Southern California | 11-2 | 63-6 | 0.91304 |
-| 8 | ![Oregon](logos/oregon.png) | Oregon | 9-3 | 46-5 | 0.90196 |
-| 9 | ![Alabama](logos/alabama.png) | Alabama | 10-2 | 55-6 | 0.90164 |
-| 10 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-3 | 59-7 | 0.89394 |
-| 11 | ![Clemson](logos/clemson.png) | Clemson | 11-2 | 63-8 | 0.88732 |
-| 12 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-2 | 39-5 | 0.88636 |
-| 13 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 58-9 | 0.86567 |
-| 14 | ![Oregon State](logos/oregon-st.png) | Oregon State | 9-3 | 45-7 | 0.86538 |
-| 15 | ![Troy](logos/troy.png) | Troy | 11-2 | 64-10 | 0.86486 |
-| 16 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 62-10 | 0.86111 |
-| 17 | ![Utah](logos/utah.png) | Utah | 10-3 | 57-12 | 0.82609 |
-| 18 | ![Florida State](logos/florida-st.png) | Florida State | 9-3 | 48-11 | 0.81356 |
-| 19 | ![Louisiana State](logos/lsu.png) | Louisiana State | 9-4 | 51-12 | 0.80952 |
-| 20 | ![Texas](logos/texas.png) | Texas | 8-4 | 52-13 | 0.8 |
-| 21 | ![Washington](logos/washington.png) | Washington | 10-2 | 48-12 | 0.8 |
-| 22 | ![UCLA](logos/ucla.png) | UCLA | 9-3 | 47-12 | 0.79661 |
-| 23 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 41-11 | 0.78846 |
-| 24 | ![Coastal Carolina](logos/coastal-caro.png) | Coastal Carolina | 9-3 | 46-14 | 0.76667 |
-| 25 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 8-4 | 50-16 | 0.75758 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 14-0 | 96-0 | 1.0 |
+| 2 | ![Michigan](logos/michigan.png) | Michigan | 13-1 | 82-1 | 0.98795 |
+| 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 68-1 | 0.98551 |
+| 4 | ![Texas Christian](logos/tcu.png) | Texas Christian | 13-1 | 81-4 | 0.95294 |
+| 5 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 58-3 | 0.95082 |
+| 6 | ![Tennessee](logos/tennessee.png) | Tennessee | 11-2 | 71-5 | 0.93421 |
+| 7 | ![Oregon](logos/oregon.png) | Oregon | 10-3 | 56-5 | 0.91803 |
+| 8 | ![Alabama](logos/alabama.png) | Alabama | 11-2 | 66-6 | 0.91667 |
+| 9 | ![Southern California](logos/southern-california.png) | Southern California | 11-2 | 66-6 | 0.91667 |
+| 10 | ![Oregon State](logos/oregon-st.png) | Oregon State | 10-3 | 54-7 | 0.88525 |
+| 11 | ![Troy](logos/troy.png) | Troy | 12-2 | 78-11 | 0.8764 |
+| 12 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-4 | 61-10 | 0.85915 |
+| 13 | ![Clemson](logos/clemson.png) | Clemson | 11-3 | 66-11 | 0.85714 |
+| 14 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 65-11 | 0.85526 |
+| 15 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-3 | 61-12 | 0.83562 |
+| 16 | ![Louisiana State](logos/lsu.png) | Louisiana State | 9-4 | 54-12 | 0.81818 |
+| 17 | ![Washington](logos/washington.png) | Washington | 11-2 | 58-13 | 0.8169 |
+| 18 | ![Florida State](logos/florida-st.png) | Florida State | 10-3 | 55-13 | 0.80882 |
+| 19 | ![Utah](logos/utah.png) | Utah | 10-3 | 58-14 | 0.80556 |
+| 20 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-3 | 40-11 | 0.78431 |
+| 21 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 43-12 | 0.78182 |
+| 22 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 9-4 | 59-17 | 0.77632 |
+| 23 | ![Texas](logos/texas.png) | Texas | 8-5 | 52-16 | 0.76471 |
+| 24 | ![Fresno State](logos/fresno-st.png) | Fresno State | 10-4 | 50-16 | 0.75758 |
+| 25 | ![UCLA](logos/ucla.png) | UCLA | 9-4 | 48-16 | 0.75 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 13-0 | 83-0 | 1.0 | 1.10556 |
-| 2 | ![Michigan](logos/michigan.png) | Michigan | 13-0 | 80-0 | 1.0 | 1.04459 |
-| 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-1 | 63-0 | 1.0 | 1.00709 |
-| 4 | ![Texas Christian](logos/tcu.png) | Texas Christian | 12-1 | 67-3 | 0.95714 | 1.00657 |
-| 5 | ![Tennessee](logos/tennessee.png) | Tennessee | 10-2 | 58-4 | 0.93548 | 1.00152 |
-| 6 | ![Alabama](logos/alabama.png) | Alabama | 10-2 | 55-6 | 0.90164 | 0.9863 |
-| 7 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 55-1 | 0.98214 | 0.96155 |
-| 8 | ![Southern California](logos/southern-california.png) | Southern California | 11-2 | 63-6 | 0.91304 | 0.93432 |
-| 9 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-3 | 59-7 | 0.89394 | 0.9089 |
-| 10 | ![Clemson](logos/clemson.png) | Clemson | 11-2 | 63-8 | 0.88732 | 0.90241 |
-| 11 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-2 | 39-5 | 0.88636 | 0.88654 |
-| 12 | ![Oregon](logos/oregon.png) | Oregon | 9-3 | 46-5 | 0.90196 | 0.88606 |
-| 13 | ![Troy](logos/troy.png) | Troy | 11-2 | 64-10 | 0.86486 | 0.88263 |
-| 14 | ![Louisiana State](logos/lsu.png) | Louisiana State | 9-4 | 51-12 | 0.80952 | 0.88138 |
-| 15 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 62-10 | 0.86111 | 0.88063 |
-| 16 | ![Washington](logos/washington.png) | Washington | 10-2 | 48-12 | 0.8 | 0.87768 |
-| 17 | ![Oregon State](logos/oregon-st.png) | Oregon State | 9-3 | 45-7 | 0.86538 | 0.8696 |
-| 18 | ![Utah](logos/utah.png) | Utah | 10-3 | 57-12 | 0.82609 | 0.86057 |
-| 19 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 41-11 | 0.78846 | 0.86037 |
-| 20 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-2 | 58-9 | 0.86567 | 0.85309 |
-| 21 | ![UCLA](logos/ucla.png) | UCLA | 9-3 | 47-12 | 0.79661 | 0.83865 |
-| 22 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-4 | 43-16 | 0.72881 | 0.83353 |
-| 23 | ![South Carolina](logos/south-carolina.png) | South Carolina | 8-4 | 45-18 | 0.71429 | 0.82699 |
-| 24 | ![Texas](logos/texas.png) | Texas | 8-4 | 52-13 | 0.8 | 0.82047 |
-| 25 | ![Florida State](logos/florida-st.png) | Florida State | 9-3 | 48-11 | 0.81356 | 0.81596 |
+| 1 | ![Georgia](logos/georgia.png) | Georgia | 14-0 | 96-0 | 1.0 | 1.09431 |
+| 2 | ![Michigan](logos/michigan.png) | Michigan | 13-1 | 82-1 | 0.98795 | 1.01022 |
+| 3 | ![Tennessee](logos/tennessee.png) | Tennessee | 11-2 | 71-5 | 0.93421 | 0.99547 |
+| 4 | ![Texas Christian](logos/tcu.png) | Texas Christian | 13-1 | 81-4 | 0.95294 | 0.98967 |
+| 5 | ![Alabama](logos/alabama.png) | Alabama | 11-2 | 66-6 | 0.91667 | 0.98758 |
+| 6 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 68-1 | 0.98551 | 0.97203 |
+| 7 | ![Penn State](logos/penn-st.png) | Penn State | 10-2 | 58-3 | 0.95082 | 0.95065 |
+| 8 | ![Southern California](logos/southern-california.png) | Southern California | 11-2 | 66-6 | 0.91667 | 0.93725 |
+| 9 | ![Oregon](logos/oregon.png) | Oregon | 10-3 | 56-5 | 0.91803 | 0.90325 |
+| 10 | ![Washington](logos/washington.png) | Washington | 11-2 | 58-13 | 0.8169 | 0.89236 |
+| 11 | ![Oregon State](logos/oregon-st.png) | Oregon State | 10-3 | 54-7 | 0.88525 | 0.8885 |
+| 12 | ![Troy](logos/troy.png) | Troy | 12-2 | 78-11 | 0.8764 | 0.88623 |
+| 13 | ![Tulane](logos/tulane.png) | Tulane | 11-2 | 65-11 | 0.85526 | 0.87646 |
+| 14 | ![Louisiana State](logos/lsu.png) | Louisiana State | 9-4 | 54-12 | 0.81818 | 0.87403 |
+| 15 | ![Clemson](logos/clemson.png) | Clemson | 11-3 | 66-11 | 0.85714 | 0.8613 |
+| 16 | ![Utah](logos/utah.png) | Utah | 10-3 | 58-14 | 0.80556 | 0.85264 |
+| 17 | ![Kansas State](logos/kansas-st.png) | Kansas State | 10-4 | 61-10 | 0.85915 | 0.85104 |
+| 18 | ![Mississippi State](logos/mississippi-st.png) | Mississippi State | 8-4 | 43-12 | 0.78182 | 0.84613 |
+| 19 | ![Florida State](logos/florida-st.png) | Florida State | 10-3 | 55-13 | 0.80882 | 0.82095 |
+| 20 | ![Texas-San Antonio](logos/utsa.png) | Texas-San Antonio | 11-3 | 61-12 | 0.83562 | 0.81468 |
+| 21 | ![South Alabama](logos/south-ala.png) | South Alabama | 10-3 | 40-11 | 0.78431 | 0.80523 |
+| 22 | ![UCLA](logos/ucla.png) | UCLA | 9-4 | 48-16 | 0.75 | 0.79302 |
+| 23 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-5 | 44-21 | 0.67692 | 0.77584 |
+| 24 | ![Minnesota](logos/minnesota.png) | Minnesota | 9-4 | 35-16 | 0.68627 | 0.76814 |
+| 25 | ![South Carolina](logos/south-carolina.png) | South Carolina | 8-5 | 46-24 | 0.65714 | 0.76694 |
 
 ## Predictions:
 
@@ -91,7 +91,7 @@ To run the program:
 | 2019 | 514 | 258 | 66.6% |
 | 2020 | 350 | 179 | 66.2% |
 | 2021 | 500 | 266 | 65.3% |
-| 2022 | 464 | 263 | 63.8% |
+| 2022 | 464 | 263 | 63.6% |
 
 ## After the 2021 Season:
 
