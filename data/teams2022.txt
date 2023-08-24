@@ -30,7 +30,7 @@ index,abbreviation,name,conference
 28,florida,Florida,sec
 29,fla-atlantic,Florida Atlantic,cusa
 30,fiu,Florida International,cusa
-31,florida-st,Florida State,aac
+31,florida-st,Florida State,acc
 32,fresno-st,Fresno State,mw
 33,georgia,Georgia,sec
 34,ga-southern,Georgia Southern,sb
@@ -53,7 +53,7 @@ index,abbreviation,name,conference
 51,liberty,Liberty,ind
 52,louisville,Louisville,acc
 53,lsu,Louisiana State,sec
-54,marshall,Marshall,cusa
+54,marshall,Marshall,sb
 55,maryland,Maryland,b10
 56,massachusetts,Massachusetts,ind
 57,memphis,Memphis,aac
@@ -80,7 +80,7 @@ index,abbreviation,name,conference
 78,ohio-st,Ohio State,b10
 79,oklahoma,Oklahoma,b12
 80,oklahoma-st,Oklahoma State,b12
-81,old-dominion,Old Dominion,cusa
+81,old-dominion,Old Dominion,sb
 82,ole-miss,Mississippi,sec
 83,oregon,Oregon,p12
 84,oregon-st,Oregon State,p12
@@ -95,7 +95,7 @@ index,abbreviation,name,conference
 93,south-ala,South Alabama,sb
 94,south-carolina,South Carolina,sec
 95,south-fla,South Florida,aac
-96,southern-miss,Southern Mississippi,cusa
+96,southern-miss,Southern Mississippi,sb
 97,stanford,Stanford,p12
 98,syracuse,Syracuse,acc
 99,tcu,Texas Christian,b12
@@ -110,7 +110,7 @@ index,abbreviation,name,conference
 108,tulane,Tulane,aac
 109,tulsa,Tulsa,aac
 110,uab,Alabama-Birmingham,cusa
-111,uconn,Connecticut,aac
+111,uconn,Connecticut,ind
 112,ucf,Central Florida,aac
 113,ucla,UCLA,p12
 114,unlv,Nevada-Las Vegas,mw

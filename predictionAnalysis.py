@@ -17,10 +17,12 @@ def returnYearIndex(year):
         return 1
     elif (year == '2021'):
         return 2
-    elif (year == '2020'):
+    elif (year == '2022'):
         return 3
+    elif (year == '2023'):
+        return 4
     else:
-        return 3
+        return 4
 
 def gameToNumber(games):
     if games == '':

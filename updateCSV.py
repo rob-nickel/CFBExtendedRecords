@@ -15,7 +15,8 @@ arguments = len(sys.argv)-1
 # 2020: "https://www.sports-reference.com/cfb/years/2020-schedule.html"
 # 2021 "https://www.sports-reference.com/cfb/years/2021-schedule.html"
 # 2022 "https://www.sports-reference.com/cfb/years/2022-schedule.html"
-url = "https://www.sports-reference.com/cfb/years/2022-schedule.html"
+# 2023 "https://www.sports-reference.com/cfb/years/2022-schedule.html"
+url = "https://www.sports-reference.com/cfb/years/2023-schedule.html"
 
 # Load data
 data = pd.read_html(url,header=0,index_col=0)
@@ -24,7 +25,7 @@ data = pd.read_html(url,header=0,index_col=0)
 with open('data/testRecord.csv', 'w') as output:
     for item in data:
         item.to_csv(output)
-with open('data/testRecord.csv', 'r') as inp, open('data/record2022.csv', 'w') as output:
+with open('data/testRecord.csv', 'r') as inp, open('data/record2023.csv', 'w') as output:
     writer = csv.writer(output)
     writer.writerow(['Rk','Wk','Winner','WPts','','Loser','LPts'])
     for row in csv.reader(inp):
@@ -34,4 +35,4 @@ with open('data/testRecord.csv', 'r') as inp, open('data/record2022.csv', 'w') a
 if os.path.exists('data/testRecord.csv'):
     os.remove('data/testRecord.csv')
 
-print('record2022.csv has been updated')
+print('record2023.csv has been updated')

@@ -20,7 +20,7 @@ To run the program:
         *   `printC` to print the conference extended results
         *   `printP` to show the predictions for the next week
 *   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2022-schedule.html
-    *   Add `2019`, `2020`, `2021` to use that year's data
+    *   Add `2019`, `2020`, `2021`, `2022` to use that year's data
 
 ## Current Rankings
 
