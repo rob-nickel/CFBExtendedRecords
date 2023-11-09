@@ -90,7 +90,7 @@ index,abbreviation,name,conference
 88,purdue,Purdue,b10
 89,rice,Rice,aac
 90,rutgers,Rutgers,b10
-91,sam-houston,Sam Houston State,cusa
+91,sam-houston,Sam Houston,cusa
 92,san-diego-st,San Diego State,mw
 93,san-jose-st,San Jose State,mw
 94,smu,Southern Methodist,aac

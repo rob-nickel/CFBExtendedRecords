@@ -104,7 +104,6 @@ def toIncludeRating():
             return True
         position += 1
     return False
-
 wantRating = toIncludeRating()
 
 # Removes rankings from front of team names
@@ -456,7 +455,9 @@ def specialGameResult(game):
         return 2
     if ((game['WPts'] == '0') and (game['Loser'] == 'Buffalo')):
         return 2
-    if ((game['WPts'] == None or game['WPts'] == '') or game['WPts'] == '0'):
+    if (game['WPts'] == '0'):
+        return 2
+    if ((game['WPts'] == None or game['WPts'] == '')):
         return 1
     return 0
 
@@ -606,8 +607,6 @@ def outputAlphabetical():
                 csv_writer.writerow(csvrow)
                 rowCount += 1
 
-    print("The output is finished\n")
-
 # Takes the alphabetical list and sorts it by extended rating, extended wins, wins
 def outputSorted():
     with open('results/resultsAlphabetical.csv', mode='r') as csv_result:
@@ -631,8 +630,6 @@ def outputSorted():
         printReadmeRankings()
     if toPrintReact():
         printReactRankings()
-        
-    print("\nThe sorted output is finished\n")
 
 # Outputs a csv file with each team, wins, losses, extended wins, extended losses, extended win rate, and rating
 def outputAlphabeticalRating():
@@ -774,7 +771,6 @@ def predictNextWeek(predictionAnalysisWeek):
                         csvrow = [game['Rk'], game['Wk'], winnerName, loserName]
                         csv_writer.writerow(csvrow)
               
-
 # Analyze Predictions for the given year.
 def toPrintAnalyze():
     position = 1
@@ -845,5 +841,6 @@ def main():
         predictNextWeek("")
     if os.path.exists('results/predict.csv'):
         os.remove('results/predict.csv')
+    print("All finished\n")
 
 main()
