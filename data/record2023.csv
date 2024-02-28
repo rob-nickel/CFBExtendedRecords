@@ -661,199 +661,251 @@ Rk,Wk,Winner,WPts,,Loser,LPts
 660,12,Ball State,20,@,Northern Illinois,17
 661,12,Ohio,20,@,Buffalo,10
 662,12,Western Michigan,38,,Central Michigan,28
-663,12,Akron,0,@,Miami (OH),0
-664,12,Bowling Green,0,@,Kent State,0
-665,12,Eastern Michigan,0,@,Toledo,0
-666,12,Southern Mississippi,,@,Louisiana,
-667,12,Virginia,,@,(11) Louisville,
-668,12,North Texas,,@,Southern Methodist,
-669,12,Wyoming,,@,Nevada-Las Vegas,
-670,12,Air Force,,@,Hawaii,
-671,12,(8) Alabama,,@,Kentucky,
-672,12,Alabama-Birmingham,,@,Navy,
-673,12,Appalachian State,,@,Georgia State,
-674,12,(23) Arizona,,@,Colorado,
-675,12,Arizona State,,@,UCLA,
-676,12,Arkansas State,,@,South Alabama,
-677,12,Auburn,,@,Arkansas,
-678,12,Baylor,,@,Kansas State,
-679,12,Cincinnati,,@,Houston,
-680,12,Connecticut,,@,(21) James Madison,
-681,12,Duke,,@,(24) North Carolina,
-682,12,East Carolina,,@,Florida Atlantic,
-683,12,Florida,,@,(18) Louisiana State,
-684,12,Florida International,,@,Middle Tennessee State,
-685,12,Fresno State,,@,San Jose State,
-686,12,Georgia Southern,,@,Marshall,
-687,12,Georgia Tech,,@,Clemson,
-688,12,Holy Cross,,@,Army,
-689,12,Indiana,,@,Illinois,
-690,12,Iowa State,,@,Brigham Young,
-691,12,Maryland,,@,Nebraska,
-692,12,Memphis,,@,Charlotte,
-693,12,Miami (FL),,@,(4) Florida State,
-694,12,(2) Michigan,,@,(9) Penn State,
-695,12,Michigan State,,@,(3) Ohio State,
-696,12,Minnesota,,@,Purdue,
-697,12,(10) Mississippi,,@,(1) Georgia,
-698,12,Mississippi State,,@,Texas A&M,
-699,12,Nevada,,@,Utah State,
-700,12,New Mexico,,@,Boise State,
-701,12,New Mexico State,,@,Western Kentucky,
-702,12,North Carolina State,,@,Wake Forest,
-703,12,Northwestern,,@,Wisconsin,
-704,12,(15) Oklahoma State,,@,Central Florida,
-705,12,Old Dominion,,@,(25) Liberty,
-706,12,Rice,,@,Texas-San Antonio,
-707,12,Rutgers,,@,Iowa,
-708,12,Sam Houston,,@,Louisiana Tech,
-709,12,San Diego State,,@,Colorado State,
-710,12,Southern California,,@,(6) Oregon,
-711,12,Stanford,,@,(12) Oregon State,
-712,12,Syracuse,,N,Pittsburgh,
-713,12,Temple,,@,South Florida,
-714,12,(14) Tennessee,,@,(16) Missouri,
-715,12,(7) Texas,,@,Texas Christian,
-716,12,Texas State,,@,Coastal Carolina,
-717,12,Texas Tech,,@,(19) Kansas,
-718,12,Troy,,@,Louisiana-Monroe,
-719,12,Tulsa,,@,(20) Tulane,
-720,12,(13) Utah,,@,(5) Washington,
-721,12,Vanderbilt,,@,South Carolina,
-722,12,Virginia Tech,,@,Boston College,
-723,12,Washington State,,@,California,
-724,12,West Virginia,,@,(17) Oklahoma,
-725,13,Akron,,@,Eastern Michigan,
-726,13,Toledo,,@,Bowling Green,
-727,13,Western Michigan,,@,Northern Illinois,
-728,13,Buffalo,,@,Miami (OH),
-729,13,Central Michigan,,@,Ohio,
-730,13,Boston College,,@,Pittsburgh,
-731,13,Colorado,,@,Washington State,
-732,13,South Florida,,@,Texas-San Antonio,
-733,13,Abilene Christian,,@,Texas A&M,
-734,13,Appalachian State,,@,(21) James Madison,
-735,13,Baylor,,@,Texas Christian,
-736,13,Boise State,,@,Utah State,
-737,13,Central Florida,,@,Texas Tech,
-738,13,Chattanooga,,@,(8) Alabama,
-739,13,Cincinnati,,@,West Virginia,
-740,13,Coastal Carolina,,@,Army,
-741,13,Duke,,@,Virginia,
-742,13,East Carolina,,@,Navy,
-743,13,Florida,,@,(16) Missouri,
-744,13,Florida International,,@,Arkansas,
-745,13,(1) Georgia,,@,(14) Tennessee,
-746,13,Georgia State,,@,(18) Louisiana State,
-747,13,Hawaii,,@,Wyoming,
-748,13,Illinois,,@,Iowa,
-749,13,Kansas State,,@,(19) Kansas,
-750,13,Kent State,,@,Ball State,
-751,13,Kentucky,,@,South Carolina,
-752,13,Louisiana,,@,Troy,
-753,13,Louisiana Tech,,@,Jacksonville State,
-754,13,Louisiana-Monroe,,@,(10) Mississippi,
-755,13,(11) Louisville,,@,Miami (FL),
-756,13,Marshall,,@,South Alabama,
-757,13,Massachusetts,,@,(25) Liberty,
-758,13,(2) Michigan,,@,Maryland,
-759,13,Michigan State,,@,Indiana,
-760,13,Minnesota,,@,(3) Ohio State,
-761,13,Nebraska,,@,Wisconsin,
-762,13,Nevada,,@,Colorado State,
-763,13,Nevada-Las Vegas,,@,Air Force,
-764,13,New Mexico,,@,Fresno State,
-765,13,New Mexico State,,@,Auburn,
-766,13,North Alabama,,@,(4) Florida State,
-767,13,(24) North Carolina,,@,Clemson,
-768,13,North Carolina State,,@,Virginia Tech,
-769,13,North Texas,,@,Tulsa,
-770,13,(17) Oklahoma,,@,Brigham Young,
-771,13,(15) Oklahoma State,,@,Houston,
-772,13,Old Dominion,,@,Georgia Southern,
-773,13,(6) Oregon,,@,Arizona State,
-774,13,Purdue,,@,Northwestern,
-775,13,Rice,,@,Charlotte,
-776,13,Rutgers,,@,(9) Penn State,
-777,13,Sacred Heart,,@,Connecticut,
-778,13,Sam Houston,,@,Western Kentucky,
-779,13,San Diego State,,@,San Jose State,
-780,13,Southern Methodist,,@,Memphis,
-781,13,Southern Mississippi,,@,Mississippi State,
-782,13,Syracuse,,@,Georgia Tech,
-783,13,Temple,,@,Alabama-Birmingham,
-784,13,(7) Texas,,@,Iowa State,
-785,13,Texas State,,@,Arkansas State,
-786,13,Texas-El Paso,,@,Middle Tennessee State,
-787,13,(20) Tulane,,@,Florida Atlantic,
-788,13,UCLA,,@,Southern California,
-789,13,(13) Utah,,@,(23) Arizona,
-790,13,Wake Forest,,@,(22) Notre Dame,
-791,13,(5) Washington,,@,(12) Oregon State,
-792,13,California,,@,Stanford,
-793,14,Bowling Green,,@,Western Michigan,
-794,14,Eastern Michigan,,@,Buffalo,
-795,14,(10) Mississippi,,@,Mississippi State,
-796,14,Air Force,,@,Boise State,
-797,14,Iowa,,@,Nebraska,
-798,14,Memphis,,@,Temple,
-799,14,Miami (FL),,@,Boston College,
-800,14,(16) Missouri,,@,Arkansas,
-801,14,Ohio,,@,Akron,
-802,14,(12) Oregon State,,@,(6) Oregon,
-803,14,(9) Penn State,,@,Michigan State,
-804,14,Texas Christian,,@,(17) Oklahoma,
-805,14,Texas Tech,,@,(7) Texas,
-806,14,Texas-San Antonio,,@,(20) Tulane,
-807,14,Toledo,,@,Central Michigan,
-808,14,Utah State,,@,New Mexico,
-809,14,(8) Alabama,,@,Auburn,
-810,14,Alabama-Birmingham,,@,North Texas,
-811,14,(23) Arizona,,@,Arizona State,
-812,14,Arkansas State,,@,Marshall,
-813,14,Brigham Young,,@,(15) Oklahoma State,
-814,14,California,,@,UCLA,
-815,14,Charlotte,,@,South Florida,
-816,14,Clemson,,@,South Carolina,
-817,14,Colorado,,@,(13) Utah,
-818,14,Colorado State,,@,Hawaii,
-819,14,Connecticut,,@,Massachusetts,
-820,14,Florida Atlantic,,@,Rice,
-821,14,(4) Florida State,,@,Florida,
-822,14,Fresno State,,@,San Diego State,
-823,14,(1) Georgia,,@,Georgia Tech,
-824,14,Georgia Southern,,@,Appalachian State,
-825,14,Georgia State,,@,Old Dominion,
-826,14,Houston,,@,Central Florida,
-827,14,Indiana,,@,Purdue,
-828,14,Iowa State,,@,Kansas State,
-829,14,Jacksonville State,,@,New Mexico State,
-830,14,(21) James Madison,,@,Coastal Carolina,
-831,14,(19) Kansas,,@,Cincinnati,
-832,14,Kentucky,,@,(11) Louisville,
-833,14,(25) Liberty,,@,Texas-El Paso,
-834,14,Louisiana-Monroe,,@,Louisiana,
-835,14,Maryland,,@,Rutgers,
-836,14,Miami (OH),,@,Ball State,
-837,14,Middle Tennessee State,,@,Sam Houston,
-838,14,Navy,,@,Southern Methodist,
-839,14,(24) North Carolina,,@,North Carolina State,
-840,14,Northern Illinois,,@,Kent State,
-841,14,Northwestern,,@,Illinois,
-842,14,(22) Notre Dame,,@,Stanford,
-843,14,(3) Ohio State,,@,(2) Michigan,
-844,14,Pittsburgh,,@,Duke,
-845,14,San Jose State,,@,Nevada-Las Vegas,
-846,14,South Alabama,,@,Texas State,
-847,14,Texas A&M,,@,(18) Louisiana State,
-848,14,Troy,,@,Southern Mississippi,
-849,14,Tulsa,,@,East Carolina,
-850,14,Vanderbilt,,@,(14) Tennessee,
-851,14,Virginia Tech,,@,Virginia,
-852,14,Wake Forest,,@,Syracuse,
-853,14,Washington State,,@,(5) Washington,
-854,14,West Virginia,,@,Baylor,
-855,14,Western Kentucky,,@,Florida International,
-856,14,Wisconsin,,@,Minnesota,
-857,14,Wyoming,,@,Nevada,
-858,15,Army,,N,Navy,
+663,12,Bowling Green,49,@,Kent State,19
+664,12,Miami (OH),19,,Akron,0
+665,12,Toledo,49,,Eastern Michigan,23
+666,12,(11) Louisville,31,,Virginia,24
+667,12,Southern Mississippi,34,@,Louisiana,31
+668,12,Nevada-Las Vegas,34,,Wyoming,14
+669,12,Southern Methodist,45,,North Texas,21
+670,12,(8) Alabama,49,@,Kentucky,21
+671,12,Appalachian State,42,@,Georgia State,14
+672,12,(23) Arizona,34,@,Colorado,31
+673,12,Arizona State,17,@,UCLA,7
+674,12,Army,17,,Holy Cross,14
+675,12,Auburn,48,@,Arkansas,10
+676,12,Boise State,42,,New Mexico,14
+677,12,California,42,,Washington State,39
+678,12,Central Florida,45,,(15) Oklahoma State,3
+679,12,Cincinnati,24,@,Houston,14
+680,12,Clemson,42,,Georgia Tech,21
+681,12,Coastal Carolina,31,,Texas State,23
+682,12,Colorado State,22,,San Diego State,19
+683,12,East Carolina,22,@,Florida Atlantic,7
+684,12,(4) Florida State,27,,Miami (FL),20
+685,12,(1) Georgia,52,,(10) Mississippi,17
+686,12,Hawaii,27,,Air Force,13
+687,12,Illinois,48,,Indiana,45
+688,12,Iowa,22,,Rutgers,0
+689,12,Iowa State,45,@,Brigham Young,13
+690,12,(21) James Madison,44,,Connecticut,6
+691,12,Kansas State,59,,Baylor,25
+692,12,(25) Liberty,38,,Old Dominion,10
+693,12,(18) Louisiana State,52,,Florida,35
+694,12,Marshall,38,,Georgia Southern,33
+695,12,Maryland,13,@,Nebraska,10
+696,12,Memphis,44,@,Charlotte,38
+697,12,(2) Michigan,24,@,(9) Penn State,15
+698,12,Middle Tennessee State,40,,Florida International,6
+699,12,(16) Missouri,36,,(14) Tennessee,7
+700,12,Navy,31,,Alabama-Birmingham,6
+701,12,New Mexico State,38,@,Western Kentucky,29
+702,12,(24) North Carolina,47,,Duke,45
+703,12,North Carolina State,26,@,Wake Forest,6
+704,12,Northwestern,24,@,Wisconsin,10
+705,12,(3) Ohio State,38,,Michigan State,3
+706,12,(17) Oklahoma,59,,West Virginia,20
+707,12,(6) Oregon,36,,Southern California,27
+708,12,(12) Oregon State,62,,Stanford,17
+709,12,Purdue,49,,Minnesota,30
+710,12,Sam Houston,42,@,Louisiana Tech,27
+711,12,San Jose State,42,,Fresno State,18
+712,12,South Alabama,21,,Arkansas State,14
+713,12,South Carolina,47,,Vanderbilt,6
+714,12,South Florida,27,,Temple,23
+715,12,Syracuse,28,N,Pittsburgh,13
+716,12,(7) Texas,29,@,Texas Christian,26
+717,12,Texas A&M,51,,Mississippi State,10
+718,12,Texas Tech,16,@,(19) Kansas,13
+719,12,Texas-San Antonio,34,,Rice,14
+720,12,Troy,45,@,Louisiana-Monroe,14
+721,12,(20) Tulane,24,,Tulsa,22
+722,12,Utah State,41,,Nevada,24
+723,12,Virginia Tech,48,@,Boston College,22
+724,12,(5) Washington,35,,(13) Utah,28
+725,13,Eastern Michigan,30,,Akron,27
+726,13,Northern Illinois,24,,Western Michigan,0
+727,13,Toledo,32,@,Bowling Green,31
+728,13,Miami (OH),23,,Buffalo,10
+729,13,Ohio,34,,Central Michigan,20
+730,13,Pittsburgh,24,,Boston College,16
+731,13,Texas-San Antonio,49,,South Florida,21
+732,13,Washington State,56,,Colorado,14
+733,13,(8) Alabama,66,,Chattanooga,10
+734,13,Alabama-Birmingham,34,,Temple,24
+735,13,Appalachian State,26,@,(18) James Madison,23
+736,13,(19) Arizona,42,,(16) Utah,18
+737,13,Arkansas,44,,Florida International,20
+738,13,Arkansas State,77,,Texas State,31
+739,13,Army,28,,Coastal Carolina,21
+740,13,Ball State,34,,Kent State,3
+741,13,Boise State,45,@,Utah State,10
+742,13,California,27,@,Stanford,15
+743,13,Clemson,31,,(22) North Carolina,20
+744,13,Colorado State,30,,Nevada,20
+745,13,Connecticut,31,,Sacred Heart,3
+746,13,(4) Florida State,58,,North Alabama,13
+747,13,(1) Georgia,38,@,(21) Tennessee,10
+748,13,Georgia Tech,31,,Syracuse,22
+749,13,Iowa,15,,Illinois,13
+750,13,Jacksonville State,56,,Louisiana Tech,17
+751,13,(23) Kansas State,31,@,Kansas,27
+752,13,(25) Liberty,49,,Massachusetts,25
+753,13,(15) Louisiana State,56,,Georgia State,14
+754,13,(9) Louisville,38,@,Miami (FL),31
+755,13,(2) Michigan,31,@,Maryland,24
+756,13,Michigan State,24,@,Indiana,21
+757,13,Middle Tennessee State,34,,Texas-El Paso,30
+758,13,(13) Mississippi,35,,Louisiana-Monroe,3
+759,13,Mississippi State,41,,Southern Mississippi,20
+760,13,(11) Missouri,33,,Florida,31
+761,13,Navy,10,,East Carolina,0
+762,13,Nevada-Las Vegas,31,@,Air Force,27
+763,13,New Mexico,25,@,Fresno State,17
+764,13,New Mexico State,31,@,Auburn,10
+765,13,North Carolina State,35,@,Virginia Tech,28
+766,13,North Texas,35,@,Tulsa,28
+767,13,Northwestern,23,,Purdue,15
+768,13,(20) Notre Dame,45,,Wake Forest,7
+769,13,(3) Ohio State,37,,Minnesota,3
+770,13,(14) Oklahoma,31,@,Brigham Young,24
+771,13,(24) Oklahoma State,43,@,Houston,30
+772,13,Old Dominion,20,@,Georgia Southern,17
+773,13,(6) Oregon,49,@,Arizona State,13
+774,13,(12) Penn State,27,,Rutgers,6
+775,13,Rice,28,@,Charlotte,7
+776,13,San Jose State,24,,San Diego State,13
+777,13,South Alabama,28,,Marshall,0
+778,13,South Carolina,17,,Kentucky,14
+779,13,Southern Methodist,38,@,Memphis,34
+780,13,(7) Texas,26,@,Iowa State,16
+781,13,Texas A&M,38,,Abilene Christian,10
+782,13,Texas Christian,42,,Baylor,17
+783,13,Texas Tech,24,,Central Florida,23
+784,13,Troy,31,,Louisiana,24
+785,13,(17) Tulane,24,@,Florida Atlantic,8
+786,13,UCLA,38,@,Southern California,20
+787,13,Virginia,30,,Duke,27
+788,13,(5) Washington,22,@,(10) Oregon State,20
+789,13,West Virginia,42,,Cincinnati,21
+790,13,Western Kentucky,28,,Sam Houston,23
+791,13,Wisconsin,24,,Nebraska,17
+792,13,Wyoming,42,,Hawaii,9
+793,14,Bowling Green,34,@,Western Michigan,10
+794,14,Eastern Michigan,24,@,Buffalo,11
+795,14,(12) Mississippi,17,@,Mississippi State,7
+796,14,Boise State,27,,Air Force,19
+797,14,(20) Iowa,13,@,Nebraska,10
+798,14,Memphis,45,@,Temple,21
+799,14,Miami (FL),45,@,Boston College,20
+800,14,(10) Missouri,48,@,Arkansas,14
+801,14,Ohio,25,@,Akron,14
+802,14,(13) Oklahoma,69,,Texas Christian,45
+803,14,(6) Oregon,31,,(15) Oregon State,7
+804,14,(11) Penn State,42,N,Michigan State,0
+805,14,(7) Texas,57,,Texas Tech,7
+806,14,(23) Toledo,32,@,Central Michigan,17
+807,14,(18) Tulane,29,,Texas-San Antonio,16
+808,14,Utah State,44,@,New Mexico,41
+809,14,(8) Alabama,27,@,Auburn,24
+810,14,Appalachian State,55,,Georgia Southern,27
+811,14,(16) Arizona,59,@,Arizona State,23
+812,14,California,33,@,UCLA,7
+813,14,Central Florida,27,,Houston,13
+814,14,Clemson,16,@,South Carolina,7
+815,14,Connecticut,31,@,Massachusetts,18
+816,14,Duke,30,,Pittsburgh,19
+817,14,(5) Florida State,24,@,Florida,15
+818,14,(1) Georgia,31,@,Georgia Tech,23
+819,14,Hawaii,27,,Colorado State,24
+820,14,Iowa State,42,@,(19) Kansas State,35
+821,14,(24) James Madison,56,@,Coastal Carolina,14
+822,14,Kansas,49,@,Cincinnati,16
+823,14,Kentucky,38,@,(9) Louisville,31
+824,14,(22) Liberty,42,@,Texas-El Paso,28
+825,14,Louisiana,52,,Louisiana-Monroe,21
+826,14,(14) Louisiana State,42,,Texas A&M,30
+827,14,Marshall,35,,Arkansas State,21
+828,14,Maryland,42,@,Rutgers,24
+829,14,Miami (OH),17,@,Ball State,15
+830,14,(3) Michigan,30,,(2) Ohio State,24
+831,14,New Mexico State,20,,Jacksonville State,17
+832,14,North Carolina State,39,,North Carolina,20
+833,14,North Texas,45,,Alabama-Birmingham,42
+834,14,Northern Illinois,37,@,Kent State,27
+835,14,Northwestern,45,@,Illinois,43
+836,14,(17) Notre Dame,56,@,Stanford,23
+837,14,(21) Oklahoma State,40,,Brigham Young,34
+838,14,Old Dominion,25,,Georgia State,24
+839,14,Purdue,35,,Indiana,31
+840,14,Rice,24,,Florida Atlantic,21
+841,14,Sam Houston,23,,Middle Tennessee State,20
+842,14,San Diego State,33,,Fresno State,18
+843,14,San Jose State,37,@,Nevada-Las Vegas,31
+844,14,South Florida,48,,Charlotte,14
+845,14,Southern Methodist,59,,Navy,14
+846,14,Syracuse,35,,Wake Forest,31
+847,14,(25) Tennessee,48,,Vanderbilt,24
+848,14,Texas State,52,,South Alabama,44
+849,14,Troy,35,@,Southern Mississippi,17
+850,14,Tulsa,29,@,East Carolina,27
+851,14,Utah,23,,Colorado,17
+852,14,Virginia Tech,55,@,Virginia,17
+853,15,(4) Washington,24,,Washington State,21
+854,15,West Virginia,34,@,Baylor,31
+855,15,Western Kentucky,41,@,Florida International,28
+856,15,Wisconsin,28,@,Minnesota,14
+857,15,Wyoming,42,@,Nevada,6
+858,16,(20) Liberty,49,,New Mexico State,35
+859,16,(3) Washington,34,N,(5) Oregon,31
+860,16,(8) Alabama,27,N,(1) Georgia,24
+861,16,Boise State,44,@,Nevada-Las Vegas,20
+862,16,(4) Florida State,16,N,(15) Louisville,6
+863,16,Miami (OH),23,N,(23) Toledo,14
+864,16,(2) Michigan,26,N,(18) Iowa,0
+865,16,(25) Southern Methodist,26,@,(17) Tulane,14
+866,16,(7) Texas,49,N,(19) Oklahoma State,21
+867,16,Troy,49,,Appalachian State,23
+868,17,Army,17,N,Navy,11
+869,18,Appalachian State,13,N,Miami (OH),9
+870,18,Fresno State,37,N,New Mexico State,10
+871,18,Jacksonville State,34,N,Louisiana,31
+872,18,Ohio,41,N,Georgia Southern,21
+873,18,Texas Tech,34,N,California,14
+874,18,UCLA,35,N,Boise State,22
+875,18,Western Kentucky,38,N,Old Dominion,35
+876,18,Texas-San Antonio,35,N,Marshall,17
+877,18,South Florida,45,N,Syracuse,0
+878,18,Georgia Tech,30,N,Central Florida,17
+879,18,Air Force,31,N,(24) James Madison,21
+880,18,Coastal Carolina,24,N,San Jose State,14
+881,18,Duke,17,N,Troy,10
+882,18,Georgia State,45,N,Utah State,22
+883,18,Northern Illinois,21,N,Arkansas State,19
+884,18,Northwestern,14,N,Utah,7
+885,18,South Alabama,59,,Eastern Michigan,10
+886,18,Kansas,49,N,Nevada-Las Vegas,36
+887,18,Minnesota,30,N,Bowling Green,24
+888,18,Texas State,45,N,Rice,21
+889,18,(22) Oklahoma State,31,N,Texas A&M,23
+890,18,Southern California,42,N,(16) Louisville,28
+891,18,Virginia Tech,41,N,(23) Tulane,20
+892,18,West Virginia,30,N,North Carolina,10
+893,18,(14) Arizona,38,N,(12) Oklahoma,24
+894,18,Boston College,23,N,(17) Southern Methodist,14
+895,18,Kansas State,28,N,(19) North Carolina State,19
+896,18,Rutgers,31,N,Miami (FL),24
+897,18,Clemson,38,N,Kentucky,35
+898,18,Memphis,36,,Iowa State,26
+899,18,(15) Notre Dame,40,N,(21) Oregon State,8
+900,18,Maryland,31,N,Auburn,13
+901,18,Wyoming,16,N,Toledo,15
+902,18,(13) Louisiana State,35,N,Wisconsin,31
+903,18,(25) Tennessee,35,N,(20) Iowa,0
+904,21,(9) Missouri,14,N,(7) Ohio State,3
+905,21,(6) Georgia,63,N,(4) Florida State,3
+906,21,(11) Mississippi,38,N,(10) Penn State,25
+907,21,(1) Michigan,27,N,(5) Alabama,20
+908,21,(8) Oregon,45,N,(18) Liberty,6
+909,21,(2) Washington,37,N,(3) Texas,31
+910,22,(1) Michigan,34,N,(2) Washington,13
