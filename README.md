@@ -1,7 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-*65.4% successful predictions*
+*65.9% successful predictions*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -28,61 +28,61 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Ohio State](logos/ohio-st.png) | Ohio State | 9-0 | 41-0 | 1.0 |
-| 2 | ![Florida State](logos/florida-st.png) | Florida State | 9-0 | 39-0 | 1.0 |
-| 3 | ![Washington](logos/washington.png) | Washington | 9-0 | 39-0 | 1.0 |
-| 4 | ![James Madison](logos/james-madison.png) | James Madison | 9-0 | 37-0 | 1.0 |
-| 5 | ![Liberty](logos/liberty.png) | Liberty | 9-0 | 37-0 | 1.0 |
-| 6 | ![Michigan](logos/michigan.png) | Michigan | 9-0 | 37-0 | 1.0 |
-| 7 | ![Georgia](logos/georgia.png) | Georgia | 9-0 | 34-0 | 1.0 |
-| 8 | ![Penn State](logos/penn-st.png) | Penn State | 8-1 | 32-0 | 1.0 |
-| 9 | ![Oregon](logos/oregon.png) | Oregon | 8-1 | 28-0 | 1.0 |
-| 10 | ![Alabama](logos/alabama.png) | Alabama | 8-1 | 39-1 | 0.975 |
-| 11 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-1 | 34-1 | 0.97143 |
-| 12 | ![Tulane](logos/tulane.png) | Tulane | 8-1 | 24-1 | 0.96 |
-| 13 | ![Texas](logos/texas.png) | Texas | 8-1 | 43-2 | 0.95556 |
-| 14 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 7-2 | 16-1 | 0.94118 |
-| 15 | ![Louisiana State](logos/lsu.png) | Louisiana State | 6-3 | 22-2 | 0.91667 |
-| 16 | ![Troy](logos/troy.png) | Troy | 7-2 | 29-3 | 0.90625 |
-| 17 | ![Kansas](logos/kansas.png) | Kansas | 7-2 | 27-3 | 0.9 |
-| 18 | ![Missouri](logos/missouri.png) | Missouri | 7-2 | 26-3 | 0.89655 |
-| 19 | ![Utah](logos/utah.png) | Utah | 7-2 | 26-3 | 0.89655 |
-| 20 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 7-2 | 34-4 | 0.89474 |
-| 21 | ![Fresno State](logos/fresno-st.png) | Fresno State | 8-1 | 22-3 | 0.88 |
-| 22 | ![Memphis](logos/memphis.png) | Memphis | 7-2 | 22-3 | 0.88 |
-| 23 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 7-3 | 29-5 | 0.85294 |
-| 24 | ![Toledo](logos/toledo.png) | Toledo | 8-1 | 28-5 | 0.84848 |
-| 25 | ![Miami (OH)](logos/miami-oh.png) | Miami (OH) | 7-2 | 22-4 | 0.84615 |
+| 1 | ![Michigan](logos/michigan.png) | Michigan | 15-0 | 112-0 | 1.0 |
+| 2 | ![Washington](logos/washington.png) | Washington | 14-1 | 103-0 | 1.0 |
+| 3 | ![Florida State](logos/florida-st.png) | Florida State | 13-1 | 79-1 | 0.9875 |
+| 4 | ![Georgia](logos/georgia.png) | Georgia | 13-1 | 84-2 | 0.97674 |
+| 5 | ![Alabama](logos/alabama.png) | Alabama | 12-2 | 83-2 | 0.97647 |
+| 6 | ![Liberty](logos/liberty.png) | Liberty | 13-1 | 73-2 | 0.97333 |
+| 7 | ![Oregon](logos/oregon.png) | Oregon | 12-2 | 70-2 | 0.97222 |
+| 8 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 67-2 | 0.97101 |
+| 9 | ![Texas](logos/texas.png) | Texas | 12-2 | 86-4 | 0.95556 |
+| 10 | ![Mississippi](logos/ole-miss.png) | Mississippi | 11-2 | 64-3 | 0.95522 |
+| 11 | ![Missouri](logos/missouri.png) | Missouri | 11-2 | 66-4 | 0.94286 |
+| 12 | ![Penn State](logos/penn-st.png) | Penn State | 10-3 | 57-4 | 0.93443 |
+| 13 | ![Louisiana State](logos/lsu.png) | Louisiana State | 10-3 | 58-5 | 0.92063 |
+| 14 | ![James Madison](logos/james-madison.png) | James Madison | 11-2 | 63-9 | 0.875 |
+| 15 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 10-3 | 68-11 | 0.86076 |
+| 16 | ![Memphis](logos/memphis.png) | Memphis | 10-3 | 48-8 | 0.85714 |
+| 17 | ![Troy](logos/troy.png) | Troy | 11-3 | 62-11 | 0.84932 |
+| 18 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-3 | 53-10 | 0.84127 |
+| 19 | ![Tulane](logos/tulane.png) | Tulane | 11-3 | 54-11 | 0.83077 |
+| 20 | ![Toledo](logos/toledo.png) | Toledo | 11-3 | 57-14 | 0.80282 |
+| 21 | ![Iowa](logos/iowa.png) | Iowa | 10-4 | 57-14 | 0.80282 |
+| 22 | ![Arizona](logos/arizona.png) | Arizona | 10-3 | 52-13 | 0.8 |
+| 23 | ![Kansas State](logos/kansas-st.png) | Kansas State | 9-4 | 54-14 | 0.79412 |
+| 24 | ![Tennessee](logos/tennessee.png) | Tennessee | 9-4 | 46-12 | 0.7931 |
+| 25 | ![Miami (OH)](logos/miami-oh.png) | Miami (OH) | 11-3 | 48-14 | 0.77419 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Georgia](logos/georgia.png) | Georgia | 9-0 | 34-0 | 1.0 | 1.10013 |
-| 2 | ![Washington](logos/washington.png) | Washington | 9-0 | 39-0 | 1.0 | 1.08702 |
-| 3 | ![Ohio State](logos/ohio-st.png) | Ohio State | 9-0 | 41-0 | 1.0 | 1.08477 |
-| 4 | ![Michigan](logos/michigan.png) | Michigan | 9-0 | 37-0 | 1.0 | 1.08477 |
-| 5 | ![Florida State](logos/florida-st.png) | Florida State | 9-0 | 39-0 | 1.0 | 1.05612 |
-| 6 | ![Alabama](logos/alabama.png) | Alabama | 8-1 | 39-1 | 0.975 | 1.03888 |
-| 7 | ![Mississippi](logos/ole-miss.png) | Mississippi | 8-1 | 34-1 | 0.97143 | 1.03727 |
-| 8 | ![Oregon](logos/oregon.png) | Oregon | 8-1 | 28-0 | 1.0 | 1.03703 |
-| 9 | ![Penn State](logos/penn-st.png) | Penn State | 8-1 | 32-0 | 1.0 | 1.03477 |
-| 10 | ![James Madison](logos/james-madison.png) | James Madison | 9-0 | 37-0 | 1.0 | 1.03051 |
-| 11 | ![Liberty](logos/liberty.png) | Liberty | 9-0 | 37-0 | 1.0 | 0.98173 |
-| 12 | ![Texas](logos/texas.png) | Texas | 8-1 | 43-2 | 0.95556 | 0.97546 |
-| 13 | ![Missouri](logos/missouri.png) | Missouri | 7-2 | 26-3 | 0.89655 | 0.95358 |
-| 14 | ![Utah](logos/utah.png) | Utah | 7-2 | 26-3 | 0.89655 | 0.94047 |
-| 15 | ![Louisville](logos/louisville.png) | Louisville | 8-1 | 37-7 | 0.84091 | 0.93453 |
-| 16 | ![Tennessee](logos/tennessee.png) | Tennessee | 7-2 | 23-5 | 0.82143 | 0.91977 |
-| 17 | ![Iowa](logos/iowa.png) | Iowa | 7-2 | 27-5 | 0.84375 | 0.91446 |
-| 18 | ![Louisiana State](logos/lsu.png) | Louisiana State | 6-3 | 22-2 | 0.91667 | 0.91263 |
-| 19 | ![Tulane](logos/tulane.png) | Tulane | 8-1 | 24-1 | 0.96 | 0.90906 |
-| 20 | ![Kansas](logos/kansas.png) | Kansas | 7-2 | 27-3 | 0.9 | 0.90046 |
-| 21 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 7-2 | 34-4 | 0.89474 | 0.89809 |
-| 22 | ![Fresno State](logos/fresno-st.png) | Fresno State | 8-1 | 22-3 | 0.88 | 0.89111 |
-| 23 | ![Troy](logos/troy.png) | Troy | 7-2 | 29-3 | 0.90625 | 0.88832 |
-| 24 | ![Oregon State](logos/oregon-st.png) | Oregon State | 7-2 | 27-8 | 0.77143 | 0.88417 |
-| 25 | ![Southern California](logos/southern-california.png) | Southern California | 7-3 | 24-5 | 0.82759 | 0.87444 |
+| 1 | ![Michigan](logos/michigan.png) | Michigan | 15-0 | 112-0 | 1.0 | 1.05477 |
+| 2 | ![Georgia](logos/georgia.png) | Georgia | 13-1 | 84-2 | 0.97674 | 1.03564 |
+| 3 | ![Washington](logos/washington.png) | Washington | 14-1 | 103-0 | 1.0 | 1.02631 |
+| 4 | ![Alabama](logos/alabama.png) | Alabama | 12-2 | 83-2 | 0.97647 | 1.00338 |
+| 5 | ![Florida State](logos/florida-st.png) | Florida State | 13-1 | 79-1 | 0.9875 | 0.99789 |
+| 6 | ![Mississippi](logos/ole-miss.png) | Mississippi | 11-2 | 64-3 | 0.95522 | 0.98887 |
+| 7 | ![Missouri](logos/missouri.png) | Missouri | 11-2 | 66-4 | 0.94286 | 0.98331 |
+| 8 | ![Oregon](logos/oregon.png) | Oregon | 12-2 | 70-2 | 0.97222 | 0.97953 |
+| 9 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 67-2 | 0.97101 | 0.97249 |
+| 10 | ![Texas](logos/texas.png) | Texas | 12-2 | 86-4 | 0.95556 | 0.94992 |
+| 11 | ![Liberty](logos/liberty.png) | Liberty | 13-1 | 73-2 | 0.97333 | 0.94437 |
+| 12 | ![Louisiana State](logos/lsu.png) | Louisiana State | 10-3 | 58-5 | 0.92063 | 0.93869 |
+| 13 | ![Penn State](logos/penn-st.png) | Penn State | 10-3 | 57-4 | 0.93443 | 0.92141 |
+| 14 | ![James Madison](logos/james-madison.png) | James Madison | 11-2 | 63-9 | 0.875 | 0.88419 |
+| 15 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 10-3 | 68-11 | 0.86076 | 0.8677 |
+| 16 | ![Arizona](logos/arizona.png) | Arizona | 10-3 | 52-13 | 0.8 | 0.86247 |
+| 17 | ![Tennessee](logos/tennessee.png) | Tennessee | 9-4 | 46-12 | 0.7931 | 0.84669 |
+| 18 | ![Troy](logos/troy.png) | Troy | 11-3 | 62-11 | 0.84932 | 0.84543 |
+| 19 | ![Iowa](logos/iowa.png) | Iowa | 10-4 | 57-14 | 0.80282 | 0.83747 |
+| 20 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-3 | 53-10 | 0.84127 | 0.82472 |
+| 21 | ![Memphis](logos/memphis.png) | Memphis | 10-3 | 48-8 | 0.85714 | 0.81238 |
+| 22 | ![Tulane](logos/tulane.png) | Tulane | 11-3 | 54-11 | 0.83077 | 0.80793 |
+| 23 | ![Kansas State](logos/kansas-st.png) | Kansas State | 9-4 | 54-14 | 0.79412 | 0.8031 |
+| 24 | ![Louisville](logos/louisville.png) | Louisville | 10-4 | 61-21 | 0.7439 | 0.79184 |
+| 25 | ![Toledo](logos/toledo.png) | Toledo | 11-3 | 57-14 | 0.80282 | 0.79041 |
 
 ## Predictions:
 
