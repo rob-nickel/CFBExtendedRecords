@@ -7,7 +7,7 @@ import sys
 import numpy as np
 import os
 
-year_array = np.zeros([4,4], dtype=int)
+year_array = np.zeros([5,4], dtype=int)
 week_array = np.zeros([21,4], dtype=int)
 
 def returnYearIndex(year):
@@ -127,7 +127,7 @@ def printArrays():
     printWeeks()
     printYears()
     printTotals()
-    #printSortedWeeks()
+    printSortedWeeks()
 
 def main():
     calcYearResults()
