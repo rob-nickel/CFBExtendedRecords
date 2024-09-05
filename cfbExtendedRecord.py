@@ -6,7 +6,7 @@ Rob Nickel
 Description: This program ranks each team by extended record
    Extended Record: Each team's wins = wins of opponents they beat, team's losses = losses of opponents they lost to
 
-Possible command arguments: 'rating' 'noFCS' 'printA' 'printP' 'printS' 'printC' 'printR' 'printAll' '2019' '2020' '2021' '2022' '2023'
+Possible command arguments: 'rating' 'noFCS' 'printA' 'printP' 'printS' 'printC' 'printR' 'printAll' '2019' '2020' '2021' '2022' '2023' '2024'
 
 url = 'https://www.sports-reference.com/cfb/years/2023-schedule.html'
 """
@@ -28,8 +28,10 @@ def teamFileName():
             return 'data/teams2021.txt'
         if sys.argv[position].lower() == '2022':
             return 'data/teams2022.txt'
+        if sys.argv[position].lower() == '2023':
+            return 'data/teams2023.txt'
         position += 1
-    return 'data/teams2023.txt'
+    return 'data/teams2024.txt'
 
 def numTeams():
     return (len(open(teamFileName()).readlines()))
@@ -46,8 +48,10 @@ def recordFileName():
             return 'data/record2021.csv'
         if sys.argv[position].lower() == '2022':
             return 'data/record2022.csv'
+        if sys.argv[position].lower() == '2023':
+            return 'data/record2023.csv'
         position += 1
-    return 'data/record2023.csv'
+    return 'data/record2024.csv'
 
 def getYear():
     position = 1
@@ -64,7 +68,7 @@ def getYear():
         if sys.argv[position].lower() == '2023':
             return '2023'
         position += 1
-    return '2023'
+    return '2024'
 
 # Wins	Losses	Extended Wins	Extended Losses
 my_array = np.zeros([numTeams(),4], dtype=int)

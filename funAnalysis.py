@@ -15,8 +15,10 @@ def teamFileName():
             return 'data/teams2021.txt'
         if sys.argv[position].lower() == '2022':
             return 'data/teams2022.txt'
+        if sys.argv[position].lower() == '2023':
+            return 'data/teams2023.txt'
         position += 1
-    return 'data/teams2023.txt'
+    return 'data/teams2024.txt'
 
 def numTeams():
     return (len(open(teamFileName()).readlines()))

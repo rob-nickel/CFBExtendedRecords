@@ -20,7 +20,7 @@ To run the program:
         *   `printC` to print the conference extended results
         *   `printP` to show the predictions for the next week
 *   run `updateCSV.py` to update `data/record.csv` from https://www.sports-reference.com/cfb/years/2022-schedule.html
-    *   Add `2019`, `2020`, `2021`, `2022` to use that year's data
+    *   Add `2019`, `2020`, `2021`, `2022`, `2023` to use that year's data
 
 ## Current Rankings
 
@@ -92,8 +92,41 @@ To run the program:
 | 2020 | 350 | 179 | 66.2% |
 | 2021 | 500 | 266 | 65.3% |
 | 2022 | 464 | 263 | 63.7% |
+| 2023 | 609 | 292 | 67.6% |
 
-## After 2022
+## 2023
+
+## With Ratings
+
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
+| --- | :---: | --- | --- | --- | --- | --- |
+| 1 | ![Michigan](logos/michigan.png) | Michigan | 15-0 | 112-0 | 1.0 | 1.05477 |
+| 2 | ![Georgia](logos/georgia.png) | Georgia | 13-1 | 84-2 | 0.97674 | 1.03564 |
+| 3 | ![Washington](logos/washington.png) | Washington | 14-1 | 103-0 | 1.0 | 1.02631 |
+| 4 | ![Alabama](logos/alabama.png) | Alabama | 12-2 | 83-2 | 0.97647 | 1.00338 |
+| 5 | ![Florida State](logos/florida-st.png) | Florida State | 13-1 | 79-1 | 0.9875 | 0.99789 |
+| 6 | ![Mississippi](logos/ole-miss.png) | Mississippi | 11-2 | 64-3 | 0.95522 | 0.98887 |
+| 7 | ![Missouri](logos/missouri.png) | Missouri | 11-2 | 66-4 | 0.94286 | 0.98331 |
+| 8 | ![Oregon](logos/oregon.png) | Oregon | 12-2 | 70-2 | 0.97222 | 0.97953 |
+| 9 | ![Ohio State](logos/ohio-st.png) | Ohio State | 11-2 | 67-2 | 0.97101 | 0.97249 |
+| 10 | ![Texas](logos/texas.png) | Texas | 12-2 | 86-4 | 0.95556 | 0.94992 |
+| 11 | ![Liberty](logos/liberty.png) | Liberty | 13-1 | 73-2 | 0.97333 | 0.94437 |
+| 12 | ![Louisiana State](logos/lsu.png) | Louisiana State | 10-3 | 58-5 | 0.92063 | 0.93869 |
+| 13 | ![Penn State](logos/penn-st.png) | Penn State | 10-3 | 57-4 | 0.93443 | 0.92141 |
+| 14 | ![James Madison](logos/james-madison.png) | James Madison | 11-2 | 63-9 | 0.875 | 0.88419 |
+| 15 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 10-3 | 68-11 | 0.86076 | 0.8677 |
+| 16 | ![Arizona](logos/arizona.png) | Arizona | 10-3 | 52-13 | 0.8 | 0.86247 |
+| 17 | ![Tennessee](logos/tennessee.png) | Tennessee | 9-4 | 46-12 | 0.7931 | 0.84669 |
+| 18 | ![Troy](logos/troy.png) | Troy | 11-3 | 62-11 | 0.84932 | 0.84543 |
+| 19 | ![Iowa](logos/iowa.png) | Iowa | 10-4 | 57-14 | 0.80282 | 0.83747 |
+| 20 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 10-3 | 53-10 | 0.84127 | 0.82472 |
+| 21 | ![Memphis](logos/memphis.png) | Memphis | 10-3 | 48-8 | 0.85714 | 0.81238 |
+| 22 | ![Tulane](logos/tulane.png) | Tulane | 11-3 | 54-11 | 0.83077 | 0.80793 |
+| 23 | ![Kansas State](logos/kansas-st.png) | Kansas State | 9-4 | 54-14 | 0.79412 | 0.8031 |
+| 24 | ![Louisville](logos/louisville.png) | Louisville | 10-4 | 61-21 | 0.7439 | 0.79184 |
+| 25 | ![Toledo](logos/toledo.png) | Toledo | 11-3 | 57-14 | 0.80282 | 0.79041 |
+
+## 2022
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
@@ -123,7 +156,7 @@ To run the program:
 | 24 | ![South Carolina](logos/south-carolina.png) | South Carolina | 8-5 | 46-24 | 0.65714 | 0.77587 |
 | 25 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 9-4 | 59-18 | 0.76623 | 0.75634 |
 
-## After the 2021 Season:
+## 2021:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
@@ -153,7 +186,7 @@ To run the program:
 | 24 | ![Arkansas](logos/arkansas.png) | Arkansas | 9-4 | 46-13 | 0.77966 | 0.84178 |
 | 25 | ![Wisconsin](logos/wisconsin.png) | Wisconsin | 9-4 | 59-14 | 0.80822 | 0.8356 |
 
-## After the 2020 Season:
+## 2020:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
@@ -183,7 +216,7 @@ To run the program:
 | 24 | ![Texas](logos/texas.png) | Texas | 7-3 | 32-9 | 0.78049 | 0.79305 |
 | 25 | ![Kent State](logos/kent-st.png) | Kent State | 3-1 | 3-1 | 0.75 | 0.79241 |
 
-## After the 2019 Season:
+## 2019:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
