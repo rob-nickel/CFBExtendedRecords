@@ -170,43 +170,43 @@ def conferenceRating(conferenceName):
     if conferenceName == 'aac':
         if float(aac[1]==0):
             return 1
-        return (float(aac[0])/float(aac[1]))
+        return (float(aac[0])/(float(aac[0])+float(aac[1])))
     elif conferenceName == 'acc':
         if float(acc[1]==0):
             return 1
-        return (float(acc[0])/float(acc[1]))
+        return (float(acc[0])/(float(acc[0])+float(acc[1])))
     elif conferenceName == 'b10':
         if float(b10[1]==0):
             return 1
-        return (float(b10[0])/float(b10[1]))
+        return (float(b10[0])/(float(b10[0])+float(b10[1])))
     elif conferenceName == 'b12':
         if float(b12[1]==0):
             return 1
-        return (float(b12[0])/float(b12[1]))
+        return (float(b12[0])/(float(b12[0])+float(b12[1])))
     elif conferenceName == 'cusa':
         if float(cusa[1]==0):
             return 1
-        return (float(cusa[0])/float(cusa[1]))
+        return (float(cusa[0])/(float(cusa[0])+float(cusa[1])))
     elif conferenceName == 'mac':
         if float(mac[1]==0):
             return 1
-        return (float(mac[0])/float(mac[1]))
+        return (float(mac[0])/(float(mac[0])+float(mac[1])))
     elif conferenceName == 'mw':
         if float(mw[1]==0):
             return 1
-        return (float(mw[0])/float(mw[1]))
+        return (float(mw[0])/(float(mw[0])+float(mw[1])))
     elif conferenceName == 'p12':
         if float(p12[1]==0):
             return 1
-        return (float(p12[0])/float(p12[1]))
+        return (float(p12[0])/(float(p12[0])+float(p12[1])))
     elif conferenceName == 'sb':
         if float(sb[1]==0):
             return 1
-        return (float(sb[0])/float(sb[1]))
+        return (float(sb[0])/(float(sb[0])+float(sb[1])))
     elif conferenceName == 'sec':
         if float(sec[1]==0):
             return 1
-        return (float(sec[0])/float(sec[1]))
+        return (float(sec[0])/(float(sec[0])+float(sec[1])))
     else:
         return 1
 
@@ -261,43 +261,43 @@ def conferenceERating(conferenceName):
     if conferenceName == 'aac':
         if float(aac[3]==0):
             return 1
-        return (float(aac[2])/float(aac[3]))
+        return (float(aac[2])/(float(aac[2])+float(aac[3])))
     elif conferenceName == 'acc':
         if float(acc[3]==0):
             return 1
-        return (float(acc[2])/float(acc[3]))
+        return (float(acc[2])/(float(acc[2])+float(acc[3])))
     elif conferenceName == 'b10':
         if float(b10[3]==0):
             return 1
-        return (float(b10[2])/float(b10[3]))
+        return (float(b10[2])/(float(b10[2])+float(b10[3])))
     elif conferenceName == 'b12':
         if float(b12[3]==0):
             return 1
-        return (float(b12[2])/float(b12[3]))
+        return (float(b12[2])/(float(b12[2])+float(b12[3])))
     elif conferenceName == 'cusa':
         if float(cusa[3]==0):
             return 1
-        return (float(cusa[2])/float(cusa[3]))
+        return (float(cusa[2])/(float(cusa[2])+float(cusa[3])))
     elif conferenceName == 'mac':
         if float(mac[3]==0):
             return 1
-        return (float(mac[2])/float(mac[3]))
+        return (float(mac[2])/(float(mac[2])+float(mac[3])))
     elif conferenceName == 'mw':
         if float(mw[3]==0):
             return 1
-        return (float(mw[2])/float(mw[3]))
+        return (float(mw[2])/(float(mw[2])+float(mw[3])))
     elif conferenceName == 'p12':
         if float(p12[3]==0):
             return 1
-        return (float(p12[2])/float(p12[3]))
+        return (float(p12[2])/(float(p12[2])+float(p12[3])))
     elif conferenceName == 'sb':
         if float(sb[3]==0):
             return 1
-        return (float(sb[2])/float(sb[3]))
+        return (float(sb[2])/(float(sb[2])+float(sb[3])))
     elif conferenceName == 'sec':
         if float(sec[3]==0):
             return 1
-        return (float(sec[2])/float(sec[3]))
+        return (float(sec[2])/(float(sec[2])+float(sec[3])))
     else:
         return 1
 
@@ -441,8 +441,14 @@ def toPrintConference():
 
 def printConferenceRecords():
     if toPrintConference():
+        print(float(aac[0]))
+        print(float(aac[1]))
         print('aac  = ' + str(conferenceRating('aac')) + '  |   aac = ' + str(conferenceERating('aac')))
+        print(float(acc[0]))
+        print(float(acc[1]))
         print('acc  = ' + str(conferenceRating('acc')) + '  |   acc = ' + str(conferenceERating('acc')))
+        print(float(b10[0]))
+        print(float(b10[1]))
         print('b10  = ' + str(conferenceRating('b10')) + '  |   b10 = ' + str(conferenceERating('b10')))
         print('b12  = ' + str(conferenceRating('b12')) + '  |   b12 = ' + str(conferenceERating('b12')))
         print('cusa = ' + str(conferenceRating('cusa')) + '  |  cusa = ' + str(conferenceERating('cusa')))
@@ -648,6 +654,10 @@ def outputAlphabeticalRating():
             for row in teamsListFinal:
                 if row['name'] == 'FCS':
                     break
+                wins = float(my_array[rowCount][0])
+                eWins = float(my_array[rowCount][2])
+                losses = float(my_array[rowCount][1])
+                eLosses = float(my_array[rowCount][3])
                 denominator = float(my_array[rowCount][2] + my_array[rowCount][3])
                 if denominator == 0:
                     eWinPercentage = 0
@@ -659,8 +669,8 @@ def outputAlphabeticalRating():
                     winPercentage = 0
                 else:
                     winPercentage = float(my_array[rowCount][0]) / denominator
-                    winPercentage = round(winPercentage, 5)
-                rating = (eWinPercentage * 9 + winPercentage * 9 + conferenceRating(row['conference']) + conferenceERating(row['conference'])) / 20
+                    winPercentage = round(winPercentage, 5)                
+                rating = (eWinPercentage * 9 + winPercentage * 9 + conferenceRating(row['conference']) + conferenceERating(row['conference'])) / 20 + ((wins + eWins - losses - eLosses) * .01)
                 rating = round(rating, 5)
                 
                 logo = 'logos/' + row['abbreviation'] + '.png'
@@ -825,6 +835,8 @@ def analyzePredictions():
                                 results_array[week][0] += 1
                             else:
                                 results_array[week][1] += 1
+        if int(results_array[week][0] + results_array[week][1]) == 0:
+            continue
         #print(f"Week {str(week)}: Wins {results_array[week][0]}  Losses {results_array[week][1]}  Win Rate {results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
         print(f"{str(year)},{str(week)},{results_array[week][0]},{results_array[week][1]},{results_array[week][0] / (results_array[week][0] + results_array[week][1])}")
     print()

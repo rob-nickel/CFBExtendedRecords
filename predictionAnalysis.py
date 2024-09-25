@@ -36,10 +36,13 @@ def calcYearResults():
         sortedlist = csv.DictReader(csv_result)
 
         for row in sortedlist:
-            yearIndex = returnYearIndex(row['year'])
-            year_array[yearIndex][0] = row['year']
-            year_array[yearIndex][1] += gameToNumber(row['wins'])
-            year_array[yearIndex][2] += gameToNumber(row['losses'])
+            if int(row['week'])<6:
+                continue
+            else:
+                yearIndex = returnYearIndex(row['year'])
+                year_array[yearIndex][0] = row['year']
+                year_array[yearIndex][1] += gameToNumber(row['wins'])
+                year_array[yearIndex][2] += gameToNumber(row['losses'])
         for i in range(0,len(year_array)):
             winRate = (year_array[i][1] + 1) / (year_array[i][1] + year_array[i][2] + 1)
             year_array[i][3] = winRate
@@ -50,10 +53,13 @@ def calcWeekResults():
         sortedlist = csv.DictReader(csv_result)
 
         for row in sortedlist:
-            weekIndex = int(row['week'])-2
-            week_array[weekIndex][0] = row['week']
-            week_array[weekIndex][1] += gameToNumber(row['wins'])
-            week_array[weekIndex][2] += gameToNumber(row['losses'])
+            if int(row['week'])<6:
+                continue
+            else:
+                weekIndex = int(row['week'])-2
+                week_array[weekIndex][0] = row['week']
+                week_array[weekIndex][1] += gameToNumber(row['wins'])
+                week_array[weekIndex][2] += gameToNumber(row['losses'])
         for i in range(0,len(week_array)):
             winRate = (week_array[i][1] + 1) / (week_array[i][1] + week_array[i][2] + 1)
             week_array[i][3] = winRate
