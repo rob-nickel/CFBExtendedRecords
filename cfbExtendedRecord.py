@@ -756,21 +756,42 @@ def predictNextWeek(predictionAnalysisWeek):
                     with open('results/resultsSorted.csv', mode='r') as csv_sorted:
                         sortedTeams = csv.DictReader(csv_sorted)
                         oneFound = False
+                        checkHomeTeam = 'extended_rating' in sortedTeams.fieldnames
                         for row in sortedTeams:
                             if name1 == row['name'] and (not oneFound):
                                 oneFound = True
                                 winnerName = name1
+                                if checkHomeTeam:
+                                    winnerRating = row['extended_rating']
                             elif name2 == row['name'] and (not oneFound):
                                 oneFound = True
                                 winnerName = name2
+                                if checkHomeTeam:
+                                    winnerRating = row['extended_rating']
                             elif name1 == row['name'] and oneFound:
                                 loserName = name1
+                                if checkHomeTeam:
+                                    loserRating = row['extended_rating']
                                 break
                             elif name2 == row['name'] and oneFound:
                                 loserName = name2
+                                if checkHomeTeam:
+                                    loserRating = row['extended_rating']
                                 break
                         if loserName == '':
                             loserName = 'an FCS team'
+                            checkHomeTeam = False
+                        if checkHomeTeam: #Used if both have the same rating. Home team given advantage.
+                            if winnerRating == loserRating:
+                                if game['Loc'] == '@':
+                                    print("Tie breaker!!!")
+                                    winnerName = name2
+                                    loserName = name1
+                                else:
+                                    print("Tie breaker2!!!")
+                                    winnerName = name1
+                                    loserName = name2
+                        
 
                     if printOutput:
                         if (len(str(winnerName)) <= 6 ):
