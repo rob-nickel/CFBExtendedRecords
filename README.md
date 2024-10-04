@@ -1,7 +1,7 @@
 # CFB Extended Records
 
 This is an algorithm used to rank college football teams using only who each team has played and who won.
-*67.3% successful predictions after week 4*
+*67.5% successful predictions after week 4*
 
 *   This is an attempt to remove any preseason bias and emphasize teams' records
 *   This removes any recency bias by weighing a week 1 win the same as a week 11 win
@@ -28,88 +28,87 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Texas](logos/texas.png) | Texas | 4-0 | 9-0 | 1.0 |
-| 2 | ![Washington State](logos/washington-st.png) | Washington State | 4-0 | 9-0 | 1.0 |
-| 3 | ![Missouri](logos/missouri.png) | Missouri | 4-0 | 8-0 | 1.0 |
-| 4 | ![Alabama](logos/alabama.png) | Alabama | 3-0 | 7-0 | 1.0 |
-| 5 | ![Michigan](logos/michigan.png) | Michigan | 3-1 | 7-0 | 1.0 |
-| 6 | ![Brigham Young](logos/byu.png) | Brigham Young | 4-0 | 6-0 | 1.0 |
-| 7 | ![Illinois](logos/illinois.png) | Illinois | 4-0 | 6-0 | 1.0 |
-| 8 | ![Utah](logos/utah.png) | Utah | 4-0 | 6-0 | 1.0 |
-| 9 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 3-1 | 6-0 | 1.0 |
-| 10 | ![Duke](logos/duke.png) | Duke | 4-0 | 5-0 | 1.0 |
-| 11 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 4-0 | 5-0 | 1.0 |
-| 12 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 4-0 | 5-0 | 1.0 |
-| 13 | ![Tennessee](logos/tennessee.png) | Tennessee | 4-0 | 5-0 | 1.0 |
-| 14 | ![Iowa State](logos/iowa-st.png) | Iowa State | 3-0 | 5-0 | 1.0 |
-| 15 | ![Oregon](logos/oregon.png) | Oregon | 3-0 | 5-0 | 1.0 |
-| 16 | ![Central Florida](logos/ucf.png) | Central Florida | 3-0 | 5-0 | 1.0 |
-| 17 | ![Oklahoma State](logos/oklahoma-st.png) | Oklahoma State | 3-1 | 5-0 | 1.0 |
-| 18 | ![Washington](logos/washington.png) | Washington | 3-1 | 5-0 | 1.0 |
-| 19 | ![Mississippi](logos/ole-miss.png) | Mississippi | 4-0 | 4-0 | 1.0 |
-| 20 | ![Georgia](logos/georgia.png) | Georgia | 3-0 | 4-0 | 1.0 |
-| 21 | ![James Madison](logos/james-madison.png) | James Madison | 3-0 | 4-0 | 1.0 |
-| 22 | ![Louisville](logos/louisville.png) | Louisville | 3-0 | 4-0 | 1.0 |
-| 23 | ![Navy](logos/navy.png) | Navy | 3-0 | 4-0 | 1.0 |
-| 24 | ![Boston College](logos/boston-college.png) | Boston College | 3-1 | 4-0 | 1.0 |
-| 25 | ![Kansas State](logos/kansas-st.png) | Kansas State | 3-1 | 4-0 | 1.0 |
+| 1 | ![Texas](logos/texas.png) | Texas | 5-0 | 12-0 | 1.0 |
+| 2 | ![Brigham Young](logos/byu.png) | Brigham Young | 5-0 | 11-0 | 1.0 |
+| 3 | ![Alabama](logos/alabama.png) | Alabama | 4-0 | 10-0 | 1.0 |
+| 4 | ![Michigan](logos/michigan.png) | Michigan | 4-1 | 10-0 | 1.0 |
+| 5 | ![Duke](logos/duke.png) | Duke | 5-0 | 9-0 | 1.0 |
+| 6 | ![Missouri](logos/missouri.png) | Missouri | 4-0 | 9-0 | 1.0 |
+| 7 | ![Kansas State](logos/kansas-st.png) | Kansas State | 4-1 | 9-0 | 1.0 |
+| 8 | ![Indiana](logos/indiana.png) | Indiana | 5-0 | 8-0 | 1.0 |
+| 9 | ![Illinois](logos/illinois.png) | Illinois | 4-1 | 8-0 | 1.0 |
+| 10 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 5-0 | 7-0 | 1.0 |
+| 11 | ![Ohio State](logos/ohio-st.png) | Ohio State | 4-0 | 7-0 | 1.0 |
+| 12 | ![Oregon](logos/oregon.png) | Oregon | 4-0 | 7-0 | 1.0 |
+| 13 | ![Penn State](logos/penn-st.png) | Penn State | 4-0 | 7-0 | 1.0 |
+| 14 | ![Tennessee](logos/tennessee.png) | Tennessee | 4-0 | 7-0 | 1.0 |
+| 15 | ![Boston College](logos/boston-college.png) | Boston College | 4-1 | 7-0 | 1.0 |
+| 16 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 4-1 | 7-0 | 1.0 |
+| 17 | ![Boise State](logos/boise-st.png) | Boise State | 3-1 | 7-0 | 1.0 |
+| 18 | ![Iowa State](logos/iowa-st.png) | Iowa State | 4-0 | 6-0 | 1.0 |
+| 19 | ![James Madison](logos/james-madison.png) | James Madison | 4-0 | 6-0 | 1.0 |
+| 20 | ![Navy](logos/navy.png) | Navy | 4-0 | 6-0 | 1.0 |
+| 21 | ![Rutgers](logos/rutgers.png) | Rutgers | 4-0 | 6-0 | 1.0 |
+| 22 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 4-1 | 6-0 | 1.0 |
+| 23 | ![Georgia](logos/georgia.png) | Georgia | 3-1 | 6-0 | 1.0 |
+| 24 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 4-0 | 5-0 | 1.0 |
+| 25 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 4-0 | 5-0 | 1.0 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Washington State](logos/washington-st.png) | Washington State | 4-0 | 9-0 | 1.0 | 1.12375 |
-| 2 | ![Texas](logos/texas.png) | Texas | 4-0 | 9-0 | 1.0 | 1.10819 |
-| 3 | ![Missouri](logos/missouri.png) | Missouri | 4-0 | 8-0 | 1.0 | 1.09819 |
-| 4 | ![Illinois](logos/illinois.png) | Illinois | 4-0 | 6-0 | 1.0 | 1.08088 |
-| 5 | ![Alabama](logos/alabama.png) | Alabama | 3-0 | 7-0 | 1.0 | 1.07819 |
-| 6 | ![Brigham Young](logos/byu.png) | Brigham Young | 4-0 | 6-0 | 1.0 | 1.0768 |
-| 7 | ![Utah](logos/utah.png) | Utah | 4-0 | 6-0 | 1.0 | 1.0768 |
-| 8 | ![Tennessee](logos/tennessee.png) | Tennessee | 4-0 | 5-0 | 1.0 | 1.06819 |
-| 9 | ![Duke](logos/duke.png) | Duke | 4-0 | 5-0 | 1.0 | 1.06405 |
-| 10 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 4-0 | 5-0 | 1.0 | 1.06405 |
-| 11 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 4-0 | 5-0 | 1.0 | 1.06405 |
-| 12 | ![Oregon](logos/oregon.png) | Oregon | 3-0 | 5-0 | 1.0 | 1.06088 |
-| 13 | ![Mississippi](logos/ole-miss.png) | Mississippi | 4-0 | 4-0 | 1.0 | 1.05819 |
-| 14 | ![Iowa State](logos/iowa-st.png) | Iowa State | 3-0 | 5-0 | 1.0 | 1.0568 |
-| 15 | ![Central Florida](logos/ucf.png) | Central Florida | 3-0 | 5-0 | 1.0 | 1.0568 |
-| 16 | ![Indiana](logos/indiana.png) | Indiana | 4-0 | 3-0 | 1.0 | 1.05088 |
-| 17 | ![Georgia](logos/georgia.png) | Georgia | 3-0 | 4-0 | 1.0 | 1.04819 |
-| 18 | ![Louisville](logos/louisville.png) | Louisville | 3-0 | 4-0 | 1.0 | 1.04405 |
-| 19 | ![Ohio State](logos/ohio-st.png) | Ohio State | 3-0 | 3-0 | 1.0 | 1.04088 |
-| 20 | ![Penn State](logos/penn-st.png) | Penn State | 3-0 | 3-0 | 1.0 | 1.04088 |
-| 21 | ![Rutgers](logos/rutgers.png) | Rutgers | 3-0 | 3-0 | 1.0 | 1.04088 |
-| 22 | ![Navy](logos/navy.png) | Navy | 3-0 | 4-0 | 1.0 | 1.01709 |
-| 23 | ![James Madison](logos/james-madison.png) | James Madison | 3-0 | 4-0 | 1.0 | 1.01378 |
-| 24 | ![Liberty](logos/liberty.png) | Liberty | 4-0 | 3-0 | 1.0 | 1.01095 |
-| 25 | ![Army](logos/army.png) | Army | 3-0 | 2-0 | 1.0 | 0.99709 |
-All finished
+| 1 | ![Texas](logos/texas.png) | Texas | 5-0 | 12-0 | 1.0 | 1.14598 |
+| 2 | ![Brigham Young](logos/byu.png) | Brigham Young | 5-0 | 11-0 | 1.0 | 1.13206 |
+| 3 | ![Alabama](logos/alabama.png) | Alabama | 4-0 | 10-0 | 1.0 | 1.11598 |
+| 4 | ![Duke](logos/duke.png) | Duke | 5-0 | 9-0 | 1.0 | 1.11114 |
+| 5 | ![Indiana](logos/indiana.png) | Indiana | 5-0 | 8-0 | 1.0 | 1.10713 |
+| 6 | ![Missouri](logos/missouri.png) | Missouri | 4-0 | 9-0 | 1.0 | 1.10598 |
+| 7 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 5-0 | 7-0 | 1.0 | 1.09114 |
+| 8 | ![Ohio State](logos/ohio-st.png) | Ohio State | 4-0 | 7-0 | 1.0 | 1.08713 |
+| 9 | ![Oregon](logos/oregon.png) | Oregon | 4-0 | 7-0 | 1.0 | 1.08713 |
+| 10 | ![Penn State](logos/penn-st.png) | Penn State | 4-0 | 7-0 | 1.0 | 1.08713 |
+| 11 | ![Tennessee](logos/tennessee.png) | Tennessee | 4-0 | 7-0 | 1.0 | 1.08598 |
+| 12 | ![Rutgers](logos/rutgers.png) | Rutgers | 4-0 | 6-0 | 1.0 | 1.07713 |
+| 13 | ![Iowa State](logos/iowa-st.png) | Iowa State | 4-0 | 6-0 | 1.0 | 1.07206 |
+| 14 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 4-0 | 5-0 | 1.0 | 1.06114 |
+| 15 | ![Navy](logos/navy.png) | Navy | 4-0 | 6-0 | 1.0 | 1.05 |
+| 16 | ![James Madison](logos/james-madison.png) | James Madison | 4-0 | 6-0 | 1.0 | 1.04599 |
+| 17 | ![Army](logos/army.png) | Army | 4-0 | 4-0 | 1.0 | 1.03 |
+| 18 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 4-0 | 5-0 | 1.0 | 1.02887 |
+| 19 | ![Michigan](logos/michigan.png) | Michigan | 4-1 | 10-0 | 1.0 | 1.01713 |
+| 20 | ![Liberty](logos/liberty.png) | Liberty | 4-0 | 4-0 | 1.0 | 1.01648 |
+| 21 | ![Kansas State](logos/kansas-st.png) | Kansas State | 4-1 | 9-0 | 1.0 | 1.00206 |
+| 22 | ![Illinois](logos/illinois.png) | Illinois | 4-1 | 8-0 | 1.0 | 0.99713 |
+| 23 | ![Oklahoma](logos/oklahoma.png) | Oklahoma | 4-1 | 7-0 | 1.0 | 0.98598 |
+| 24 | ![Boston College](logos/boston-college.png) | Boston College | 4-1 | 7-0 | 1.0 | 0.98114 |
+| 25 | ![Washington State](logos/washington-st.png) | Washington State | 4-1 | 10-1 | 0.90909 | 0.97413 |
 
 ## Prediction History (Week 5 and later by Year):
 
 | Year | Wins | Losses | Win Rate |
 | --- | --- | --- | --- |
-| 2019 | 411 | 175 | 70.1% |
-| 2020 | 301 | 144 | 67.6% |
-| 2021 | 381 | 184 | 67.4% |
+| 2019 | 410 | 176 | 70.0% |
+| 2020 | 306 | 139 | 68.8% |
+| 2021 | 382 | 183 | 67.6% |
 | 2022 | 367 | 199 | 64.8% |
-| 2023 | 384 | 192 | 66.7% |
+| 2023 | 383 | 193 | 66.5% |
 
 ## Prediction History by Week
 
 | Week | Wins | Losses | Win Rate | Special Week? |
 | --- | --- | --- | --- | --- |
-| 2 | 115 | 116 | 49.8% | |
+| 2 | 146 | 85 | 63.2% | |
 | 3 | 150 | 99 | 60.2% | |
-| 4 | 186 | 97 | 65.7% | |
-| 5 | 181 | 131 | 58.0% | |
-| 6 | 170 | 82 | 67.5% | |
-| 7 | 146 | 86 | 62.9% | |
-| 8 | 159 | 94 | 62.8% | |
-| 9 | 176 | 87 | 66.9% | |
-| 10 | 170 | 87 | 66.1% | |
-| 11 | 190 | 82 | 69.9% | |
-| 12 | 191 | 86 | 69.0% | |
+| 4 | 183 | 100 | 64.7% | |
+| 5 | 184 | 128 | 59.0% | |
+| 6 | 172 | 80 | 68.3% | |
+| 7 | 144 | 84 | 62.1% | |
+| 8 | 162 | 91 | 64.0% | |
+| 9 | 174 | 89 | 66.2% | |
+| 10 | 173 | 84 | 67.3% | |
+| 11 | 191 | 81 | 70.2% | |
+| 12 | 190 | 87 | 68.6% | |
 | 13 | 209 | 73 | 74.1% | |
 | 14 | 189 | 77 | 71.1% | |
 | 15 | 105 | 37 | 73.9% | |
