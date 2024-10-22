@@ -28,61 +28,61 @@ To run the program:
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
-| 1 | ![Texas](logos/texas.png) | Texas | 6-0 | 19-0 | 1.0 |
-| 2 | ![Oregon](logos/oregon.png) | Oregon | 6-0 | 18-0 | 1.0 |
-| 3 | ![Brigham Young](logos/byu.png) | Brigham Young | 6-0 | 16-0 | 1.0 |
-| 4 | ![Iowa State](logos/iowa-st.png) | Iowa State | 6-0 | 14-0 | 1.0 |
-| 5 | ![Penn State](logos/penn-st.png) | Penn State | 6-0 | 14-0 | 1.0 |
-| 6 | ![Kansas State](logos/kansas-st.png) | Kansas State | 5-1 | 14-0 | 1.0 |
-| 7 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-1 | 14-0 | 1.0 |
-| 8 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 6-0 | 13-0 | 1.0 |
-| 9 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 6-0 | 13-0 | 1.0 |
-| 10 | ![Indiana](logos/indiana.png) | Indiana | 6-0 | 12-0 | 1.0 |
-| 11 | ![Boise State](logos/boise-st.png) | Boise State | 5-1 | 12-0 | 1.0 |
-| 12 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 5-1 | 11-0 | 1.0 |
-| 13 | ![Illinois](logos/illinois.png) | Illinois | 5-1 | 10-0 | 1.0 |
-| 14 | ![Army](logos/army.png) | Army | 6-0 | 8-0 | 1.0 |
-| 15 | ![Navy](logos/navy.png) | Navy | 5-0 | 8-0 | 1.0 |
-| 16 | ![Louisiana-Monroe](logos/la-monroe.png) | Louisiana-Monroe | 5-1 | 8-0 | 1.0 |
-| 17 | ![Liberty](logos/liberty.png) | Liberty | 5-0 | 6-0 | 1.0 |
-| 18 | ![Memphis](logos/memphis.png) | Memphis | 5-1 | 5-0 | 1.0 |
-| 19 | ![West Virginia](logos/west-virginia.png) | West Virginia | 3-3 | 4-0 | 1.0 |
-| 20 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 5-1 | 17-1 | 0.94444 |
-| 21 | ![Washington State](logos/washington-st.png) | Washington State | 5-1 | 16-1 | 0.94118 |
-| 22 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 5-1 | 14-1 | 0.93333 |
-| 23 | ![Missouri](logos/missouri.png) | Missouri | 5-1 | 13-1 | 0.92857 |
-| 24 | ![James Madison](logos/james-madison.png) | James Madison | 5-1 | 12-1 | 0.92308 |
-| 25 | ![Arizona State](logos/arizona-st.png) | Arizona State | 5-1 | 11-1 | 0.91667 |
+| 1 | ![Brigham Young](logos/byu.png) | Brigham Young | 7-0 | 22-0 | 1.0 |
+| 2 | ![Oregon](logos/oregon.png) | Oregon | 7-0 | 21-0 | 1.0 |
+| 3 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 7-0 | 20-0 | 1.0 |
+| 4 | ![Indiana](logos/indiana.png) | Indiana | 7-0 | 19-0 | 1.0 |
+| 5 | ![Iowa State](logos/iowa-st.png) | Iowa State | 7-0 | 19-0 | 1.0 |
+| 6 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-1 | 19-0 | 1.0 |
+| 7 | ![Penn State](logos/penn-st.png) | Penn State | 6-0 | 17-0 | 1.0 |
+| 8 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-1 | 17-0 | 1.0 |
+| 9 | ![Illinois](logos/illinois.png) | Illinois | 6-1 | 15-0 | 1.0 |
+| 10 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 6-0 | 14-0 | 1.0 |
+| 11 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 6-1 | 14-0 | 1.0 |
+| 12 | ![Boise State](logos/boise-st.png) | Boise State | 5-1 | 14-0 | 1.0 |
+| 13 | ![Navy](logos/navy.png) | Navy | 6-0 | 13-0 | 1.0 |
+| 14 | ![Army](logos/army.png) | Army | 7-0 | 12-0 | 1.0 |
+| 15 | ![Memphis](logos/memphis.png) | Memphis | 6-1 | 12-0 | 1.0 |
+| 16 | ![Liberty](logos/liberty.png) | Liberty | 5-0 | 8-0 | 1.0 |
+| 17 | ![Texas](logos/texas.png) | Texas | 6-1 | 21-1 | 0.95455 |
+| 18 | ![Washington State](logos/washington-st.png) | Washington State | 6-1 | 20-1 | 0.95238 |
+| 19 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 6-1 | 18-1 | 0.94737 |
+| 20 | ![Clemson](logos/clemson.png) | Clemson | 6-1 | 16-1 | 0.94118 |
+| 21 | ![Missouri](logos/missouri.png) | Missouri | 6-1 | 16-1 | 0.94118 |
+| 22 | ![Nevada-Las Vegas](logos/unlv.png) | Nevada-Las Vegas | 6-1 | 13-1 | 0.92857 |
+| 23 | ![Nebraska](logos/nebraska.png) | Nebraska | 5-2 | 11-1 | 0.91667 |
+| 24 | ![Georgia](logos/georgia.png) | Georgia | 6-1 | 18-2 | 0.9 |
+| 25 | ![Louisiana-Monroe](logos/la-monroe.png) | Louisiana-Monroe | 5-1 | 8-1 | 0.88889 |
 
 ## With Ratings
 
 | Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
 | --- | :---: | --- | --- | --- | --- | --- |
-| 1 | ![Texas](logos/texas.png) | Texas | 6-0 | 19-0 | 1.0 | 1.22137 |
-| 2 | ![Oregon](logos/oregon.png) | Oregon | 6-0 | 18-0 | 1.0 | 1.20983 |
-| 3 | ![Brigham Young](logos/byu.png) | Brigham Young | 6-0 | 16-0 | 1.0 | 1.18652 |
-| 4 | ![Penn State](logos/penn-st.png) | Penn State | 6-0 | 14-0 | 1.0 | 1.16983 |
-| 5 | ![Iowa State](logos/iowa-st.png) | Iowa State | 6-0 | 14-0 | 1.0 | 1.16652 |
-| 6 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 6-0 | 13-0 | 1.0 | 1.15711 |
-| 7 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 6-0 | 13-0 | 1.0 | 1.15711 |
-| 8 | ![Indiana](logos/indiana.png) | Indiana | 6-0 | 12-0 | 1.0 | 1.14983 |
-| 9 | ![Army](logos/army.png) | Army | 6-0 | 8-0 | 1.0 | 1.08915 |
-| 10 | ![Navy](logos/navy.png) | Navy | 5-0 | 8-0 | 1.0 | 1.07915 |
-| 11 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-1 | 14-0 | 1.0 | 1.07483 |
-| 12 | ![Kansas State](logos/kansas-st.png) | Kansas State | 5-1 | 14-0 | 1.0 | 1.07152 |
-| 13 | ![Washington State](logos/washington-st.png) | Washington State | 5-1 | 16-1 | 0.94118 | 1.0671 |
-| 14 | ![Texas Tech](logos/texas-tech.png) | Texas Tech | 5-1 | 17-1 | 0.94444 | 1.06652 |
-| 15 | ![Alabama](logos/alabama.png) | Alabama | 5-1 | 18-2 | 0.9 | 1.05137 |
-| 16 | ![Liberty](logos/liberty.png) | Liberty | 5-0 | 6-0 | 1.0 | 1.04523 |
-| 17 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 5-1 | 11-0 | 1.0 | 1.04211 |
-| 18 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 5-1 | 14-1 | 0.93333 | 1.03637 |
-| 19 | ![Illinois](logos/illinois.png) | Illinois | 5-1 | 10-0 | 1.0 | 1.03483 |
-| 20 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 5-1 | 14-2 | 0.875 | 1.02875 |
-| 21 | ![Boise State](logos/boise-st.png) | Boise State | 5-1 | 12-0 | 1.0 | 1.0244 |
-| 22 | ![Missouri](logos/missouri.png) | Missouri | 5-1 | 13-1 | 0.92857 | 1.02422 |
-| 23 | ![Georgia](logos/georgia.png) | Georgia | 5-1 | 11-1 | 0.91667 | 0.99887 |
-| 24 | ![Arizona State](logos/arizona-st.png) | Arizona State | 5-1 | 11-1 | 0.91667 | 0.99402 |
-| 25 | ![Louisiana-Monroe](logos/la-monroe.png) | Louisiana-Monroe | 5-1 | 8-0 | 1.0 | 0.99401 |
+| 1 | ![Brigham Young](logos/byu.png) | Brigham Young | 7-0 | 22-0 | 1.0 | 1.2539 |
+| 2 | ![Oregon](logos/oregon.png) | Oregon | 7-0 | 21-0 | 1.0 | 1.24758 |
+| 3 | ![Miami (FL)](logos/miami-fl.png) | Miami (FL) | 7-0 | 20-0 | 1.0 | 1.2354 |
+| 4 | ![Indiana](logos/indiana.png) | Indiana | 7-0 | 19-0 | 1.0 | 1.22758 |
+| 5 | ![Iowa State](logos/iowa-st.png) | Iowa State | 7-0 | 19-0 | 1.0 | 1.2239 |
+| 6 | ![Penn State](logos/penn-st.png) | Penn State | 6-0 | 17-0 | 1.0 | 1.19758 |
+| 7 | ![Pittsburgh](logos/pittsburgh.png) | Pittsburgh | 6-0 | 14-0 | 1.0 | 1.1654 |
+| 8 | ![Kansas State](logos/kansas-st.png) | Kansas State | 6-1 | 19-0 | 1.0 | 1.13962 |
+| 9 | ![Navy](logos/navy.png) | Navy | 6-0 | 13-0 | 1.0 | 1.13868 |
+| 10 | ![Army](logos/army.png) | Army | 7-0 | 12-0 | 1.0 | 1.13868 |
+| 11 | ![Texas](logos/texas.png) | Texas | 6-1 | 21-1 | 0.95455 | 1.13482 |
+| 12 | ![Washington State](logos/washington-st.png) | Washington State | 6-1 | 20-1 | 0.95238 | 1.13 |
+| 13 | ![Notre Dame](logos/notre-dame.png) | Notre Dame | 6-1 | 21-3 | 0.875 | 1.10946 |
+| 14 | ![Illinois](logos/illinois.png) | Illinois | 6-1 | 15-0 | 1.0 | 1.10329 |
+| 15 | ![Ohio State](logos/ohio-st.png) | Ohio State | 5-1 | 17-0 | 1.0 | 1.10258 |
+| 16 | ![Texas A&M](logos/texas-am.png) | Texas A&M | 6-1 | 18-1 | 0.94737 | 1.10159 |
+| 17 | ![Southern Methodist](logos/smu.png) | Southern Methodist | 6-1 | 14-0 | 1.0 | 1.09111 |
+| 18 | ![Missouri](logos/missouri.png) | Missouri | 6-1 | 16-1 | 0.94118 | 1.07881 |
+| 19 | ![Clemson](logos/clemson.png) | Clemson | 6-1 | 16-1 | 0.94118 | 1.07464 |
+| 20 | ![Georgia](logos/georgia.png) | Georgia | 6-1 | 18-2 | 0.9 | 1.07027 |
+| 21 | ![Liberty](logos/liberty.png) | Liberty | 5-0 | 8-0 | 1.0 | 1.06708 |
+| 22 | ![Memphis](logos/memphis.png) | Memphis | 6-1 | 12-0 | 1.0 | 1.05439 |
+| 23 | ![Boise State](logos/boise-st.png) | Boise State | 5-1 | 14-0 | 1.0 | 1.04575 |
+| 24 | ![Tennessee](logos/tennessee.png) | Tennessee | 6-1 | 17-3 | 0.85 | 1.02777 |
+| 25 | ![Alabama](logos/alabama.png) | Alabama | 5-2 | 23-3 | 0.88462 | 1.01907 |
 
 ## Prediction History (Week 5 and later by Year):
 
