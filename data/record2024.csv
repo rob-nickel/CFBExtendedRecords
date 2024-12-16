@@ -862,7 +862,52 @@ Rk,Wk,Winner,WPts,Loc,Loser,LPts
 861,15,Western Kentucky,19,,Jacksonville State,17
 862,15,Western Michigan,26,,Eastern Michigan,18
 863,15,Wyoming,15,@,Washington State,14
-864,16,(19) Nevada-Las Vegas,,N,(10) Boise State,
-865,16,(3) Penn State,,N,(1) Oregon,
-866,16,(8) Southern Methodist,,N,(18) Clemson,
-867,17,(24) Army,,N,Navy,
+864,16,(24) Army,35,,Tulane,14
+865,16,(10) Boise State,21,,(19) Nevada-Las Vegas,7
+866,16,Jacksonville State,52,,Western Kentucky,12
+867,16,(12) Arizona State,45,N,(16) Iowa State,19
+868,16,(18) Clemson,34,N,(8) Southern Methodist,31
+869,16,(5) Georgia,22,N,(2) Texas,19
+870,16,Marshall,31,@,Louisiana,3
+871,16,Ohio,38,N,Miami (OH),3
+872,16,(1) Oregon,45,N,(3) Penn State,37
+873,17,Navy,31,N,(19) Army,13
+874,18,South Alabama,,N,Western Michigan,
+875,18,(25) Memphis,,N,West Virginia,
+876,18,(24) Nevada-Las Vegas,,N,California,
+877,18,Western Kentucky,,N,James Madison,
+878,18,Georgia Southern,,N,Sam Houston,
+879,18,(9) Indiana,,@,(3) Notre Dame,
+880,18,Ohio,,N,Jacksonville State,
+881,18,Tulane,,N,Florida,
+882,18,(13) Clemson,,@,(4) Texas,
+883,18,(12) Southern Methodist,,@,(5) Penn State,
+884,18,(7) Tennessee,,@,(6) Ohio State,
+885,18,Northern Illinois,,N,Fresno State,
+886,18,Texas-San Antonio,,@,Coastal Carolina,
+887,19,South Florida,,N,San Jose State,
+888,19,Bowling Green,,N,Arkansas State,
+889,19,Rutgers,,N,Kansas State,
+890,19,Toledo,,N,Pittsburgh,
+891,19,Navy,,N,Oklahoma,
+892,19,Texas A&M,,N,Southern California,
+893,19,Texas Tech,,N,Arkansas,
+894,19,Vanderbilt,,N,Georgia Tech,
+895,19,Washington State,,N,(22) Syracuse,
+896,19,(19) Army,,N,Louisiana Tech,
+897,19,(20) Colorado,,N,(17) Brigham Young,
+898,19,(15) Miami (FL),,N,(18) Iowa State,
+899,19,Miami (OH),,N,Colorado State,
+900,19,Nebraska,,N,Boston College,
+901,19,North Carolina,,N,Connecticut,
+902,19,North Carolina State,,N,East Carolina,
+903,19,Texas Christian,,N,Louisiana,
+904,20,(23) Missouri,,N,Iowa,
+905,21,Louisiana State,,N,Baylor,
+906,21,Michigan,,N,(11) Alabama,
+907,21,(14) South Carolina,,N,(21) Illinois,
+908,21,Washington,,N,Louisville,
+909,21,(16) Mississippi,,N,Duke,
+910,21,Texas State,,N,North Texas,
+911,21,Virginia Tech,,N,Minnesota,
+912,21,Liberty,,N,Buffalo,
