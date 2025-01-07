@@ -441,14 +441,8 @@ def toPrintConference():
 
 def printConferenceRecords():
     if toPrintConference():
-        print(float(aac[0]))
-        print(float(aac[1]))
         print('aac  = ' + str(conferenceRating('aac')) + '  |   aac = ' + str(conferenceERating('aac')))
-        print(float(acc[0]))
-        print(float(acc[1]))
         print('acc  = ' + str(conferenceRating('acc')) + '  |   acc = ' + str(conferenceERating('acc')))
-        print(float(b10[0]))
-        print(float(b10[1]))
         print('b10  = ' + str(conferenceRating('b10')) + '  |   b10 = ' + str(conferenceERating('b10')))
         print('b12  = ' + str(conferenceRating('b12')) + '  |   b12 = ' + str(conferenceERating('b12')))
         print('cusa = ' + str(conferenceRating('cusa')) + '  |  cusa = ' + str(conferenceERating('cusa')))
