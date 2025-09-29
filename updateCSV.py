@@ -12,7 +12,7 @@ position = 1
 arguments = len(sys.argv)-1
 
 def get_year():
-   return 2024
+   return 2025
     # if len(sys.argv) > 1 and sys.argv[1] in map(str, range(2019, 2025)):
     #     return int(sys.argv[1])
     # else:
@@ -30,6 +30,7 @@ def get_year():
 # 2022 "https://www.sports-reference.com/cfb/years/2022-schedule.html"
 # 2023 "https://www.sports-reference.com/cfb/years/2023-schedule.html"
 # 2024 "https://www.sports-reference.com/cfb/years/2024-schedule.html"
+# 2025 "https://www.sports-reference.com/cfb/years/2025-schedule.html"
 
 year = get_year()
 url = f"https://www.sports-reference.com/cfb/years/{year}-schedule.html"

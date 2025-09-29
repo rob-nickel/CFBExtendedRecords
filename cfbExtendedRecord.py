@@ -30,8 +30,12 @@ def teamFileName():
             return 'data/teams2022.txt'
         if sys.argv[position].lower() == '2023':
             return 'data/teams2023.txt'
+        if sys.argv[position].lower() == '2024':
+            return 'data/teams2024.txt'
+        if sys.argv[position].lower() == '2025':
+            return 'data/teams2025.txt'
         position += 1
-    return 'data/teams2024.txt'
+    return 'data/teams2025.txt'
 
 def numTeams():
     return (len(open(teamFileName()).readlines()))
@@ -50,8 +54,12 @@ def recordFileName():
             return 'data/record2022.csv'
         if sys.argv[position].lower() == '2023':
             return 'data/record2023.csv'
+        if sys.argv[position].lower() == '2024':
+            return 'data/record2024.csv'
+        if sys.argv[position].lower() == '2025':
+            return 'data/record2025.csv'
         position += 1
-    return 'data/record2024.csv'
+    return 'data/record2025.csv'
 
 def getYear():
     position = 1
@@ -67,8 +75,12 @@ def getYear():
             return '2022'
         if sys.argv[position].lower() == '2023':
             return '2023'
+        if sys.argv[position].lower() == '2024':
+            return '2024'
+        if sys.argv[position].lower() == '2025':
+            return '2025'
         position += 1
-    return '2024'
+    return '2025'
 
 # Wins	Losses	Extended Wins	Extended Losses
 my_array = np.zeros([numTeams(),4], dtype=int)
