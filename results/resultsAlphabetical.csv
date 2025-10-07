@@ -1,137 +1,137 @@
 logo,name,wins,losses,extended_wins,extended_losses,extended_record,extended_rating
-logos/air-force.png,Air Force,1,3,0,5,0.0,0.09152
-logos/akron.png,Akron,1,4,0,7,0.0,0.02036
-logos/alabama.png,Alabama,3,1,8,1,0.88889,0.91067
-logos/appalachian-st.png,Appalachian State,2,2,1,3,0.25,0.36044
-logos/arizona.png,Arizona,3,1,6,0,1.0,0.94034
-logos/arizona-st.png,Arizona State,4,1,9,1,0.9,0.94784
-logos/arkansas.png,Arkansas,2,3,1,2,0.33333,0.39317
-logos/arkansas-st.png,Arkansas State,1,4,0,6,0.0,0.04294
-logos/army.png,Army,1,3,2,6,0.25,0.23148
-logos/auburn.png,Auburn,3,2,5,0,1.0,0.86317
-logos/ball-st.png,Ball State,1,3,0,6,0.0,0.06286
-logos/baylor.png,Baylor,3,2,3,3,0.5,0.57784
-logos/boise-st.png,Boise State,3,1,3,1,0.75,0.76402
-logos/boston-college.png,Boston College,1,3,0,5,0.0,0.10583
-logos/bowling-green.png,Bowling Green,2,3,1,3,0.25,0.29286
-logos/buffalo.png,Buffalo,2,3,1,5,0.16667,0.23536
-logos/byu.png,Brigham Young,4,0,7,0,1.0,1.08284
-logos/california.png,California,4,1,4,1,0.8,0.84333
-logos/central-mich.png,Central Michigan,3,2,2,3,0.4,0.48036
-logos/charlotte.png,Charlotte,1,3,0,6,0.0,0.09898
-logos/cincinnati.png,Cincinnati,3,1,5,1,0.83333,0.84534
-logos/clemson.png,Clemson,1,3,2,3,0.4,0.32583
-logos/coastal-caro.png,Coastal Carolina,2,2,1,3,0.25,0.36044
-logos/colorado.png,Colorado,2,3,5,0,1.0,0.74284
-logos/colorado-st.png,Colorado State,1,3,0,5,0.0,0.09152
-logos/delaware.png,Delaware,3,1,5,3,0.625,0.69774
-logos/duke.png,Duke,3,2,6,2,0.75,0.72083
-logos/east-carolina.png,East Carolina,3,2,3,2,0.6,0.62648
-logos/eastern-mich.png,Eastern Michigan,1,4,2,10,0.16667,0.08536
-logos/florida.png,Florida,1,3,0,2,0.0,0.15567
-logos/fla-atlantic.png,Florida Atlantic,1,3,0,2,0.0,0.13898
-logos/fiu.png,Florida International,2,2,1,2,0.33333,0.40399
-logos/florida-st.png,Florida State,3,1,4,1,0.8,0.81083
-logos/fresno-st.png,Fresno State,4,1,6,2,0.75,0.81652
-logos/georgia.png,Georgia,3,1,6,1,0.85714,0.87638
-logos/ga-southern.png,Georgia Southern,2,3,2,3,0.4,0.38294
-logos/georgia-st.png,Georgia State,1,3,0,0,0,0.13544
-logos/georgia-tech.png,Georgia Tech,5,0,7,0,1.0,1.08333
-logos/hawaii.png,Hawaii,4,2,3,2,0.6,0.64902
-logos/houston.png,Houston,4,0,5,0,1.0,1.06284
-logos/illinois.png,Illinois,4,1,9,0,1.0,1.00821
-logos/indiana.png,Indiana,5,0,13,0,1.0,1.15821
-logos/iowa.png,Iowa,3,2,3,0,1.0,0.83821
-logos/iowa-st.png,Iowa State,5,0,9,0,1.0,1.11284
-logos/jacksonville-st.png,Jacksonville State,2,3,1,6,0.14286,0.22328
-logos/james-madison.png,James Madison,3,1,3,0,1.0,0.88044
-logos/kansas.png,Kansas,3,2,6,1,0.85714,0.78855
-logos/kansas-st.png,Kansas State,2,3,3,4,0.42857,0.4257
-logos/kent-st.png,Kent State,1,3,0,4,0.0,0.08286
-logos/kentucky.png,Kentucky,2,2,4,2,0.66667,0.62817
-logos/kennesaw-st.png,Kennesaw State,3,2,2,2,0.5,0.54399
-logos/louisiana-tech.png,Louisiana Tech,4,1,6,1,0.85714,0.8647
-logos/la-lafayette.png,Louisiana,2,3,2,6,0.25,0.28544
-logos/la-monroe.png,Louisiana-Monroe,3,1,2,1,0.66667,0.71045
-logos/liberty.png,Liberty,1,4,0,8,0.0,0.01899
-logos/louisville.png,Louisville,4,0,7,0,1.0,1.07333
-logos/lsu.png,Louisiana State,4,1,6,0,1.0,0.98317
-logos/marshall.png,Marshall,2,3,1,7,0.125,0.20919
-logos/maryland.png,Maryland,4,0,4,0,1.0,1.05821
-logos/massachusetts.png,Massachusetts,0,4,0,8,0.0,-0.08964
-logos/memphis.png,Memphis,5,0,6,0,1.0,1.07648
-logos/miami-fl.png,Miami (FL),4,0,6,0,1.0,1.06333
-logos/miami-oh.png,Miami (OH),1,3,0,4,0.0,0.08286
-logos/michigan.png,Michigan,3,1,9,0,1.0,0.97571
-logos/michigan-st.png,Michigan State,3,1,3,1,0.75,0.79321
-logos/middle-tenn.png,Middle Tennessee State,1,4,1,12,0.07692,0.0236
-logos/minnesota.png,Minnesota,3,1,5,1,0.83333,0.8507
-logos/mississippi-st.png,Mississippi State,4,1,8,1,0.88889,0.94317
-logos/missouri.png,Missouri,5,0,8,0,1.0,1.11317
-logos/missouri-st.png,Missouri State,2,3,2,4,0.33333,0.33899
-logos/navy.png,Navy,4,0,7,0,1.0,1.07648
-logos/nebraska.png,Nebraska,3,1,4,1,0.8,0.82571
-logos/nevada.png,Nevada,1,3,0,6,0.0,0.08152
-logos/new-mexico.png,New Mexico,3,1,2,1,0.66667,0.71652
-logos/new-mexico-st.png,New Mexico State,2,2,2,2,0.5,0.48899
-logos/north-carolina.png,North Carolina,2,2,1,2,0.33333,0.42833
-logos/north-carolina-st.png,North Carolina State,3,2,9,5,0.64286,0.67262
-logos/north-texas.png,North Texas,5,0,7,0,1.0,1.08648
-logos/northern-ill.png,Northern Illinois,1,3,0,2,0.0,0.10286
-logos/northwestern.png,Northwestern,2,2,0,1,0.0,0.29321
-logos/notre-dame.png,Notre Dame,2,2,4,0,1.0,0.815
-logos/ohio.png,Ohio,3,2,4,2,0.66667,0.63036
-logos/ohio-st.png,Ohio State,4,0,9,0,1.0,1.10821
-logos/oklahoma.png,Oklahoma,4,0,8,0,1.0,1.10317
-logos/oklahoma-st.png,Oklahoma State,1,3,0,5,0.0,0.11534
-logos/old-dominion.png,Old Dominion,3,1,3,0,1.0,0.88044
-logos/ole-miss.png,Mississippi,5,0,13,0,1.0,1.16317
-logos/oregon.png,Oregon,5,0,6,0,1.0,1.08821
-logos/oregon-st.png,Oregon State,0,5,0,2,0.0,-0.02643
-logos/penn-st.png,Penn State,3,1,3,0,1.0,0.91571
-logos/pittsburgh.png,Pittsburgh,2,2,3,3,0.5,0.51333
-logos/purdue.png,Purdue,2,2,1,3,0.25,0.39571
-logos/rice.png,Rice,3,2,3,0,1.0,0.82648
-logos/rutgers.png,Rutgers,3,2,4,3,0.57143,0.62535
-logos/sam-houston.png,Sam Houston,0,4,0,4,0.0,-0.04101
-logos/san-diego-st.png,San Diego State,3,1,5,2,0.71429,0.75795
-logos/san-jose-st.png,San Jose State,1,3,0,6,0.0,0.08152
-logos/smu.png,Southern Methodist,2,2,2,3,0.4,0.45833
-logos/south-ala.png,South Alabama,1,4,0,5,0.0,0.05294
-logos/south-carolina.png,South Carolina,3,2,4,0,1.0,0.85317
-logos/south-fla.png,South Florida,3,1,4,0,1.0,0.91398
-logos/southern-miss.png,Southern Mississippi,3,2,4,2,0.66667,0.64295
-logos/stanford.png,Stanford,2,3,2,3,0.4,0.40333
-logos/syracuse.png,Syracuse,3,2,4,3,0.57143,0.61047
-logos/tcu.png,Texas Christian,3,1,4,1,0.8,0.82034
-logos/temple.png,Temple,2,2,0,0,0,0.29148
-logos/tennessee.png,Tennessee,4,1,9,1,0.9,0.95817
-logos/texas.png,Texas,3,1,2,0,1.0,0.91067
-logos/texas-am.png,Texas A&M,4,0,10,0,1.0,1.12317
-logos/texas-st.png,Texas State,3,1,3,1,0.75,0.75794
-logos/texas-tech.png,Texas Tech,4,0,5,0,1.0,1.06284
-logos/toledo.png,Toledo,3,2,5,5,0.5,0.53536
-logos/troy.png,Troy,2,2,2,3,0.4,0.43794
-logos/tulane.png,Tulane,4,1,8,0,1.0,0.98648
-logos/tulsa.png,Tulsa,2,3,1,3,0.25,0.32898
-logos/uab.png,Alabama-Birmingham,2,2,1,1,0.5,0.51648
-logos/uconn.png,Connecticut,3,2,3,3,0.5,0.605
-logos/ucf.png,Central Florida,3,1,4,3,0.57143,0.69748
-logos/ucla.png,UCLA,0,4,0,4,0.0,-0.00179
-logos/unlv.png,Nevada-Las Vegas,4,0,1,0,1.0,0.99902
-logos/southern-california.png,Southern California,4,1,9,1,0.9,0.95321
-logos/utah.png,Utah,4,1,4,0,1.0,0.95284
-logos/utah-st.png,Utah State,3,2,2,0,1.0,0.79902
-logos/utep.png,Texas-El Paso,1,4,0,5,0.0,0.04899
-logos/utsa.png,Texas-San Antonio,2,2,1,1,0.5,0.51648
-logos/vanderbilt.png,Vanderbilt,5,0,9,0,1.0,1.12317
-logos/virginia.png,Virginia,4,1,7,2,0.77778,0.85333
-logos/virginia-tech.png,Virginia Tech,2,3,3,3,0.5,0.45833
-logos/wake-forest.png,Wake Forest,2,2,3,2,0.6,0.56833
-logos/washington.png,Washington,3,1,4,0,1.0,0.92571
-logos/washington-st.png,Washington State,3,2,4,1,0.8,0.71357
-logos/west-virginia.png,West Virginia,2,3,2,5,0.28571,0.34141
-logos/western-ky.png,Western Kentucky,4,1,3,2,0.6,0.70899
-logos/western-mich.png,Western Michigan,2,3,3,2,0.6,0.48036
-logos/wisconsin.png,Wisconsin,2,2,2,1,0.66667,0.61321
-logos/wyoming.png,Wyoming,2,2,1,4,0.2,0.33402
+logos/air-force.png,Air Force,1,4,0,6,0.0,0.04885
+logos/akron.png,Akron,2,4,3,9,0.25,0.21375
+logos/alabama.png,Alabama,4,1,14,2,0.875,0.98443
+logos/appalachian-st.png,Appalachian State,3,2,1,4,0.2,0.38259
+logos/arizona.png,Arizona,4,1,7,1,0.875,0.9137
+logos/arizona-st.png,Arizona State,4,1,11,2,0.84615,0.93071
+logos/arkansas.png,Arkansas,2,3,2,2,0.5,0.47568
+logos/arkansas-st.png,Arkansas State,2,4,3,8,0.27273,0.24531
+logos/army.png,Army,2,3,4,7,0.36364,0.36693
+logos/auburn.png,Auburn,3,2,7,0,1.0,0.88068
+logos/ball-st.png,Ball State,2,3,3,7,0.3,0.29626
+logos/baylor.png,Baylor,4,2,6,3,0.66667,0.71995
+logos/boise-st.png,Boise State,3,2,4,3,0.57143,0.59599
+logos/boston-college.png,Boston College,1,4,0,9,0.0,0.03254
+logos/bowling-green.png,Bowling Green,2,3,1,5,0.16667,0.23626
+logos/buffalo.png,Buffalo,3,3,2,6,0.25,0.32876
+logos/byu.png,Brigham Young,5,0,9,0,1.0,1.10995
+logos/california.png,California,4,2,4,3,0.57143,0.64968
+logos/central-mich.png,Central Michigan,3,3,3,7,0.3,0.35126
+logos/charlotte.png,Charlotte,1,4,0,9,0.0,0.03329
+logos/cincinnati.png,Cincinnati,4,1,11,1,0.91667,0.97245
+logos/clemson.png,Clemson,2,3,5,4,0.55556,0.49254
+logos/coastal-caro.png,Coastal Carolina,2,3,1,4,0.2,0.27259
+logos/colorado.png,Colorado,2,4,5,2,0.71429,0.55137
+logos/colorado-st.png,Colorado State,1,4,0,7,0.0,0.03885
+logos/delaware.png,Delaware,3,2,6,5,0.54545,0.57425
+logos/duke.png,Duke,4,2,11,2,0.84615,0.85331
+logos/east-carolina.png,East Carolina,3,2,4,2,0.66667,0.6633
+logos/eastern-mich.png,Eastern Michigan,1,5,2,17,0.10526,-0.03638
+logos/florida.png,Florida,2,3,3,2,0.6,0.53068
+logos/fla-atlantic.png,Florida Atlantic,2,3,3,4,0.42857,0.41615
+logos/fiu.png,Florida International,2,3,2,6,0.25,0.2813
+logos/florida-st.png,Florida State,3,2,5,1,0.83333,0.75754
+logos/fresno-st.png,Fresno State,5,1,7,2,0.77778,0.86385
+logos/georgia.png,Georgia,4,1,8,1,0.88889,0.94068
+logos/ga-southern.png,Georgia Southern,2,3,2,3,0.4,0.38259
+logos/georgia-st.png,Georgia State,1,4,0,2,0.0,0.08259
+logos/georgia-tech.png,Georgia Tech,5,0,10,0,1.0,1.11254
+logos/hawaii.png,Hawaii,4,2,3,2,0.6,0.64885
+logos/houston.png,Houston,4,1,5,0,1.0,0.95995
+logos/illinois.png,Illinois,5,1,13,0,1.0,1.07014
+logos/indiana.png,Indiana,5,0,15,0,1.0,1.17514
+logos/iowa.png,Iowa,3,2,3,1,0.75,0.71264
+logos/iowa-st.png,Iowa State,5,1,11,1,0.91667,0.99745
+logos/jacksonville-st.png,Jacksonville State,2,3,1,7,0.125,0.20505
+logos/james-madison.png,James Madison,4,1,4,1,0.8,0.82259
+logos/kansas.png,Kansas,4,2,10,1,0.90909,0.88904
+logos/kansas-st.png,Kansas State,2,4,3,7,0.3,0.29494
+logos/kent-st.png,Kent State,1,4,0,5,0.0,0.04126
+logos/kentucky.png,Kentucky,2,3,4,3,0.57143,0.51783
+logos/kennesaw-st.png,Kennesaw State,3,2,3,2,0.6,0.5988
+logos/louisiana-tech.png,Louisiana Tech,4,1,7,1,0.875,0.88255
+logos/la-lafayette.png,Louisiana,2,3,2,8,0.2,0.24259
+logos/la-monroe.png,Louisiana-Monroe,3,2,3,3,0.5,0.54759
+logos/liberty.png,Liberty,1,4,0,8,0.0,0.0188
+logos/louisville.png,Louisville,4,1,9,1,0.9,0.93754
+logos/lsu.png,Louisiana State,4,1,8,0,1.0,1.00068
+logos/marshall.png,Marshall,2,3,1,7,0.125,0.20884
+logos/maryland.png,Maryland,4,1,5,1,0.83333,0.88014
+logos/massachusetts.png,Massachusetts,0,5,0,12,0.0,-0.13874
+logos/memphis.png,Memphis,6,0,10,0,1.0,1.12329
+logos/miami-fl.png,Miami (FL),5,0,12,0,1.0,1.13254
+logos/miami-oh.png,Miami (OH),2,3,1,5,0.16667,0.23626
+logos/michigan.png,Michigan,4,1,12,0,1.0,1.03514
+logos/michigan-st.png,Michigan State,3,2,4,2,0.66667,0.67514
+logos/middle-tenn.png,Middle Tennessee State,1,4,1,13,0.07143,0.01094
+logos/minnesota.png,Minnesota,3,2,6,2,0.75,0.73264
+logos/mississippi-st.png,Mississippi State,4,2,8,1,0.88889,0.87068
+logos/missouri.png,Missouri,5,0,9,0,1.0,1.12068
+logos/missouri-st.png,Missouri State,2,3,2,4,0.33333,0.3388
+logos/navy.png,Navy,5,0,8,0,1.0,1.09329
+logos/nebraska.png,Nebraska,4,1,9,1,0.9,0.95014
+logos/nevada.png,Nevada,1,4,0,8,0.0,0.02885
+logos/new-mexico.png,New Mexico,3,2,4,4,0.5,0.55385
+logos/new-mexico-st.png,New Mexico State,3,2,2,3,0.4,0.4888
+logos/north-carolina.png,North Carolina,2,3,1,6,0.14286,0.24682
+logos/north-carolina-st.png,North Carolina State,4,2,11,6,0.64706,0.72372
+logos/north-texas.png,North Texas,5,0,9,0,1.0,1.10329
+logos/northern-ill.png,Northern Illinois,1,4,0,7,0.0,0.02126
+logos/northwestern.png,Northwestern,3,2,4,1,0.8,0.74514
+logos/notre-dame.png,Notre Dame,3,2,7,0,1.0,0.9
+logos/ohio.png,Ohio,3,3,4,5,0.44444,0.44625
+logos/ohio-st.png,Ohio State,5,0,13,0,1.0,1.15514
+logos/oklahoma.png,Oklahoma,5,0,11,0,1.0,1.14068
+logos/oklahoma-st.png,Oklahoma State,1,4,0,7,0.0,0.05995
+logos/old-dominion.png,Old Dominion,4,1,5,0,1.0,0.93259
+logos/ole-miss.png,Mississippi,5,0,13,0,1.0,1.16068
+logos/oregon.png,Oregon,5,0,7,0,1.0,1.09514
+logos/oregon-st.png,Oregon State,0,6,0,6,0.0,-0.08553
+logos/penn-st.png,Penn State,3,2,3,4,0.42857,0.53799
+logos/pittsburgh.png,Pittsburgh,3,2,4,5,0.44444,0.53253
+logos/purdue.png,Purdue,2,3,2,4,0.33333,0.37514
+logos/rice.png,Rice,3,3,3,4,0.42857,0.47115
+logos/rutgers.png,Rutgers,3,2,5,4,0.55556,0.61514
+logos/sam-houston.png,Sam Houston,0,5,0,7,0.0,-0.0812
+logos/san-diego-st.png,San Diego State,4,1,6,2,0.75,0.81635
+logos/san-jose-st.png,San Jose State,2,3,3,8,0.27273,0.29158
+logos/smu.png,Southern Methodist,3,2,5,3,0.625,0.64379
+logos/south-ala.png,South Alabama,1,5,0,8,0.0,-0.00241
+logos/south-carolina.png,South Carolina,3,2,4,1,0.8,0.75068
+logos/south-fla.png,South Florida,4,1,6,0,1.0,0.96329
+logos/southern-miss.png,Southern Mississippi,3,2,5,3,0.625,0.62384
+logos/stanford.png,Stanford,2,3,3,3,0.5,0.45754
+logos/syracuse.png,Syracuse,3,3,6,5,0.54545,0.54299
+logos/tcu.png,Texas Christian,4,1,7,1,0.875,0.9137
+logos/temple.png,Temple,3,2,2,0,1.0,0.81329
+logos/tennessee.png,Tennessee,4,1,9,1,0.9,0.95568
+logos/texas.png,Texas,3,2,3,3,0.5,0.58568
+logos/texas-am.png,Texas A&M,5,0,15,0,1.0,1.18068
+logos/texas-st.png,Texas State,3,2,3,5,0.375,0.47134
+logos/texas-tech.png,Texas Tech,5,0,9,0,1.0,1.10995
+logos/toledo.png,Toledo,3,2,7,6,0.53846,0.56356
+logos/troy.png,Troy,3,2,4,3,0.57143,0.58973
+logos/tulane.png,Tulane,4,1,10,0,1.0,1.00329
+logos/tulsa.png,Tulsa,2,4,1,3,0.25,0.28579
+logos/uab.png,Alabama-Birmingham,2,3,2,4,0.33333,0.36329
+logos/uconn.png,Connecticut,4,2,7,5,0.58333,0.7025
+logos/ucf.png,Central Florida,3,2,4,6,0.4,0.50995
+logos/ucla.png,UCLA,1,4,3,5,0.375,0.28389
+logos/unlv.png,Nevada-Las Vegas,5,0,5,0,1.0,1.04885
+logos/southern-california.png,Southern California,4,1,9,1,0.9,0.95014
+logos/utah.png,Utah,4,1,5,0,1.0,0.95995
+logos/utah-st.png,Utah State,3,2,2,1,0.66667,0.63885
+logos/utep.png,Texas-El Paso,1,4,0,7,0.0,0.0288
+logos/utsa.png,Texas-San Antonio,2,3,1,4,0.2,0.29329
+logos/vanderbilt.png,Vanderbilt,5,1,9,1,0.9,0.98068
+logos/virginia.png,Virginia,5,1,11,2,0.84615,0.9483
+logos/virginia-tech.png,Virginia Tech,2,4,4,6,0.4,0.35254
+logos/wake-forest.png,Wake Forest,3,2,5,2,0.71429,0.69397
+logos/washington.png,Washington,4,1,8,0,1.0,0.99514
+logos/washington-st.png,Washington State,3,2,5,1,0.83333,0.72947
+logos/west-virginia.png,West Virginia,2,4,3,6,0.33333,0.31994
+logos/western-ky.png,Western Kentucky,5,1,6,2,0.75,0.8313
+logos/western-mich.png,Western Michigan,3,3,3,3,0.5,0.48126
+logos/wisconsin.png,Wisconsin,2,3,3,3,0.5,0.47014
+logos/wyoming.png,Wyoming,2,3,2,5,0.28571,0.31742
