@@ -26,7 +26,7 @@ To run the program:
 
 [Full Rankings](results/resultsSorted.csv)
 
-| Rank | Logo | Name | Record | Extended Record | Extended Win Rate | Rating |
+| Rank | Logo | Name | Record | Extended Record | Extended Win Rate |
 | --- | :---: | --- | --- | --- | --- |
 | 1 | ![Indiana](logos/indiana.png) | Indiana | 7-0 | 27-0 | 1.0 |
 | 2 | ![Ohio State](logos/ohio-st.png) | Ohio State | 7-0 | 26-0 | 1.0 |
